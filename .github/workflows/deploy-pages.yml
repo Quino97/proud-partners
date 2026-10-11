@@ -36,6 +36,9 @@ jobs:
 
       - name: Check the Svelte project
         run: npm run check
+        env:
+          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
 
       - name: Build the static website
         run: npm run build
