@@ -2,11 +2,12 @@
 	let {
 		src,
 		alt = '',
-		position = 'center'
-	}: { src: string; alt?: string; position?: string } = $props();
+		position = 'center',
+		zoom = 1
+	}: { src: string; alt?: string; position?: string; zoom?: number } = $props();
 </script>
 
-<div class="band">
+<div class="band" style:--band-zoom={zoom} style:--band-origin={position}>
 	<img {src} {alt} style:object-position={position} />
 </div>
 
@@ -25,6 +26,8 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		transform-origin: var(--band-origin) center;
+		transform: scale(var(--band-zoom));
 	}
 
 	@media (max-width: 640px) {

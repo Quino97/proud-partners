@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { supabase } from '$lib/supabase/client';
 	let {
 		label,
 		value = $bindable(),
@@ -15,14 +16,19 @@
 
 		uploading = true;
 		message = '';
-		const body = new FormData();
-		body.set('image', file);
 		try {
-			const response = await fetch('/api/admin/upload', { method: 'POST', body });
-			const result = await response.json();
-			if (!response.ok) throw new Error(result.message || 'Upload failed.');
-			value = result.path;
-			message = 'Uploaded. Save changes to publish this choice.';
+			if (!supabase) throw new Error('Supabase has not been configured for this site.');
+			const extension = file.name.split('.').pop()?.toLowerCase() || 'jpg';
+			const filename = `${crypto.randomUUID()}.${extension}`;
+			const { error } = await supabase.storage.from('site-media').upload(filename, file, {
+				cacheControl: '3600',
+				upsert: false,
+				contentType: file.type
+			});
+			if (error) throw error;
+			const { data } = supabase.storage.from('site-media').getPublicUrl(filename);
+			value = data.publicUrl;
+			message = 'Uploaded to the shared media library. Save changes to use it on the site.';
 		} catch (error) {
 			message = error instanceof Error ? error.message : 'Upload failed.';
 		} finally {

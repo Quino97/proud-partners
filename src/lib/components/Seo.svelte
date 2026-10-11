@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { page } from '$app/state';
+	import { siteContent } from '$lib/stores/site-content';
 
-	const site = $derived(page.data.content.site);
-	const media = $derived(page.data.content.media);
+	const site = $derived($siteContent.site);
+	const media = $derived($siteContent.media);
 
 	let {
 		title,

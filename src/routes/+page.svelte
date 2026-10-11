@@ -1,17 +1,18 @@
 <script lang="ts">
 	import { reveal } from '$lib/actions/reveal';
 	import { page } from '$app/state';
+	import { siteContent } from '$lib/stores/site-content';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import SectionHeading from '$lib/components/SectionHeading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import VideoFeature from '$lib/components/VideoFeature.svelte';
 	import { sitePath } from '$lib/utils/site-path';
 
-	const site = $derived(page.data.content.site);
-	const projects = $derived(page.data.content.projects);
-	const partners = $derived(page.data.content.partnersPage.items);
-	const media = $derived(page.data.content.media);
-	const copy = $derived(page.data.content.pages.home);
+	const site = $derived($siteContent.site);
+	const projects = $derived($siteContent.projects);
+	const partners = $derived($siteContent.partnersPage.items);
+	const media = $derived($siteContent.media);
+	const copy = $derived($siteContent.pages.home);
 </script>
 
 <Seo />
@@ -256,9 +257,9 @@
 		grid-template-columns: auto minmax(0, 1fr);
 		align-items: center;
 		gap: clamp(1.5rem, 4vw, 4rem);
-		padding: 1rem 0 1rem clamp(1rem, 4vw, 4rem);
-		background: white;
-		border-block: 1px solid var(--line);
+		padding: 1.25rem 0 1.25rem clamp(1rem, 4vw, 4rem);
+		background: color-mix(in srgb, white 72%, var(--cream));
+		border-block: 1px solid color-mix(in srgb, var(--line) 58%, transparent);
 		overflow: hidden;
 	}
 
@@ -267,7 +268,8 @@
 		font-weight: 800;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		color: var(--navy);
+		color: color-mix(in srgb, var(--navy) 72%, transparent);
+		opacity: 0.74;
 		white-space: nowrap;
 	}
 
@@ -298,15 +300,19 @@
 		align-items: center;
 		gap: clamp(1.5rem, 3vw, 3rem);
 		padding-right: clamp(1.5rem, 3vw, 3rem);
-		font-family: var(--font-rounded);
-		font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+		font-size: clamp(1rem, 1.42vw, 1.25rem);
 		font-weight: 700;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
 		white-space: nowrap;
-		color: var(--ink-soft);
+		color: var(--navy);
+		opacity: 0.43;
+		transition: color 180ms ease, opacity 180ms ease;
 	}
 
 	.marquee-group a:hover {
 		color: var(--blue);
+		opacity: 0.9;
 	}
 
 	.marquee-group span {

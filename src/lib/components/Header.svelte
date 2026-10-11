@@ -2,14 +2,15 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import { sitePath } from '$lib/utils/site-path';
+	import { siteContent } from '$lib/stores/site-content';
 
 	let menuOpen = $state(false);
 	let scrolled = $state(false);
 	let hidden = $state(false);
 	let lastScrollY = 0;
 	const routeId = $derived(page.route.id ?? '/');
-	const site = $derived(page.data.content.site);
-	const media = $derived(page.data.content.media);
+	const site = $derived($siteContent.site);
+	const media = $derived($siteContent.media);
 
 	function routePath(value: string) {
 		const pathname = value.split('#')[0];

@@ -1,15 +1,16 @@
 <script lang="ts">
 	import { reveal } from '$lib/actions/reveal';
 	import { page } from '$app/state';
+	import { siteContent } from '$lib/stores/site-content';
 	import ImageBand from '$lib/components/ImageBand.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import SectionHeading from '$lib/components/SectionHeading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 
-	const site = $derived(page.data.content.site);
-	const projects = $derived(page.data.content.projects);
-	const media = $derived(page.data.content.media);
-	const copy = $derived(page.data.content.pages.projects);
+	const site = $derived($siteContent.site);
+	const projects = $derived($siteContent.projects);
+	const media = $derived($siteContent.media);
+	const copy = $derived($siteContent.pages.projects);
 </script>
 
 <Seo
@@ -19,12 +20,12 @@
 />
 
 <section class="projects-hero">
-	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" />
 	<div class="container hero-copy" use:reveal>
 		<p class="eyebrow">{copy.eyebrow}</p>
 		<h1>{copy.title}</h1>
 		<p>{copy.intro}</p>
 	</div>
+	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" position="right" zoom={1.72} />
 </section>
 
 <section class="section projects-list">
@@ -65,14 +66,16 @@
 
 <ImageBand
 	src={media.projectsFooter}
-	alt="A pattern of blue lightbulbs surrounding the Proud Partners mark"
+	alt="A pattern of blue lightbulbs"
+	position="right"
+	zoom={1.72}
 />
 
 <style>
 	.projects-hero {
-		padding-top: 5.4rem;
-		background: var(--navy);
-		color: white;
+		padding-top: 7.75rem;
+		background: var(--cream);
+		color: var(--navy);
 	}
 
 	.projects-hero :global(.band) {
@@ -85,7 +88,7 @@
 	}
 
 	.hero-copy .eyebrow {
-		color: var(--sky-light);
+		color: var(--blue);
 	}
 
 	h1 {
@@ -100,7 +103,7 @@
 		max-width: 44rem;
 		margin: 0;
 		font-size: var(--step-1);
-		color: rgba(255, 255, 255, 0.72);
+		color: var(--ink-soft);
 	}
 
 	.projects-list {

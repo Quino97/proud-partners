@@ -1,18 +1,68 @@
 <script lang="ts">
-	import type { ActionData, PageData } from './$types';
+	import { onMount } from 'svelte';
 	import { defaultContent, type ConsularYear, type Partner, type Project, type ProjectGalleryImage } from '$lib/content/site';
 	import ImageField from '$lib/components/admin/ImageField.svelte';
+	import { supabase, supabaseConfigurationMessage } from '$lib/supabase/client';
+	import { addSiteBase } from '$lib/utils/site-path';
+	import { siteContent } from '$lib/stores/site-content';
 
-	let { data, form }: { data: PageData; form?: ActionData } = $props();
-	let draft = $state(structuredClone(defaultContent));
+	let draft = $state(structuredClone(addSiteBase(defaultContent)));
 	let activeTab = $state<'site' | 'home' | 'about' | 'projects' | 'consular' | 'partners' | 'support'>('site');
 	let saving = $state(false);
 	let saveMessage = $state('');
 	let saveError = $state(false);
+	let authenticated = $state(false);
+	let loading = $state(true);
+	let email = $state('');
+	let password = $state('');
+	let loginMessage = $state('');
+	let loginError = $state(false);
 
-	$effect.pre(() => {
-		draft = structuredClone(data.content);
+	onMount(async () => {
+		draft = structuredClone($siteContent);
+		if (!supabase) {
+			loading = false;
+			return;
+		}
+
+		const { data: sessionData } = await supabase.auth.getSession();
+		authenticated = Boolean(sessionData.session);
+		if (authenticated) await loadSupabaseContent();
+		loading = false;
 	});
+
+	async function loadSupabaseContent() {
+		if (!supabase) return;
+		const { data, error } = await supabase.from('site_content').select('content').eq('id', 'primary').maybeSingle();
+		if (error) {
+			saveError = true;
+			saveMessage = error.message;
+			return;
+		}
+		if (data?.content) draft = addSiteBase(data.content);
+	}
+
+	async function signIn(event: SubmitEvent) {
+		event.preventDefault();
+		if (!supabase) return;
+		loginMessage = '';
+		loginError = false;
+		const { error } = await supabase.auth.signInWithPassword({ email, password });
+		if (error) {
+			loginError = true;
+			loginMessage = error.message;
+			return;
+		}
+		authenticated = true;
+		password = '';
+		await loadSupabaseContent();
+	}
+
+	async function signOut() {
+		await supabase?.auth.signOut();
+		authenticated = false;
+		saveMessage = '';
+	}
 
 	const tabs = [
 		{ id: 'site', label: 'Site setup' },
@@ -25,18 +75,18 @@
 	] as const;
 
 	async function saveContent() {
+		if (!supabase) return;
 		saving = true;
 		saveMessage = '';
 		saveError = false;
 		try {
-			const response = await fetch('/api/admin/content', {
-				method: 'PUT',
-				headers: { 'content-type': 'application/json' },
-				body: JSON.stringify(draft)
-			});
-			const result = await response.json();
-			if (!response.ok) throw new Error(result.message || 'Could not save changes.');
-			saveMessage = `Saved at ${new Date(result.savedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}.`;
+			const { error } = await supabase.from('site_content').upsert(
+				{ id: 'primary', content: draft, updated_at: new Date().toISOString() },
+				{ onConflict: 'id' }
+			);
+			if (error) throw error;
+			siteContent.set(draft);
+			saveMessage = `Published at ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}.`;
 		} catch (error) {
 			saveError = true;
 			saveMessage = error instanceof Error ? error.message : 'Could not save changes.';
@@ -46,7 +96,7 @@
 	}
 
 	function resetDraft() {
-		draft = structuredClone(data.content);
+		draft = structuredClone($siteContent);
 		saveError = false;
 		saveMessage = 'Unsaved changes reset.';
 	}
@@ -120,17 +170,19 @@
 
 <svelte:head><title>Admin — Proud Partners</title><meta name="robots" content="noindex,nofollow" /></svelte:head>
 
-{#if !data.authenticated}
+{#if loading}
+	<section class="login-page"><div class="login-card"><p class="admin-kicker">Proud Partners</p><h1>Opening editor…</h1></div></section>
+{:else if !authenticated}
 	<section class="login-page">
 		<div class="login-card">
-			<img src={data.content.media.wordmark} alt="Proud Partners" />
-			<p class="admin-kicker">Local content manager</p>
+			<img src={draft.media.wordmark} alt="Proud Partners" />
+			<p class="admin-kicker">Content manager</p>
 			<h1>Welcome back</h1>
-			<p class="login-copy">Sign in to edit the website on this computer.</p>
-			{#if form?.message}<p class="form-error" role="alert">{form.message}</p>{/if}
-			<form method="POST" action="?/login">
-				<label><span>Username</span><input name="username" value={form?.username ?? ''} autocomplete="username" required /></label>
-				<label><span>Password</span><input name="password" type="password" autocomplete="current-password" required /></label>
+			<p class="login-copy">Sign in with the Supabase editor account to update the live website.</p>
+			{#if supabaseConfigurationMessage}<p class="form-error" role="alert">{supabaseConfigurationMessage}</p>{:else if loginMessage}<p class:error={loginError} class="form-error" role="alert">{loginMessage}</p>{/if}
+			<form onsubmit={signIn}>
+				<label><span>Email</span><input bind:value={email} type="email" autocomplete="email" required /></label>
+				<label><span>Password</span><input bind:value={password} type="password" autocomplete="current-password" required /></label>
 				<button type="submit">Sign in</button>
 			</form>
 			<a href="/">← Return to the website</a>
@@ -144,7 +196,7 @@
 				{#if saveMessage}<span class:error={saveError} class="save-message" role="status">{saveMessage}</span>{/if}
 				<a class="preview-link" href="/" target="_blank">View website ↗</a>
 				<button class="save-button" type="button" onclick={saveContent} disabled={saving}>{saving ? 'Saving…' : 'Save changes'}</button>
-				<form method="POST" action="?/logout"><button class="logout-button" type="submit">Log out</button></form>
+				<button class="logout-button" type="button" onclick={signOut}>Log out</button>
 			</div>
 		</header>
 
@@ -155,7 +207,7 @@
 					<button class:active={activeTab === tab.id} type="button" onclick={() => (activeTab = tab.id)}>{tab.label}</button>
 				{/each}
 			</nav>
-			<div class="local-note"><strong>Local mode</strong><span>Changes are saved to this project only. Nothing is deployed.</span></div>
+			<div class="local-note"><strong>Published mode</strong><span>Changes save securely to Supabase and appear on the public site.</span></div>
 		</aside>
 
 		<main class="admin-content">

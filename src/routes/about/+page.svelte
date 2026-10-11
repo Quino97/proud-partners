@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { reveal } from '$lib/actions/reveal';
 	import { page } from '$app/state';
+	import { siteContent } from '$lib/stores/site-content';
 	import SectionHeading from '$lib/components/SectionHeading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import { sitePath } from '$lib/utils/site-path';
 
-	const site = $derived(page.data.content.site);
-	const media = $derived(page.data.content.media);
-	const copy = $derived(page.data.content.pages.about);
+	const site = $derived($siteContent.site);
+	const media = $derived($siteContent.media);
+	const copy = $derived($siteContent.pages.about);
 </script>
 
 <Seo

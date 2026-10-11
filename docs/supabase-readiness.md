@@ -1,27 +1,28 @@
-# Supabase readiness
+# Supabase setup
 
-The site remains entirely local. This note records the intended production boundary without creating a Supabase project, remote repository, deployment configuration or secrets.
+The website now uses Supabase in the browser for two narrowly scoped jobs:
 
-## Existing boundary
+- a single `site_content` row stores editable website content;
+- the `site-media` bucket stores editor-uploaded images.
 
-All page and admin code works with the typed `SiteContent` object. Server persistence is isolated behind `ContentRepository` in `src/lib/server/content.ts`.
+Public visitors can read the published content and public media. Only Supabase accounts added to `site_admins` can edit content or upload images. The application never contains a Supabase secret or service-role key.
 
-- `LocalJsonContentRepository` reads and writes `data/content.json` for local development.
-- A future `SupabaseContentRepository` can implement the same `read()` and `write()` methods.
-- Components and routes should continue to depend on the repository functions, never on the Supabase client directly.
+## One-time dashboard setup
 
-## Recommended first production schema
+1. In **Supabase Dashboard → SQL Editor**, run [the migration](../supabase/migrations/20261011_initial_content.sql).
+2. In **Authentication → Users**, create the email/password account that Isabel or the site editor will use. Do not enable public sign-ups.
+3. In SQL Editor, run the commented final command in the migration with that account’s email to grant editor access.
+4. Open `/admin/`, sign in with that email and password, and press **Save changes** once. That safely imports the current site's content into Supabase.
 
-For the first deployment, preserve the current editor’s atomic save behaviour with a versioned `site_content` row containing the complete content object in a `jsonb` column. This avoids prematurely splitting a small editorial model across many tables.
+## GitHub Pages configuration
 
-Use a Supabase Storage bucket for uploaded images and store public object paths in the same fields that currently contain `/uploads/...` or `/assets/...` paths.
+In GitHub: **Settings → Secrets and variables → Actions → Variables**, add these two repository variables:
 
-If multiple editors, partial updates or content history become requirements, the structured arrays already provide clean candidates for later tables: projects, project gallery images, initiatives, Consular Ball years and partners.
+| Name | Value |
+| --- | --- |
+| `PUBLIC_SUPABASE_URL` | Your project URL, for example `https://project-ref.supabase.co` |
+| `PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Your `sb_publishable_...` key |
 
-## Production authentication
+They are intentionally build-time public values. The database policies—not obscurity—protect writes. Never add a `service_role`, `secret`, or database password to GitHub or this app.
 
-The temporary `admin` / `password` login is strictly local. Before deployment, replace the in-memory session implementation with Supabase Auth, keep service-role credentials server-only and protect content/storage mutations with row-level security policies.
-
-## GitHub setup
-
-When the repository is created, commit source code, default content and curated static assets. Do not commit `.env` files, Supabase service keys, generated build output or runtime uploads. Add deployment and CI only after the production host and Supabase environment have been chosen.
+After the variables are set, each build publishes a static site that loads its editable content directly from Supabase. A new static build remains necessary when adding a brand-new project URL, because GitHub Pages needs a generated page for that route.
