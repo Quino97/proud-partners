@@ -189,8 +189,8 @@
 	.legacy-masthead {
 		position: relative;
 		padding: clamp(1rem, 2.5vw, 1.6rem);
-		background: rgba(255, 255, 255, 0.88);
-		border: 1px solid rgba(255, 255, 255, 0.75);
+		background: color-mix(in srgb, var(--cream) 88%, transparent);
+		border: 1px solid color-mix(in srgb, var(--cream-deep) 75%, transparent);
 		border-radius: var(--radius-lg);
 		box-shadow: var(--shadow-lg);
 		transform: rotate(1.5deg);
@@ -258,7 +258,7 @@
 		align-items: center;
 		gap: clamp(1.5rem, 4vw, 4rem);
 		padding: 1.25rem 0 1.25rem clamp(1rem, 4vw, 4rem);
-		background: color-mix(in srgb, white 72%, var(--cream));
+		background: var(--cream);
 		border-block: 1px solid color-mix(in srgb, var(--line) 58%, transparent);
 		overflow: hidden;
 	}
@@ -450,9 +450,10 @@
 	}
 
 	.impact-strip {
-		padding: 2.5rem 0;
+		padding: 8.5rem 0 2.5rem;
 		background: var(--navy);
 		color: white;
+		clip-path: polygon(0 4rem, 74% 7.25rem, 100% 2.5rem, 100% 100%, 0 100%);
 	}
 
 	.impact-grid {
@@ -484,7 +485,7 @@
 	}
 
 	.projects-preview {
-		background: white;
+		background: var(--cream);
 	}
 
 	.preview-heading {

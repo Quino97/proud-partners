@@ -139,7 +139,7 @@
 	}
 
 	.story {
-		background: white;
+		background: var(--cream);
 	}
 
 	.story-grid {
@@ -246,7 +246,7 @@
 	}
 
 	.gallery-section {
-		background: white;
+		background: var(--cream);
 	}
 
 	.gallery-intro {

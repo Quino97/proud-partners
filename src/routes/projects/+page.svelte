@@ -20,8 +20,7 @@
 />
 
 <section class="projects-hero">
-	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" position="right" zoom={1.72} />
-	<div class="hero-wash"></div>
+	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" />
 	<div class="container hero-copy" use:reveal>
 		<p class="eyebrow">{copy.eyebrow}</p>
 		<h1>{copy.title}</h1>
@@ -68,36 +67,26 @@
 <ImageBand
 	src={media.projectsFooter}
 	alt="A pattern of blue lightbulbs"
-	position="right"
-	zoom={1.72}
 />
 
 <style>
 	.projects-hero {
-		position: relative;
-		display: grid;
-		align-items: end;
-		min-height: min(52rem, 100svh);
-		overflow: hidden;
-		color: var(--navy);
+		padding-top: 5.4rem;
+		background: var(--navy);
+		color: white;
 	}
 
 	.projects-hero :global(.band) {
-		position: absolute;
-		inset: 0;
-		z-index: -2;
-		min-height: 100%;
+		min-height: clamp(18rem, 40vw, 34rem);
 	}
 
-	.hero-wash { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(251,247,238,.96) 0%, rgba(251,247,238,.77) 42%, rgba(251,247,238,.24) 76%, rgba(251,247,238,.1) 100%); }
-
 	.hero-copy {
-		padding-top: 9rem;
+		padding-top: clamp(3rem, 7vw, 6rem);
 		padding-bottom: clamp(4rem, 8vw, 7rem);
 	}
 
 	.hero-copy .eyebrow {
-		color: var(--blue);
+		color: var(--sky-light);
 	}
 
 	h1 {
@@ -112,11 +101,11 @@
 		max-width: 44rem;
 		margin: 0;
 		font-size: var(--step-1);
-		color: var(--ink-soft);
+		color: rgba(255, 255, 255, 0.72);
 	}
 
 	.projects-list {
-		background: white;
+		background: var(--cream);
 	}
 
 	.project-grid {
@@ -177,8 +166,6 @@
 	}
 
 	@media (max-width: 680px) {
-		.projects-hero { min-height: 42rem; }
-		.hero-wash { background: linear-gradient(180deg, rgba(251,247,238,.95), rgba(251,247,238,.72) 62%, rgba(251,247,238,.4)); }
 		.project-grid,
 		.support-grid {
 			grid-template-columns: 1fr;

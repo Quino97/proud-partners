@@ -34,6 +34,8 @@
 	</div>
 </section>
 
+<div class="section-divider" aria-hidden="true"></div>
+
 <section class="section origin">
 	<div class="container origin-grid">
 		<div use:reveal>
@@ -57,6 +59,7 @@
 		<div class="principle-grid">
 			{#each site.about.principles as principle, index}
 				<article use:reveal={{ delay: index * 80 }}>
+					<img src={principle.image} alt="" />
 					<span>0{index + 1}</span>
 					<h2>{principle.title}</h2>
 					<p>{principle.copy}</p>
@@ -101,9 +104,9 @@
 	figure img {
 		display: block;
 		width: 100%;
-		aspect-ratio: 18 / 5;
+		aspect-ratio: 16 / 6;
 		object-fit: cover;
-		object-position: center 35%;
+		object-position: center 28%;
 		border-radius: var(--radius-lg);
 		box-shadow: var(--shadow-lg);
 	}
@@ -128,8 +131,15 @@
 		color: var(--navy);
 	}
 
+	.section-divider {
+		width: min(34rem, 58vw);
+		height: 1px;
+		margin: 0 auto;
+		background: var(--line);
+	}
+
 	.origin {
-		background: white;
+		background: var(--cream);
 	}
 
 	.origin-grid {
@@ -157,10 +167,19 @@
 	}
 
 	article {
+		overflow: hidden;
 		padding: 2rem;
-		background: rgba(255, 255, 255, 0.8);
-		border: 1px solid rgba(255, 255, 255, 0.9);
+		background: color-mix(in srgb, var(--cream) 86%, transparent);
+		border: 1px solid color-mix(in srgb, var(--cream-deep) 90%, transparent);
 		border-radius: var(--radius-md);
+	}
+
+	article img {
+		display: block;
+		width: calc(100% + 4rem);
+		height: 10.5rem;
+		margin: -2rem -2rem 1.75rem;
+		object-fit: cover;
 	}
 
 	article > span {
@@ -208,15 +227,15 @@
 	}
 
 	.method .button {
-		background: white;
-		border-color: white;
+		background: var(--cream);
+		border-color: var(--cream);
 		color: var(--navy);
 	}
 
 	@media (max-width: 760px) {
 		figure img {
 			aspect-ratio: 4 / 3;
-			object-position: 68% 30%;
+			object-position: 68% 22%;
 		}
 
 		.origin-grid,

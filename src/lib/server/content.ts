@@ -41,7 +41,18 @@ function normaliseContent(saved: Partial<SiteContent>): SiteContent {
 		...defaults,
 		...saved,
 		contentVersion: defaults.contentVersion,
-		site: { ...defaults.site, ...saved.site, navigation },
+		site: {
+			...defaults.site,
+			...saved.site,
+			navigation,
+			about: {
+				...defaults.site.about,
+				...saved.site?.about,
+				principles: (saved.site?.about?.principles || defaults.site.about.principles).map(
+					(principle, index) => ({ ...defaults.site.about.principles[index], ...principle })
+				)
+			}
+		},
 		media: { ...defaults.media, ...saved.media },
 		pages: {
 			home: { ...defaults.pages.home, ...saved.pages?.home },

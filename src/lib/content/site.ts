@@ -97,15 +97,18 @@ export const site = {
 		principles: [
 			{
 				title: 'Brief history',
-				copy: 'With early financial support from Plexus Asset Management, Proud Partners grew from one local project into a network of education, arts, care and community initiatives.'
+				copy: 'With early financial support from Plexus Asset Management, Proud Partners grew from one local project into a network of education, arts, care and community initiatives.',
+				image: '/assets/images/western-cape.jpg'
 			},
 			{
 				title: 'Mission',
-				copy: 'To encourage South Africans to identify a partner with whom they can walk through life—sharing practical help, knowledge and opportunity across communities.'
+				copy: 'To encourage South Africans to identify a partner with whom they can walk through life—sharing practical help, knowledge and opportunity across communities.',
+				image: '/assets/images/community.jpg'
 			},
 			{
 				title: 'How we work',
-				copy: 'Proud Partners is built on cooperation rather than once-off charity. Projects ask for time, energy and commitment from everyone involved, with the goal of lasting benefit and mutual understanding.'
+				copy: 'Proud Partners is built on cooperation rather than once-off charity. Projects ask for time, energy and commitment from everyone involved, with the goal of lasting benefit and mutual understanding.',
+				image: '/assets/images/archive/domestic-partners.jpg'
 			}
 		]
 	},

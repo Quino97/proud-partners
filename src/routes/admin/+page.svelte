@@ -322,7 +322,7 @@
 						<div class="field-grid"><label><span>Section label</span><input bind:value={draft.pages.about.principlesEyebrow} /></label><label><span>Heading</span><input bind:value={draft.pages.about.principlesTitle} /></label></div>
 						<div class="principle-editor">
 							{#each draft.site.about.principles as principle, index}
-								<div><span>0{index + 1}</span><label><span>Title</span><input bind:value={principle.title} /></label><label><span>Copy</span><textarea bind:value={principle.copy} rows="4"></textarea></label></div>
+								<div><span>0{index + 1}</span><label><span>Title</span><input bind:value={principle.title} /></label><label><span>Copy</span><textarea bind:value={principle.copy} rows="4"></textarea></label><ImageField label="Card image" bind:value={principle.image} /></div>
 							{/each}
 						</div>
 					</div>

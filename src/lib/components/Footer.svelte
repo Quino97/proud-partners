@@ -55,7 +55,7 @@
 		width: 3.8rem;
 		height: 3.8rem;
 		border-radius: 50%;
-		background: white;
+		background: var(--cream);
 	}
 
 	.footer-brand strong,
@@ -97,7 +97,9 @@
 		margin-top: 4rem;
 		padding-top: 1.25rem;
 		border-top: 1px solid rgba(255, 255, 255, 0.14);
-		font-size: 0.75rem;
+		font-family: var(--font-rounded);
+		font-size: 0.78rem;
+		letter-spacing: 0.02em;
 		color: rgba(255, 255, 255, 0.48);
 	}
 

@@ -24,7 +24,7 @@
 		display: grid;
 		grid-template-rows: auto 1fr;
 		min-width: 0;
-		background: white;
+		background: var(--cream-deep);
 		border: 1px solid var(--line);
 		border-radius: var(--radius-lg);
 		overflow: hidden;
