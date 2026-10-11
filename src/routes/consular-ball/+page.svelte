@@ -97,7 +97,7 @@
 	.ball-hero :global(.band) { min-height: clamp(18rem, 40vw, 34rem); }
 	.ball-intro { padding-top: clamp(3rem,7vw,6rem); padding-bottom: clamp(4rem,8vw,7rem); }
 	.ball-intro .eyebrow { color: var(--sky-light); }
-	h1 { max-width: 10ch; margin: .65rem 0 1.2rem; font-size: var(--step-5); line-height: .95; letter-spacing: -.055em; }
+	h1 { max-width: 10ch; margin: .65rem 0 1.2rem; font-size: var(--step-5); line-height: 1.025; letter-spacing: -.055em; }
 	.ball-intro > p:last-child { max-width: 48rem; margin: 0; color: rgba(255,255,255,.72); font-size: var(--step-1); }
 	.origin { background: white; }.origin-grid { display: grid; grid-template-columns: minmax(18rem,.75fr) minmax(0,1.25fr); gap: clamp(3rem,8vw,8rem); }
 	h2 { margin: .65rem 0 0; font-size: var(--step-4); line-height: 1.03; letter-spacing: -.04em; }

@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { reveal } from '$lib/actions/reveal';
 	import type { Project } from '$lib/content/site';
+	import { sitePath } from '$lib/utils/site-path';
 
 	let { project, delay = 0 }: { project: Project; delay?: number } = $props();
 </script>
 
-<a class="card" href={`/projects/${project.slug}`} use:reveal={{ delay }}>
+<a class="card" href={sitePath(`/projects/${project.slug}`)} use:reveal={{ delay }}>
 	<div class="image-wrap">
 		<img src={project.image} alt={project.imageAlt} loading="lazy" />
 		<span>{project.number}</span>

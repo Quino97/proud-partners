@@ -3,6 +3,7 @@
 	import { page } from '$app/state';
 	import SectionHeading from '$lib/components/SectionHeading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import { sitePath } from '$lib/utils/site-path';
 
 	const site = $derived(page.data.content.site);
 	const media = $derived(page.data.content.media);
@@ -68,7 +69,7 @@
 	<div class="container method-inner" use:reveal>
 		<p class="eyebrow">{copy.methodEyebrow}</p>
 		<p class="statement">{copy.methodStatement}</p>
-		<a class="button" href="/projects">{copy.methodAction} <span aria-hidden="true">→</span></a>
+		<a class="button" href={sitePath('/projects')}>{copy.methodAction} <span aria-hidden="true">→</span></a>
 	</div>
 </section>
 
@@ -84,7 +85,7 @@
 		max-width: 10ch;
 		margin: 0.55rem 0 0;
 		font-size: var(--step-5);
-		line-height: 0.95;
+		line-height: 1.025;
 		letter-spacing: -0.055em;
 	}
 
@@ -99,15 +100,16 @@
 	figure img {
 		display: block;
 		width: 100%;
-		max-height: 42rem;
+		aspect-ratio: 18 / 5;
 		object-fit: cover;
-		object-position: center;
+		object-position: center 35%;
 		border-radius: var(--radius-lg);
 		box-shadow: var(--shadow-lg);
 	}
 
 	figcaption {
 		padding-top: 0.75rem;
+		font-family: var(--font-rounded);
 		font-size: 0.74rem;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
@@ -117,9 +119,10 @@
 	.lead {
 		max-width: 62rem;
 		margin: clamp(2rem, 5vw, 4rem) auto 0;
-		font-family: Georgia, 'Times New Roman', serif;
+		font-family: 'Nugo Sans', 'Segoe UI', sans-serif;
 		font-size: clamp(1.55rem, 2.6vw, 2.5rem);
-		line-height: 1.45;
+		line-height: 1.38;
+		font-weight: 600;
 		text-align: center;
 		color: var(--navy);
 	}
@@ -210,6 +213,11 @@
 	}
 
 	@media (max-width: 760px) {
+		figure img {
+			aspect-ratio: 4 / 3;
+			object-position: 68% 30%;
+		}
+
 		.origin-grid,
 		.principle-grid {
 			grid-template-columns: 1fr;

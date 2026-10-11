@@ -155,7 +155,7 @@
       "summary": "Opening doors through early learning, school partnerships, reading, mathematics and motivational programmes.",
       "image": "/assets/images/education.jpg",
       "imageAlt": "An educator working with children in a classroom",
-      "banner": "/assets/images/education-banner.jpg",
+      "banner": "/assets/images/education-banner-branded.png",
       "footerBanner": "/assets/images/education-footer.jpg",
       "body": [
         "Education is one of the clearest ways to narrow the gap between very different everyday realities. Proud Partners supports projects that help learners discover their ability, build confidence and access opportunity.",
@@ -232,7 +232,7 @@
       "summary": "Making instruments, tuition and performance opportunities available to young South Africans.",
       "image": "/assets/images/music.jpg",
       "imageAlt": "Young musicians playing drums together",
-      "banner": "/assets/images/music-banner.jpg",
+      "banner": "/assets/images/music-banner-branded.png",
       "footerBanner": "/assets/images/music-footer.jpg",
       "body": [
         "Music breaks down barriers between people and cultures. Training does more than teach technique: it builds discipline, expression, belonging and confidence.",
@@ -315,7 +315,7 @@
       "summary": "A public art initiative that invited young artists and the wider Stellenbosch community to create together.",
       "image": "/assets/images/community.jpg",
       "imageAlt": "A group of children gathered together outdoors",
-      "banner": "/assets/images/art-banner.jpg",
+      "banner": "/assets/images/art-banner-branded.png",
       "footerBanner": "/assets/images/art-footer.jpg",
       "body": [
         "In 2016, Proud Partners and the Stellenbosch Art Centre launched an annual street-art competition for Grade 11 learners, giving emerging artists a public platform.",
@@ -368,7 +368,7 @@
       "summary": "Supporting capable organisations that provide specialist care to children and their families.",
       "image": "/assets/images/child-care.jpg",
       "imageAlt": "A young child sitting outside",
-      "banner": "/assets/images/child-care-banner.jpg",
+      "banner": "/assets/images/child-care-banner-branded.png",
       "footerBanner": "/assets/images/child-care-footer.jpg",
       "body": [
         "Many children from disadvantaged backgrounds struggle to access the care they need. Proud Partners has chosen to stand alongside organisations already doing skilled, compassionate work.",
@@ -439,7 +439,7 @@
       "summary": "Practical knowledge and mutual care for the women who work and live alongside one another.",
       "image": "/assets/images/domestic.jpg",
       "imageAlt": "A woman standing outdoors with household tools",
-      "banner": "/assets/images/domestic-banner.jpg",
+      "banner": "/assets/images/domestic-banner-branded.png",
       "footerBanner": "/assets/images/domestic-footer.jpg",
       "body": [
         "The relationship between South African women and the domestic workers in their homes was the original inspiration for Proud Partners.",
@@ -506,7 +506,7 @@
       "summary": "A team challenge in Ceres that turned kilometres walked into meaningful project funding.",
       "image": "/assets/images/schoolkids.jpg",
       "imageAlt": "Children gathered around desks and a chalkboard outdoors",
-      "banner": "/assets/images/plexus-banner.jpg",
+      "banner": "/assets/images/plexus-banner-branded.png",
       "footerBanner": "/assets/images/plexus-footer.jpg",
       "body": [
         "In 2005, Plexus staff and their families walked in Ceres for two days with an ambitious collective target of 1,000 kilometres.",
@@ -557,7 +557,7 @@
     "eyebrow": "A Cape Town tradition",
     "title": "The Consular Ball",
     "intro": "An annual gathering where international representatives, local business leaders and community organisations turn one remarkable evening into practical support for young people.",
-    "banner": "/assets/images/consular-banner.jpg",
+    "banner": "/assets/images/consular-banner-branded.png",
     "footerBanner": "/assets/images/consular-footer.jpg",
     "originTitle": "One room. More than fifty nations. A shared purpose.",
     "origin": [
@@ -701,7 +701,7 @@
         "name": "Plexus Asset Management",
         "category": "Core donor",
         "description": "Plexus provided the early financial support that helped Proud Partners begin and continued that commitment through hands-on fundraising initiatives.",
-        "image": "/assets/images/plexus-banner.jpg",
+        "image": "/assets/images/plexus-banner-branded.png",
         "imageAlt": "Plexus charity walk artwork",
         "href": "",
         "linkLabel": ""
@@ -710,7 +710,7 @@
         "name": "Cape Town Consular Corps",
         "category": "Event partner",
         "description": "Representatives of more than fifty countries helped turn the Consular Ball into a major platform for local charities and young people.",
-        "image": "/assets/images/consular-banner.jpg",
+        "image": "/assets/images/consular-banner-branded.png",
         "imageAlt": "A Consular Ball dinner table",
         "href": "https://www.consularcorps.co.za/",
         "linkLabel": "Visit the Consular Corps"
@@ -737,7 +737,7 @@
         "name": "Tygerberg Children’s Choir",
         "category": "Music partner",
         "description": "Proud Partners helped talented young choristers participate fully in a world-class musical community and supported fees for children who needed assistance.",
-        "image": "/assets/images/music-banner.jpg",
+        "image": "/assets/images/music-banner-branded.png",
         "imageAlt": "Piano keys representing Proud Partners music projects",
         "href": "https://www.tcc.co.za/",
         "linkLabel": "Visit the choir"

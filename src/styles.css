@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Nugo Sans';
-	src: url('/assets/fonts/NugoSans.ttf') format('truetype');
+	src: url('./lib/assets/NugoSans.ttf') format('truetype');
 	font-display: swap;
 }
 
@@ -22,6 +22,7 @@
 	--radius-sm: 0.75rem;
 	--radius-md: 1.25rem;
 	--radius-lg: 2rem;
+	--font-rounded: 'Trebuchet MS', 'Segoe UI', sans-serif;
 	--step--1: clamp(0.79rem, 0.76rem + 0.12vw, 0.86rem);
 	--step-0: clamp(1rem, 0.95rem + 0.2vw, 1.12rem);
 	--step-1: clamp(1.18rem, 1.06rem + 0.5vw, 1.45rem);

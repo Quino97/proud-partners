@@ -1,6 +1,6 @@
 # Proud Partners
 
-A clean, content-first SvelteKit website for Proud Partners. This project is currently intended for local development only.
+A clean, content-first SvelteKit website for Proud Partners. Local development uses the Node adapter so the temporary JSON admin can save content; GitHub Pages uses a separate static build.
 
 ## Run locally
 
@@ -69,11 +69,15 @@ npm run preview
 - The Partners page separates core donors and project collaborators through an editable category filter.
 - Six project pages include editable galleries curated from the organized legacy archive. Duplicate thumbnails, shared legacy branding and the old Contact page were deliberately excluded.
 - The home video area is ready for the children's “What do you want to become?” video. Add its YouTube or Vimeo embed URL in Admin → Home once the original link is available.
-- `static/robots.txt` currently blocks indexing because this is a local-development build.
+- `static/robots.txt` allows search indexing for the public deployment.
 
-## Future GitHub and Supabase work
+## GitHub Pages
 
-No remote repository, deployment or Supabase project is configured yet. Content persistence is accessed through the `ContentRepository` interface in `src/lib/server/content.ts`; the current implementation is local JSON and can later be replaced with a Supabase implementation without changing page or admin components. See `docs/supabase-readiness.md` for the intended boundary.
+The workflow at `.github/workflows/deploy-pages.yml` builds and deploys the public site whenever `main` is pushed. It reads the correct repository base path from GitHub, so both `https://quino97.github.io/proud-partners/` and a future custom domain are supported.
+
+In GitHub, open **Settings → Pages** and set **Source** to **GitHub Actions**. Then push the current changes to `main` and watch the **Actions** tab for the deployment to finish.
+
+GitHub Pages is static, so `/admin` and the local JSON upload/save endpoints are not included in the deployed website. They continue to work locally. Content persistence is accessed through the `ContentRepository` interface in `src/lib/server/content.ts`; the current implementation can later be replaced with Supabase without changing the public page components. See `docs/supabase-readiness.md` for the intended boundary.
 
 See `docs/codebase-audit.md` for the source-project review and removal decisions.
 

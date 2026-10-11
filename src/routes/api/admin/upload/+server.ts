@@ -4,6 +4,8 @@ import { extname, resolve } from 'node:path';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
+export const prerender = false;
+
 const allowedTypes: Record<string, string> = {
 	'image/jpeg': '.jpg',
 	'image/png': '.png',

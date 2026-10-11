@@ -92,7 +92,7 @@
 		max-width: 11ch;
 		margin: 0.65rem 0 1.25rem;
 		font-size: var(--step-5);
-		line-height: 0.95;
+		line-height: 1.025;
 		letter-spacing: -0.055em;
 	}
 

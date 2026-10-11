@@ -3,6 +3,8 @@ import type { RequestHandler } from './$types';
 import type { SiteContent } from '$lib/content/site';
 import { writeContent } from '$lib/server/content';
 
+export const prerender = false;
+
 export const PUT: RequestHandler = async ({ request, locals }) => {
 	if (!locals.admin) return json({ message: 'Your admin session has expired.' }, { status: 401 });
 

@@ -5,9 +5,11 @@
 	import SectionHeading from '$lib/components/SectionHeading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import VideoFeature from '$lib/components/VideoFeature.svelte';
+	import { sitePath } from '$lib/utils/site-path';
 
 	const site = $derived(page.data.content.site);
 	const projects = $derived(page.data.content.projects);
+	const partners = $derived(page.data.content.partnersPage.items);
 	const media = $derived(page.data.content.media);
 	const copy = $derived(page.data.content.pages.home);
 </script>
@@ -23,8 +25,8 @@
 			<h1>{site.home.title}</h1>
 			<p class="hero-intro">{site.home.intro}</p>
 			<div class="cluster hero-actions">
-				<a class="button" href="/projects">{copy.primaryAction} <span aria-hidden="true">↗</span></a>
-				<a class="button secondary" href="/about">{copy.secondaryAction}</a>
+				<a class="button" href={sitePath('/projects')}>{copy.primaryAction} <span aria-hidden="true">↗</span></a>
+				<a class="button secondary" href={sitePath('/about')}>{copy.secondaryAction}</a>
 			</div>
 		</div>
 
@@ -37,9 +39,28 @@
 			<p>{copy.mastheadCaption}</p>
 		</div>
 	</div>
+	<img class="floating-mark" src={media.mark} alt="" aria-hidden="true" />
 	<a class="scroll-cue" href="#welcome" aria-label="Scroll to the introduction">
 		<span>Scroll</span><i></i>
 	</a>
+</section>
+
+<section class="partner-marquee" aria-label="Our partners">
+	<div class="marquee-heading">Our partners</div>
+	<div class="marquee-window">
+		<div class="marquee-track">
+			<div class="marquee-group">
+				{#each partners as partner}
+					<a href={sitePath('/partners')}>{partner.name}<span aria-hidden="true">✦</span></a>
+				{/each}
+			</div>
+			<div class="marquee-group" aria-hidden="true">
+				{#each partners as partner}
+					<a href={sitePath('/partners')} tabindex="-1">{partner.name}<span aria-hidden="true">✦</span></a>
+				{/each}
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="section welcome" id="welcome">
@@ -56,8 +77,10 @@
 			/>
 			<div class="principle-line">
 				{#each copy.principles as principle, index}
-					<span>0{index + 1}</span>
-					<p>{principle}</p>
+					<div class="principle-row">
+						<span>0{index + 1}</span>
+						<p>{principle}</p>
+					</div>
 				{/each}
 			</div>
 		</div>
@@ -80,7 +103,7 @@
 					title={copy.projectsTitle}
 					copy={copy.projectsCopy}
 			/>
-			<a class="text-link" href="/projects">View every project <span aria-hidden="true">→</span></a>
+			<a class="text-link" href={sitePath('/projects')}>View every project <span aria-hidden="true">→</span></a>
 		</div>
 		<div class="project-grid">
 			{#each projects.slice(0, 3) as project, index}
@@ -146,7 +169,7 @@
 		max-width: 10ch;
 		margin: 0.75rem 0 1.3rem;
 		font-size: var(--step-5);
-		line-height: 0.94;
+		line-height: 1.025;
 		letter-spacing: -0.055em;
 		text-wrap: balance;
 	}
@@ -181,9 +204,8 @@
 
 	.legacy-masthead p {
 		margin: 1rem 0 0;
-		font-family: Georgia, 'Times New Roman', serif;
+		font-family: var(--font-rounded);
 		font-size: 1.02rem;
-		font-style: italic;
 		color: var(--ink-soft);
 	}
 
@@ -205,6 +227,97 @@
 		position: absolute;
 		border: 1px solid rgba(13, 103, 173, 0.16);
 		border-radius: 50%;
+	}
+
+	.floating-mark {
+		position: absolute;
+		right: clamp(1rem, 4vw, 4rem);
+		bottom: clamp(5rem, 10vw, 9rem);
+		z-index: 2;
+		width: clamp(4.5rem, 8vw, 7rem);
+		opacity: 0.2;
+		filter: drop-shadow(0 1.2rem 1.6rem rgba(6, 40, 68, 0.2));
+		pointer-events: none;
+		animation: gentle-float 6s ease-in-out infinite;
+	}
+
+	@keyframes gentle-float {
+		0%,
+		100% {
+			transform: translate3d(0, 0, 0) rotate(-4deg);
+		}
+		50% {
+			transform: translate3d(0, -1.1rem, 0) rotate(3deg);
+		}
+	}
+
+	.partner-marquee {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		align-items: center;
+		gap: clamp(1.5rem, 4vw, 4rem);
+		padding: 1rem 0 1rem clamp(1rem, 4vw, 4rem);
+		background: white;
+		border-block: 1px solid var(--line);
+		overflow: hidden;
+	}
+
+	.marquee-heading {
+		font-size: 0.72rem;
+		font-weight: 800;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--navy);
+		white-space: nowrap;
+	}
+
+	.marquee-window {
+		min-width: 0;
+		overflow: hidden;
+		mask-image: linear-gradient(to right, transparent, black 4rem, black calc(100% - 4rem), transparent);
+	}
+
+	.marquee-track {
+		display: flex;
+		width: max-content;
+		animation: partner-scroll 32s linear infinite;
+	}
+
+	.marquee-window:hover .marquee-track {
+		animation-play-state: paused;
+	}
+
+	.marquee-group {
+		display: flex;
+		align-items: center;
+		flex: none;
+	}
+
+	.marquee-group a {
+		display: inline-flex;
+		align-items: center;
+		gap: clamp(1.5rem, 3vw, 3rem);
+		padding-right: clamp(1.5rem, 3vw, 3rem);
+		font-family: var(--font-rounded);
+		font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+		font-weight: 700;
+		white-space: nowrap;
+		color: var(--ink-soft);
+	}
+
+	.marquee-group a:hover {
+		color: var(--blue);
+	}
+
+	.marquee-group span {
+		font-size: 0.6rem;
+		color: var(--sky);
+	}
+
+	@keyframes partner-scroll {
+		to {
+			transform: translateX(-50%);
+		}
 	}
 
 	.orbit-one {
@@ -297,33 +410,36 @@
 		background: var(--navy);
 		border-radius: var(--radius-sm);
 		color: white;
+		font-family: var(--font-rounded);
 		font-size: 0.78rem;
 		line-height: 1.45;
 	}
 
 	.principle-line {
-		display: grid;
-		grid-template-columns: auto 1fr;
-		gap: 0;
 		margin-top: 2.5rem;
 		border-top: 1px solid var(--line);
 	}
 
-	.principle-line span,
-	.principle-line p {
-		margin: 0;
-		padding: 1rem 0;
+	.principle-row {
+		display: grid;
+		grid-template-columns: 3.25rem minmax(0, 1fr);
+		align-items: baseline;
 		border-bottom: 1px solid var(--line);
 	}
 
-	.principle-line span {
-		padding-right: 1.3rem;
+	.principle-row span,
+	.principle-row p {
+		margin: 0;
+		padding: 1rem 0;
+	}
+
+	.principle-row span {
 		font-size: 0.7rem;
 		font-weight: 800;
 		color: var(--sky);
 	}
 
-	.principle-line p {
+	.principle-row p {
 		font-weight: 700;
 	}
 
@@ -495,6 +611,20 @@
 
 		.hero-actions {
 			justify-content: center;
+		}
+
+		.floating-mark {
+			display: none;
+		}
+
+		.partner-marquee {
+			grid-template-columns: 1fr;
+			gap: 0.4rem;
+			padding-left: 0;
+		}
+
+		.marquee-heading {
+			padding-left: 1rem;
 		}
 
 		.scroll-cue {

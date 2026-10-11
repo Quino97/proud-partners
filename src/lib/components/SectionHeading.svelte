@@ -26,7 +26,7 @@
 	h2 {
 		margin: 0.55rem 0 0;
 		font-size: var(--step-4);
-		line-height: 1.02;
+		line-height: 1.08;
 		letter-spacing: -0.035em;
 		text-wrap: balance;
 	}

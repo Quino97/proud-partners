@@ -1,23 +1,55 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { page } from '$app/state';
+	import { sitePath } from '$lib/utils/site-path';
 
 	let menuOpen = $state(false);
 	let scrolled = $state(false);
-	const path = $derived(page.url.pathname);
+	let hidden = $state(false);
+	let lastScrollY = 0;
+	const routeId = $derived(page.route.id ?? '/');
 	const site = $derived(page.data.content.site);
 	const media = $derived(page.data.content.media);
 
+	function routePath(value: string) {
+		const pathname = value.split('#')[0];
+		const withoutBase = base && pathname.startsWith(base) ? pathname.slice(base.length) || '/' : pathname;
+		return withoutBase !== '/' ? withoutBase.replace(/\/$/, '') : withoutBase;
+	}
+
 	function isActive(href: string) {
-		return href === '/' ? path === '/' : path.startsWith(href);
+		const target = routePath(href);
+
+		return target === '/' ? routeId === '/' : routeId === target || routeId.startsWith(`${target}/`);
+	}
+
+	function handleScroll() {
+		const currentScrollY = window.scrollY;
+		const change = currentScrollY - lastScrollY;
+
+		scrolled = currentScrollY > 24;
+
+		if (menuOpen || currentScrollY < 96) {
+			hidden = false;
+		} else if (Math.abs(change) > 5) {
+			hidden = change > 0;
+		}
+
+		lastScrollY = currentScrollY;
+	}
+
+	function toggleMenu() {
+		menuOpen = !menuOpen;
+		hidden = false;
 	}
 </script>
 
-<svelte:window onscroll={() => (scrolled = window.scrollY > 18)} />
+<svelte:window onscroll={handleScroll} />
 
-<header class:scrolled class:open={menuOpen}>
+<header class:scrolled class:hidden class:open={menuOpen}>
 	<a class="skip-link" href="#main-content">Skip to content</a>
 	<div class="container nav-shell">
-		<a class="brand" href="/" aria-label="Proud Partners home" onclick={() => (menuOpen = false)}>
+		<a class="brand" href={sitePath('/')} aria-label="Proud Partners home" onclick={() => (menuOpen = false)}>
 			<img src={media.wordmark} alt="Proud Partners" />
 		</a>
 
@@ -26,7 +58,7 @@
 			type="button"
 			aria-label={menuOpen ? 'Close menu' : 'Open menu'}
 			aria-expanded={menuOpen}
-			onclick={() => (menuOpen = !menuOpen)}
+			onclick={toggleMenu}
 		>
 			<span></span><span></span>
 		</button>
@@ -40,7 +72,7 @@
 					onclick={() => (menuOpen = false)}>{item.label}</a
 				>
 			{/each}
-			<a class="support-link" href="/projects#support" onclick={() => (menuOpen = false)}>
+			<a class="support-link" href={sitePath('/projects#support')} onclick={() => (menuOpen = false)}>
 				Support a project
 			</a>
 		</nav>
@@ -53,19 +85,32 @@
 		inset: 0 0 auto;
 		z-index: 50;
 		padding: 0.85rem 0;
-		background: color-mix(in srgb, var(--cream) 90%, transparent);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--cream) 94%, transparent) 0%,
+			color-mix(in srgb, var(--cream) 76%, transparent) 62%,
+			transparent 100%
+		);
 		border-bottom: 1px solid transparent;
-		backdrop-filter: blur(16px);
 		transition:
+			transform 300ms cubic-bezier(0.22, 1, 0.36, 1),
 			padding 220ms ease,
+			background 220ms ease,
 			border-color 220ms ease,
 			box-shadow 220ms ease;
 	}
 
-	header.scrolled {
+	header.scrolled,
+	header.open {
 		padding: 0.55rem 0;
+		background: color-mix(in srgb, var(--cream) 94%, transparent);
 		border-color: var(--line);
 		box-shadow: 0 10px 35px rgba(8, 45, 80, 0.07);
+		backdrop-filter: blur(16px);
+	}
+
+	header.hidden:not(.open) {
+		transform: translateY(calc(-100% - 0.5rem));
 	}
 
 	.nav-shell {
@@ -84,6 +129,7 @@
 		display: block;
 		width: 100%;
 		height: auto;
+		transition: filter 180ms ease;
 	}
 
 	nav {

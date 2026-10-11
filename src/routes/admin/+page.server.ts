@@ -7,6 +7,8 @@ import {
 	revokeSession
 } from '$lib/server/auth';
 
+export const prerender = false;
+
 export const load: PageServerLoad = ({ locals }) => ({ authenticated: locals.admin });
 
 export const actions: Actions = {

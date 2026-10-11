@@ -2,6 +2,7 @@
 	import { reveal } from '$lib/actions/reveal';
 	import ImageBand from '$lib/components/ImageBand.svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import { sitePath } from '$lib/utils/site-path';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -15,7 +16,7 @@
 	<header class="project-hero">
 		<ImageBand src={project.banner} alt={`${project.title} project banner`} />
 		<div class="container title-block" use:reveal>
-			<a class="back-link" href="/projects">← All projects</a>
+			<a class="back-link" href={sitePath('/projects')}>← All projects</a>
 			<p class="eyebrow">Project {project.number}</p>
 			<h1>{project.title}</h1>
 			<p class="summary">{project.summary}</p>
@@ -89,7 +90,7 @@
 	<ImageBand src={project.footerBanner} alt={`Decorative ${project.title} footer banner`} />
 
 	<section class="next-project">
-		<a href={`/projects/${nextProject.slug}`}>
+		<a href={sitePath(`/projects/${nextProject.slug}`)}>
 			<span>Next project · {nextProject.number}</span>
 			<strong>{nextProject.title}</strong>
 			<b aria-hidden="true">→</b>
@@ -126,7 +127,7 @@
 		max-width: 11ch;
 		margin: 0.6rem 0 1.2rem;
 		font-size: var(--step-5);
-		line-height: 0.95;
+		line-height: 1.025;
 		letter-spacing: -0.055em;
 	}
 
@@ -169,6 +170,7 @@
 		background: var(--sky);
 		border-radius: 999px;
 		color: white;
+		font-family: var(--font-rounded);
 		font-size: 0.7rem;
 		font-weight: 800;
 		letter-spacing: 0.1em;
@@ -177,9 +179,9 @@
 
 	.body-copy > p:not(.eyebrow) {
 		margin: 1rem 0 0;
-		font-family: Georgia, 'Times New Roman', serif;
+		font-family: 'Nugo Sans', 'Segoe UI', sans-serif;
 		font-size: clamp(1.35rem, 2.2vw, 2rem);
-		line-height: 1.5;
+		line-height: 1.42;
 		color: var(--navy);
 	}
 
@@ -191,7 +193,7 @@
 		max-width: 10ch;
 		margin: 0.6rem 0 0;
 		font-size: var(--step-4);
-		line-height: 1.02;
+		line-height: 1.08;
 		letter-spacing: -0.035em;
 	}
 
@@ -264,7 +266,7 @@
 		max-width: 13ch;
 		margin: 0.45rem 0 0;
 		font-size: var(--step-4);
-		line-height: 1.02;
+		line-height: 1.08;
 		letter-spacing: -0.035em;
 	}
 
@@ -309,6 +311,7 @@
 
 	.gallery-grid figcaption {
 		padding: 0.85rem 0.55rem 0.45rem;
+		font-family: var(--font-rounded);
 		font-size: 0.82rem;
 		line-height: 1.4;
 		color: var(--ink-soft);
