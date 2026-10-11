@@ -1,0 +1,756 @@
+{
+  "contentVersion": 2,
+  "site": {
+    "name": "Proud Partners",
+    "location": "Western Cape, South Africa",
+    "description": "Proud Partners brings people, knowledge and practical support together to strengthen communities in the Western Cape.",
+    "navigation": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Projects",
+        "href": "/projects"
+      },
+      {
+        "label": "Consular Ball",
+        "href": "/consular-ball"
+      },
+      {
+        "label": "Partners",
+        "href": "/partners"
+      }
+    ],
+    "home": {
+      "eyebrow": "Ordinary people. Shared purpose.",
+      "title": "Partnership changes what is possible.",
+      "intro": "Proud Partners is run by South Africans who believe meaningful change begins when people share their time, knowledge and expertise. We connect individuals and organisations around practical projects that make daily life better.",
+      "featureTitle": "A brighter future is something we build together.",
+      "featureCopy": "From classrooms and music programmes to child care and community initiatives, every project starts with listening and grows through long-term relationships.",
+      "missionQuote": "When people notice the needs of others, have empathy and do something about it, a country changes.",
+      "videoUrl": "",
+      "videoTitle": "What do you want to become?",
+      "videoCopy": "A place is ready for the children’s video. Add its YouTube or Vimeo embed URL here when the original file or link is available."
+    },
+    "about": {
+      "eyebrow": "About Proud Partners",
+      "title": "A story of partnership",
+      "lead": "Proud Partners was established in 2004 after the founding partners visited Khayelitsha in the Western Cape. Moved by the reality of the living conditions—and by the optimism and goodwill they encountered—they decided to become directly involved.",
+      "photoCaption": "Dr Prieur du Plessis and Proud Partners founder Isabel Verwey.",
+      "originTitle": "The partnership that started it all",
+      "origin": [
+        "When Isabel Verwey moved to Cape Town in 1994, her domestic worker of thirteen years, Selina, moved with her. Years later, Selina presented Isabel with a certificate that read: “In recognition of 20 years of partnership.”",
+        "What first sounded like an unusual word for their relationship captured it exactly: they were partners in work and in life, sharing concern for their families, exchanging advice and looking out for one another. That spirit became the heart of Proud Partners."
+      ],
+      "principles": [
+        {
+          "title": "Brief history",
+          "copy": "With early financial support from Plexus Asset Management, Proud Partners grew from one local project into a network of education, arts, care and community initiatives."
+        },
+        {
+          "title": "Mission",
+          "copy": "To encourage South Africans to identify a partner with whom they can walk through life—sharing practical help, knowledge and opportunity across communities."
+        },
+        {
+          "title": "How we work",
+          "copy": "Proud Partners is built on cooperation rather than once-off charity. Projects ask for time, energy and commitment from everyone involved, with the goal of lasting benefit and mutual understanding."
+        }
+      ]
+    },
+    "support": {
+      "eyebrow": "Support where it matters",
+      "title": "Stand beside a project",
+      "copy": "Proud Partners does not use a general online donation or contact form. You can learn more, enquire or contribute through the organisations currently featured below.",
+      "links": [
+        {
+          "label": "Support Iris House",
+          "href": "https://iris-house.org/"
+        },
+        {
+          "label": "Support Durbanville Children’s Home",
+          "href": "https://www.durbanvillekinderhuis.org.za/"
+        },
+        {
+          "label": "Support Tygerberg Children’s Choir",
+          "href": "https://www.tcc.co.za/"
+        }
+      ]
+    }
+  },
+  "media": {
+    "wordmark": "/assets/images/proud-partners-wordmark.png",
+    "mark": "/assets/images/proud-partners-mark.png",
+    "homeBackground": "/uploads/western-cape-414c26f5.jpg",
+    "homeMasthead": "/assets/images/legacy-photo-masthead.jpg",
+    "homePortrait": "/assets/images/home-child.png",
+    "homeQuote": "/assets/images/community.jpg",
+    "videoPoster": "/assets/images/schoolkids.jpg",
+    "aboutPhoto": "/assets/images/isabel-prieur.png",
+    "projectsHero": "/assets/images/projects-lightbulbs.jpg",
+    "projectsFooter": "/assets/images/projects-lightbulbs-footer.jpg"
+  },
+  "pages": {
+    "home": {
+      "primaryAction": "Explore our projects",
+      "secondaryAction": "Meet Proud Partners",
+      "mastheadLabel": "Established 2004 · Western Cape",
+      "mastheadCaption": "One country. Many lives. Shared responsibility.",
+      "portraitNote": "A fresh focus on the people at the heart of the work.",
+      "welcomeEyebrow": "Welcome",
+      "principles": [
+        "Listen first",
+        "Build trust",
+        "Act together"
+      ],
+      "stats": [
+        {
+          "value": "2004",
+          "label": "Established"
+        },
+        {
+          "value": "Western Cape",
+          "label": "Locally rooted"
+        },
+        {
+          "value": "Partnership",
+          "label": "Not once-off charity"
+        }
+      ],
+      "projectsEyebrow": "Where we work",
+      "projectsTitle": "Many projects. One shared idea.",
+      "projectsCopy": "Each initiative is different, but the method stays the same: bring the right people together and make practical progress.",
+      "quoteAttribution": "Isabel Verwey · Founder",
+      "videoEyebrow": "Voices of the future"
+    },
+    "about": {
+      "seoDescription": "Learn how Proud Partners began and why partnership, practical assistance and mutual understanding guide its work.",
+      "originEyebrow": "The beginning",
+      "principlesEyebrow": "What guides us",
+      "principlesTitle": "Practical help. Mutual understanding.",
+      "methodEyebrow": "Our method",
+      "methodStatement": "Not help from a distance. A commitment to walk alongside one another.",
+      "methodAction": "See partnership in action"
+    },
+    "projects": {
+      "seoDescription": "Explore Proud Partners projects across education, music, child care, art and community partnership.",
+      "eyebrow": "Our projects",
+      "title": "Bright ideas become shared action.",
+      "intro": "Proud Partners began with one project in 2004. It grew through relationships—one practical idea, one committed partner and one community at a time.",
+      "listEyebrow": "Explore the work",
+      "listTitle": "Projects that connect people",
+      "listCopy": "The Nianell motivational programme now forms part of Educational Projects, bringing its message of confidence and possibility into the wider learning programme."
+    }
+  },
+  "projects": [
+    {
+      "slug": "education",
+      "number": "01",
+      "title": "Educational projects",
+      "shortTitle": "Education",
+      "summary": "Opening doors through early learning, school partnerships, reading, mathematics and motivational programmes.",
+      "image": "/assets/images/education.jpg",
+      "imageAlt": "An educator working with children in a classroom",
+      "banner": "/assets/images/education-banner.jpg",
+      "footerBanner": "/assets/images/education-footer.jpg",
+      "body": [
+        "Education is one of the clearest ways to narrow the gap between very different everyday realities. Proud Partners supports projects that help learners discover their ability, build confidence and access opportunity.",
+        "The archive records work with early-learning centres, primary and secondary schools, reading and mathematics programmes, and BecomingKids. The Nianell Motivational Project now sits within this education programme, where its message of possibility belongs."
+      ],
+      "initiatives": [
+        {
+          "title": "Kids of the King Day Care Centre",
+          "copy": "An early-learning partnership supporting children and educators in a community where dependable care and a strong start matter."
+        },
+        {
+          "title": "Temperance Town Primary School",
+          "copy": "A school partnership rooted in practical assistance and sustained relationships in the Gordon’s Bay area."
+        },
+        {
+          "title": "Reading and mathematics support",
+          "copy": "Projects at Stellenzicht and Makupula secondary schools offered individual tutoring, reading support and focused Grade 12 mathematics help."
+        },
+        {
+          "title": "Girl Talk by BecomingKids",
+          "copy": "BecomingKids identified a need among girls aged 11 to 14 at Cloetesville Primary School and created space for encouragement, honest conversation and confidence."
+        },
+        {
+          "title": "Nianell motivational programme",
+          "copy": "Singer and honorary Proud Partners member Nianell visited schools with music and motivational talks, encouraging learners to recognise their potential and imagine a bigger future.",
+          "links": [
+            {
+              "label": "Visit Nianell",
+              "href": "https://nianell.co.za/"
+            }
+          ]
+        }
+      ],
+      "galleryTitle": "Learning, confidence and possibility",
+      "galleryCopy": "A curated selection from the Proud Partners archive. Captions and images can be updated or removed in the local admin portal.",
+      "gallery": [
+        {
+          "id": "education-temperance-town",
+          "image": "/assets/images/archive/education-temperance-town.jpg",
+          "alt": "Temperance Town school grounds beneath the mountains",
+          "caption": "Temperance Town Primary School"
+        },
+        {
+          "id": "education-becoming-kids",
+          "image": "/assets/images/archive/education-becoming-kids.jpg",
+          "alt": "BecomingKids programme artwork",
+          "caption": "Girl Talk initiative by BecomingKids"
+        },
+        {
+          "id": "education-nianell-talk",
+          "image": "/assets/images/archive/education-nianell-talk.jpg",
+          "alt": "Nianell speaking to learners in a school hall",
+          "caption": "A motivational school visit"
+        },
+        {
+          "id": "education-nianell-students",
+          "image": "/assets/images/archive/education-nianell-students.jpg",
+          "alt": "Nianell with a group of school learners",
+          "caption": "Nianell with learners after a school programme"
+        },
+        {
+          "id": "education-nianell-audience",
+          "image": "/assets/images/archive/education-nianell-audience.jpg",
+          "alt": "Learners responding enthusiastically during a school event",
+          "caption": "Learners taking part in the motivational programme"
+        }
+      ]
+    },
+    {
+      "slug": "music",
+      "number": "02",
+      "title": "Music projects",
+      "shortTitle": "Music",
+      "summary": "Making instruments, tuition and performance opportunities available to young South Africans.",
+      "image": "/assets/images/music.jpg",
+      "imageAlt": "Young musicians playing drums together",
+      "banner": "/assets/images/music-banner.jpg",
+      "footerBanner": "/assets/images/music-footer.jpg",
+      "body": [
+        "Music breaks down barriers between people and cultures. Training does more than teach technique: it builds discipline, expression, belonging and confidence.",
+        "Proud Partners has connected instrument donors with young musicians and supported bands, school programmes and choirs across the Western Cape and beyond."
+      ],
+      "initiatives": [
+        {
+          "title": "Bands, scouts and school music",
+          "copy": "Archived projects include St Peter’s Scouts, the Artscape Wellington Youth Band, Soyisile Primary School, and programmes in Belhar and Ermelo."
+        },
+        {
+          "title": "Instrument donors",
+          "copy": "Proud Partners connected donated instruments with young people and organisations able to place them where they would be played, taught and cared for."
+        },
+        {
+          "title": "Durbanville Children’s Home",
+          "copy": "With support from Global Music and Yamaha, Proud Partners donated recorders and a keyboard to help music become part of the healing and development of children in care.",
+          "links": [
+            {
+              "label": "Visit the children’s home",
+              "href": "https://www.durbanvillekinderhuis.org.za/"
+            }
+          ]
+        },
+        {
+          "title": "Tygerberg Children’s Choir",
+          "copy": "Proud Partners helped talented young choristers participate fully in a world-class musical community and supported choir fees for children who needed assistance.",
+          "links": [
+            {
+              "label": "Visit the choir",
+              "href": "https://www.tcc.co.za/"
+            }
+          ]
+        },
+        {
+          "title": "Choirs and young musicians",
+          "copy": "The archive also records support for the Stellenbosch University Choir, Tygerberg Children’s Choir, Junior Rose Choir and individual young musicians."
+        }
+      ],
+      "galleryTitle": "Music opens new worlds",
+      "galleryCopy": "Faces, instruments and moments preserved from Proud Partners music programmes.",
+      "gallery": [
+        {
+          "id": "music-drum-programme",
+          "image": "/assets/images/archive/music-drum-programme.jpg",
+          "alt": "Children gathered behind donated drums",
+          "caption": "Young musicians with percussion instruments"
+        },
+        {
+          "id": "music-violin",
+          "image": "/assets/images/archive/music-violin.jpg",
+          "alt": "Close view of a violin",
+          "caption": "Instruments create opportunities that can last a lifetime"
+        },
+        {
+          "id": "music-guitar",
+          "image": "/assets/images/archive/music-guitar.jpg",
+          "alt": "Close view of a classical guitar",
+          "caption": "Connecting instruments with aspiring musicians"
+        },
+        {
+          "id": "music-young-musician",
+          "image": "/assets/images/archive/music-young-musician.jpg",
+          "alt": "Portrait of a young musician",
+          "caption": "One of the young people featured in the music archive"
+        },
+        {
+          "id": "music-choir",
+          "image": "/assets/images/archive/music-choir.jpg",
+          "alt": "A diverse youth choir performing together",
+          "caption": "Young voices performing together"
+        }
+      ]
+    },
+    {
+      "slug": "art",
+      "number": "03",
+      "title": "PJO Inni Bosch",
+      "shortTitle": "Art",
+      "summary": "A public art initiative that invited young artists and the wider Stellenbosch community to create together.",
+      "image": "/assets/images/community.jpg",
+      "imageAlt": "A group of children gathered together outdoors",
+      "banner": "/assets/images/art-banner.jpg",
+      "footerBanner": "/assets/images/art-footer.jpg",
+      "body": [
+        "In 2016, Proud Partners and the Stellenbosch Art Centre launched an annual street-art competition for Grade 11 learners, giving emerging artists a public platform.",
+        "The winner was announced at the Art Centre’s Spring Celebration, and the project returned in following years as learners continued to transform everyday spaces with their ideas."
+      ],
+      "initiatives": [
+        {
+          "title": "A yearly creative challenge",
+          "copy": "The surviving archive follows the competition through 2016, 2017, 2018 and 2019, showing artists at work across different surfaces and styles."
+        },
+        {
+          "title": "Art in public",
+          "copy": "The town-wide experience encouraged people to follow the work as it unfolded and to see familiar places differently."
+        }
+      ],
+      "galleryTitle": "Four years of making",
+      "galleryCopy": "A compact archive of artists at work from 2016 to 2019.",
+      "gallery": [
+        {
+          "id": "art-2016",
+          "image": "/assets/images/archive/art-2016.jpg",
+          "alt": "An artist painting outdoors at a table",
+          "caption": "2016"
+        },
+        {
+          "id": "art-2017",
+          "image": "/assets/images/archive/art-2017.jpg",
+          "alt": "A young artist painting an outdoor artwork",
+          "caption": "2017"
+        },
+        {
+          "id": "art-2018",
+          "image": "/assets/images/archive/art-2018.jpg",
+          "alt": "An artist adding detail to a decorated public object",
+          "caption": "2018"
+        },
+        {
+          "id": "art-2019",
+          "image": "/assets/images/archive/art-2019.jpg",
+          "alt": "A learner sketching at an easel",
+          "caption": "2019"
+        }
+      ]
+    },
+    {
+      "slug": "child-care",
+      "number": "04",
+      "title": "Child care projects",
+      "shortTitle": "Child care",
+      "summary": "Supporting capable organisations that provide specialist care to children and their families.",
+      "image": "/assets/images/child-care.jpg",
+      "imageAlt": "A young child sitting outside",
+      "banner": "/assets/images/child-care-banner.jpg",
+      "footerBanner": "/assets/images/child-care-footer.jpg",
+      "body": [
+        "Many children from disadvantaged backgrounds struggle to access the care they need. Proud Partners has chosen to stand alongside organisations already doing skilled, compassionate work.",
+        "This approach keeps support close to the people who understand the families, the context and the long-term needs."
+      ],
+      "initiatives": [
+        {
+          "title": "Iris House Children’s Hospice",
+          "copy": "Iris House provides free community- and hospice-based respite care, therapies and whole-family support to children and young people with life-limiting or life-threatening conditions.",
+          "links": [
+            {
+              "label": "Visit Iris House",
+              "href": "https://iris-house.org/"
+            },
+            {
+              "label": "Support their work",
+              "href": "https://iris-house.org/"
+            }
+          ]
+        },
+        {
+          "title": "St Joseph’s Home",
+          "copy": "Proud Partners supported the work of St Joseph’s Home for Chronically Ill Children, where specialist teams care for children with complex health needs."
+        },
+        {
+          "title": "Operation Smile",
+          "copy": "Operation Smile was among the capable organisations highlighted and supported through Proud Partners child-care work."
+        },
+        {
+          "title": "Cableway Charity Challenge",
+          "copy": "A sponsorship for the Cableway Charity Challenge added another practical way to support organisations serving children and families."
+        }
+      ],
+      "galleryTitle": "Specialist care, shared support",
+      "galleryCopy": "Organisations and initiatives represented in the surviving child-care archive.",
+      "gallery": [
+        {
+          "id": "care-iris-house",
+          "image": "/assets/images/archive/care-iris-house.jpg",
+          "alt": "Colourful entrance artwork at Iris House Children’s Hospice",
+          "caption": "Iris House Children’s Hospice"
+        },
+        {
+          "id": "care-st-josephs",
+          "image": "/assets/images/archive/care-st-josephs.jpg",
+          "alt": "St Joseph’s Home for Chronically Ill Children identity",
+          "caption": "St Joseph’s Home for Chronically Ill Children"
+        },
+        {
+          "id": "care-operation-smile",
+          "image": "/assets/images/archive/care-operation-smile.jpg",
+          "alt": "Operation Smile identity",
+          "caption": "Operation Smile"
+        },
+        {
+          "id": "care-cableway-challenge",
+          "image": "/assets/images/archive/care-cableway-challenge.jpg",
+          "alt": "Cableway Charity Challenge identity",
+          "caption": "Cableway Charity Challenge"
+        }
+      ]
+    },
+    {
+      "slug": "domestic-partnership",
+      "number": "05",
+      "title": "Domestic partnership",
+      "shortTitle": "Domestic project",
+      "summary": "Practical knowledge and mutual care for the women who work and live alongside one another.",
+      "image": "/assets/images/domestic.jpg",
+      "imageAlt": "A woman standing outdoors with household tools",
+      "banner": "/assets/images/domestic-banner.jpg",
+      "footerBanner": "/assets/images/domestic-footer.jpg",
+      "body": [
+        "The relationship between South African women and the domestic workers in their homes was the original inspiration for Proud Partners.",
+        "The project focuses on seeing one another fully and sharing useful knowledge, advice and support in ways that strengthen both households. The original resources used paired questionnaires to begin conversations about expectations, family life and practical needs."
+      ],
+      "initiatives": [
+        {
+          "title": "Her person",
+          "copy": "Literacy, personal development, health, confidence and access to useful information were identified as areas where knowledge could be shared respectfully."
+        },
+        {
+          "title": "Her household",
+          "copy": "The project encouraged clear conversations about working expectations, household wellbeing, financial choices and long-term security."
+        },
+        {
+          "title": "Her children",
+          "copy": "Education, subject choices, bursaries and career guidance were central because timely information can alter a young person’s options."
+        },
+        {
+          "title": "Partnership over charity",
+          "copy": "The guiding idea is reciprocal concern: people who work together can also look out for one another and learn from one another."
+        }
+      ],
+      "galleryTitle": "Relationships at the heart of the work",
+      "galleryCopy": "Images retained from the original Domestic Project archive.",
+      "gallery": [
+        {
+          "id": "domestic-partners",
+          "image": "/assets/images/archive/domestic-partners.jpg",
+          "alt": "Two women photographed together indoors",
+          "caption": "Partnership begins with knowing one another"
+        },
+        {
+          "id": "domestic-family",
+          "image": "/assets/images/archive/domestic-family.jpg",
+          "alt": "A woman caring for a young child",
+          "caption": "Care connects households and families"
+        },
+        {
+          "id": "domestic-work",
+          "image": "/assets/images/archive/domestic-work.jpg",
+          "alt": "A domestic worker smiling while ironing",
+          "caption": "Dignity and mutual respect in everyday work"
+        },
+        {
+          "id": "domestic-care",
+          "image": "/assets/images/archive/domestic-care.jpg",
+          "alt": "A woman holding a newborn baby",
+          "caption": "Sharing concern for the people who matter most"
+        },
+        {
+          "id": "domestic-children",
+          "image": "/assets/images/archive/domestic-children.jpg",
+          "alt": "Two children spending time together outdoors",
+          "caption": "Early relationships shape how children see one another"
+        }
+      ]
+    },
+    {
+      "slug": "plexus-walk",
+      "number": "06",
+      "title": "Plexus charity walk",
+      "shortTitle": "Plexus walk",
+      "summary": "A team challenge in Ceres that turned kilometres walked into meaningful project funding.",
+      "image": "/assets/images/schoolkids.jpg",
+      "imageAlt": "Children gathered around desks and a chalkboard outdoors",
+      "banner": "/assets/images/plexus-banner.jpg",
+      "footerBanner": "/assets/images/plexus-footer.jpg",
+      "body": [
+        "In 2005, Plexus staff and their families walked in Ceres for two days with an ambitious collective target of 1,000 kilometres.",
+        "Through sponsorships, the event raised R80,000 for Proud Partners projects and demonstrated how a workplace community could turn participation into practical support."
+      ],
+      "initiatives": [
+        {
+          "title": "A founding partnership",
+          "copy": "Plexus Asset Management provided early financial support when Proud Partners was established and continued that spirit through a hands-on fundraising challenge."
+        },
+        {
+          "title": "1,000 kilometres together",
+          "copy": "Staff and families walked for two days in Ceres. Sponsors backed the collective distance and helped the event raise R80,000 for Proud Partners."
+        }
+      ],
+      "galleryTitle": "The Ceres walk in pictures",
+      "galleryCopy": "Selected pages from the original thank-you archive produced for sponsors of the 2005 walk.",
+      "gallery": [
+        {
+          "id": "plexus-start",
+          "image": "/assets/images/archive/plexus-start.jpg",
+          "alt": "Plexus charity walkers gathered on a country road",
+          "caption": "Staff, families and supporters set out together"
+        },
+        {
+          "id": "plexus-road",
+          "image": "/assets/images/archive/plexus-road.jpg",
+          "alt": "Plexus participants walking through the Ceres landscape",
+          "caption": "Two days and a shared target of 1,000 kilometres"
+        },
+        {
+          "id": "plexus-team",
+          "image": "/assets/images/archive/plexus-team.jpg",
+          "alt": "Plexus charity walk team photographed together",
+          "caption": "A workplace community turned participation into support"
+        },
+        {
+          "id": "plexus-finish",
+          "image": "/assets/images/archive/plexus-finish.jpg",
+          "alt": "Plexus charity walkers celebrating the event",
+          "caption": "R80,000 raised for Proud Partners projects"
+        }
+      ]
+    }
+  ],
+  "consularBall": {
+    "seoDescription": "The story and impact of the Cape Town Consular Ball, bringing international representatives and local partners together for young people.",
+    "eyebrow": "A Cape Town tradition",
+    "title": "The Consular Ball",
+    "intro": "An annual gathering where international representatives, local business leaders and community organisations turn one remarkable evening into practical support for young people.",
+    "banner": "/assets/images/consular-banner.jpg",
+    "footerBanner": "/assets/images/consular-footer.jpg",
+    "originTitle": "One room. More than fifty nations. A shared purpose.",
+    "origin": [
+      "Isabel Verwey became involved in the Cape Town Consular Corps when her husband, Dr Prieur du Plessis, was appointed Honorary Consul of Slovenia in South Africa. Seeing the potential of the city’s consular community, she organised the first Consular Ball in 2012 in aid of local charities, including Proud Partners.",
+      "The event grew into a highlight of Cape Town’s social calendar. Consular missions invite businesspeople with South African interests, while leaders from the city, local government and the Western Cape business community gather around a carefully selected group of causes."
+    ],
+    "stats": [
+      {
+        "value": "2012",
+        "label": "First Consular Ball"
+      },
+      {
+        "value": "R1.8m",
+        "label": "Raised in 2022"
+      },
+      {
+        "value": "R6.25m",
+        "label": "Historic total by 2022"
+      }
+    ],
+    "yearsTitle": "A history of generous evenings",
+    "yearsCopy": "Select a year to explore the milestones. The archive combines the surviving Proud Partners photographs with the published fundraising history.",
+    "auctionTitle": "Experiences money cannot usually buy",
+    "auctionCopy": "The Ball became known for an unconventional auction of unique experiences: tea with Archbishop Desmond Tutu, a customised journey to Antarctica, and an intimate dinner with Gift of the Givers founder Dr Imtiaz Sooliman were among the standout lots.",
+    "closingQuote": "The power of the states represented in the Mother City can make a meaningful contribution to social justice and community development.",
+    "externalLink": {
+      "label": "Visit the Cape Town Consular Corps",
+      "href": "https://www.consularcorps.co.za/"
+    },
+    "years": [
+      {
+        "year": "2012",
+        "amount": "R205,000",
+        "title": "The first Ball",
+        "summary": "Isabel organised the inaugural Consular Ball in aid of local charities. The evening established the model: diplomatic missions, business leaders and community causes in one room.",
+        "image": "/assets/images/consular-2012.jpg",
+        "imageAlt": "Champagne glasses prepared for the first Consular Ball",
+        "highlights": [
+          "The first annual fundraising event",
+          "R205,000 raised for local charities"
+        ]
+      },
+      {
+        "year": "2013",
+        "amount": "Growing support",
+        "title": "A tradition takes shape",
+        "summary": "The second Ball built on the first year’s momentum as more consular missions and members of Cape Town’s business community joined the initiative.",
+        "image": "/assets/images/consular-2013.jpg",
+        "imageAlt": "A formal place setting and auction booklet at the Consular Ball",
+        "highlights": [
+          "Broader consular participation",
+          "The charity auction became a defining feature"
+        ]
+      },
+      {
+        "year": "2014",
+        "amount": "Year three",
+        "title": "Partnership gathers momentum",
+        "summary": "By its third year, the Ball had established a distinctive international character and a growing reputation for connecting generous guests with practical local causes.",
+        "image": "/assets/images/consular-2014.jpg",
+        "imageAlt": "An illuminated floral centrepiece at the Consular Ball",
+        "highlights": [
+          "International and local guests together",
+          "New beneficiary charities selected"
+        ]
+      },
+      {
+        "year": "2015",
+        "amount": "R800,000",
+        "title": "A major step forward",
+        "summary": "The Consular Ball went from strength to strength, raising an impressive R800,000 for its selected charities.",
+        "image": "/assets/images/consular-2015.jpg",
+        "imageAlt": "A Swiss-themed table at the Consular Ball",
+        "highlights": [
+          "R800,000 raised",
+          "A landmark year for the event"
+        ]
+      },
+      {
+        "year": "2016",
+        "amount": "R700,000",
+        "title": "Sustained impact",
+        "summary": "The 2016 Ball continued the event’s strong fundraising record, contributing R700,000 to organisations working with young people.",
+        "image": "/assets/images/consular-2016.jpg",
+        "imageAlt": "An elegant dinner setting at the Consular Ball",
+        "highlights": [
+          "R700,000 raised",
+          "Continued focus on youth and community causes"
+        ]
+      },
+      {
+        "year": "2017",
+        "amount": "R950,000",
+        "title": "A record-breaking evening",
+        "summary": "The event reached a new record of R950,000. The Tygerberg Children’s Choir also gave a moving performance to guests from more than twenty countries.",
+        "image": "/assets/images/consular-2017.jpg",
+        "imageAlt": "A chandelier and floral display at the 2017 Consular Ball",
+        "highlights": [
+          "R950,000 raised",
+          "Tygerberg Children’s Choir performed"
+        ]
+      },
+      {
+        "year": "2018",
+        "amount": "Over R1m",
+        "title": "Breaking the million-rand mark",
+        "summary": "The Ball passed the R1 million fundraising benchmark for the first time, confirming its place as an important platform for collective giving in Cape Town.",
+        "image": "/assets/images/consular-2018.jpg",
+        "imageAlt": "The formal ballroom prepared for the 2018 Consular Ball",
+        "highlights": [
+          "More than R1 million raised",
+          "A new fundraising benchmark"
+        ]
+      },
+      {
+        "year": "2022",
+        "amount": "R1.8m",
+        "title": "A remarkable return",
+        "summary": "After a three-year interruption during the coronavirus pandemic, the Consular Ball returned and shattered its previous record with R1.8 million raised.",
+        "image": "/assets/images/consular-2022.jpg",
+        "imageAlt": "An international table setting at the returning Consular Ball",
+        "highlights": [
+          "R1.8 million raised",
+          "Historic total reached R6.25 million"
+        ]
+      }
+    ]
+  },
+  "partnersPage": {
+    "seoDescription": "Meet the donors, organisations, artists and community specialists who make Proud Partners projects possible.",
+    "eyebrow": "Better together",
+    "title": "Our partners",
+    "intro": "Proud Partners works because people and organisations contribute what they do best—funding, specialist care, instruments, expertise, creativity and time.",
+    "heroImage": "/assets/images/community.jpg",
+    "sectionTitle": "The people behind the progress",
+    "sectionCopy": "Core donors make long-term work possible; project partners bring specialist knowledge and direct community relationships. Every contribution is part of the same shared effort.",
+    "closingTitle": "Partnership over charity",
+    "closingCopy": "The aim is not help from a distance, but useful relationships built on listening, trust and shared responsibility.",
+    "items": [
+      {
+        "name": "Plexus Asset Management",
+        "category": "Core donor",
+        "description": "Plexus provided the early financial support that helped Proud Partners begin and continued that commitment through hands-on fundraising initiatives.",
+        "image": "/assets/images/plexus-banner.jpg",
+        "imageAlt": "Plexus charity walk artwork",
+        "href": "",
+        "linkLabel": ""
+      },
+      {
+        "name": "Cape Town Consular Corps",
+        "category": "Event partner",
+        "description": "Representatives of more than fifty countries helped turn the Consular Ball into a major platform for local charities and young people.",
+        "image": "/assets/images/consular-banner.jpg",
+        "imageAlt": "A Consular Ball dinner table",
+        "href": "https://www.consularcorps.co.za/",
+        "linkLabel": "Visit the Consular Corps"
+      },
+      {
+        "name": "Iris House Children’s Hospice",
+        "category": "Care partner",
+        "description": "Iris House provides free community- and hospice-based respite care, therapies and whole-family support for children with life-limiting conditions.",
+        "image": "/assets/images/child-care.jpg",
+        "imageAlt": "A child supported by a Proud Partners care initiative",
+        "href": "https://iris-house.org/",
+        "linkLabel": "Visit Iris House"
+      },
+      {
+        "name": "Durbanville Children’s Home",
+        "category": "Care partner",
+        "description": "Together with music partners, Proud Partners supported the Home with instruments and opportunities for music to form part of healing and development.",
+        "image": "/assets/images/music.jpg",
+        "imageAlt": "Young musicians playing together",
+        "href": "https://www.durbanvillekinderhuis.org.za/",
+        "linkLabel": "Visit the children’s home"
+      },
+      {
+        "name": "Tygerberg Children’s Choir",
+        "category": "Music partner",
+        "description": "Proud Partners helped talented young choristers participate fully in a world-class musical community and supported fees for children who needed assistance.",
+        "image": "/assets/images/music-banner.jpg",
+        "imageAlt": "Piano keys representing Proud Partners music projects",
+        "href": "https://www.tcc.co.za/",
+        "linkLabel": "Visit the choir"
+      },
+      {
+        "name": "Nianell",
+        "category": "Honorary partner",
+        "description": "Singer and motivational speaker Nianell has used music and personal encouragement to help children recognise their potential.",
+        "image": "/assets/images/education.jpg",
+        "imageAlt": "An educator working with children",
+        "href": "https://nianell.co.za/",
+        "linkLabel": "Visit Nianell"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Local development build. Update before a future production launch.
