@@ -86,13 +86,8 @@
 		inset: 0 0 auto;
 		z-index: 50;
 		padding: 0.85rem 0;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--cream) 94%, transparent) 0%,
-			color-mix(in srgb, var(--cream) 76%, transparent) 62%,
-			transparent 100%
-		);
-		border-bottom: 1px solid transparent;
+		background: var(--cream);
+		border-bottom: 1px solid var(--line);
 		transition:
 			transform 300ms cubic-bezier(0.22, 1, 0.36, 1),
 			padding 220ms ease,
@@ -104,7 +99,7 @@
 	header.scrolled,
 	header.open {
 		padding: 0.55rem 0;
-		background: color-mix(in srgb, var(--cream) 94%, transparent);
+		background: var(--cream);
 		border-color: var(--line);
 		box-shadow: 0 10px 35px rgba(8, 45, 80, 0.07);
 		backdrop-filter: blur(16px);

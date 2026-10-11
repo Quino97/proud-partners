@@ -16,6 +16,8 @@
 
 <article>
 	<header class="ball-hero">
+		<ImageBand src={content.banner} alt="An elegant Consular Ball table setting" position="right" zoom={1.75} />
+		<div class="hero-wash"></div>
 		<div class="container ball-intro" use:reveal>
 			<div>
 				<p class="eyebrow">{content.eyebrow}</p>
@@ -26,7 +28,6 @@
 				<img src={content.years.at(-1)?.image || content.banner} alt="" />
 			</figure>
 		</div>
-		<ImageBand src={content.banner} alt="An elegant Consular Ball table setting" position="right" zoom={1.75} />
 	</header>
 
 	<section class="section origin">
@@ -99,9 +100,10 @@
 </article>
 
 <style>
-	.ball-hero { padding-top: 7.75rem; background: var(--cream); color: var(--navy); }
-	.ball-hero :global(.band) { min-height: clamp(18rem, 40vw, 34rem); }
-	.ball-intro { display: grid; grid-template-columns: minmax(0,1fr) minmax(11rem,.34fr); gap: clamp(2rem,6vw,6rem); align-items: end; padding-top: clamp(2rem,5vw,4rem); padding-bottom: clamp(3rem,6vw,5rem); }
+	.ball-hero { position: relative; display: grid; align-items: end; min-height: min(52rem,100svh); overflow: hidden; color: var(--navy); }
+	.ball-hero :global(.band) { position: absolute; inset: 0; z-index: -2; min-height: 100%; }
+	.hero-wash { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,rgba(251,247,238,.97),rgba(251,247,238,.76) 44%,rgba(251,247,238,.23) 78%,rgba(251,247,238,.08)); }
+	.ball-intro { display: grid; grid-template-columns: minmax(0,1fr) minmax(11rem,.34fr); gap: clamp(2rem,6vw,6rem); align-items: end; padding-top: 9rem; padding-bottom: clamp(3rem,6vw,5rem); }
 	.ball-intro .eyebrow { color: var(--blue); }
 	h1 { max-width: 10ch; margin: .65rem 0 1.2rem; font-size: var(--step-5); line-height: 1.025; letter-spacing: -.055em; }
 	.ball-intro > div > p:last-child { max-width: 48rem; margin: 0; color: var(--ink-soft); font-size: var(--step-1); }
@@ -117,6 +119,6 @@
 	.amount { margin: 0; color: var(--sky); font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }.year-copy h3 { margin: .7rem 0 1rem; font-size: var(--step-3); }.year-copy > p:not(.amount) { max-width: 42rem; color: var(--ink-soft); font-size: var(--step-1); }.year-copy ul { display: grid; gap: .7rem; margin: 1.6rem 0 0; padding: 0; list-style: none; }.year-copy li { padding: .8rem 0; border-top: 1px solid var(--line); font-weight: 700; }.year-copy li::before { content: '↗'; margin-right: .7rem; color: var(--sky); }
 	.auction { background: white; }.auction-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem,8vw,8rem); align-items: start; }.auction-grid > div:last-child > p { margin: 0 0 2rem; color: var(--ink-soft); font-size: var(--step-1); }
 	.closing-quote { display: grid; place-items: center; min-height: 28rem; margin: 0; padding: 5rem 1.5rem; background: var(--navy); color: white; text-align: center; }.closing-quote p { max-width: 52rem; margin: 0; font-family: Georgia,serif; font-size: clamp(2rem,4vw,4rem); line-height: 1.18; font-style: italic; }
-	@media (max-width:760px) { .ball-intro,.origin-grid,.years-heading,.year-story,.auction-grid { grid-template-columns: 1fr; }.ball-intro-image { width: min(42%,12rem); margin: 0 0 0 auto; }.impact-grid { grid-template-columns: 1fr; }.impact-grid div { border-right: 0; border-bottom: 1px solid var(--line); text-align: center; }.year-story { min-height: auto; }.year-image { width: min(72%,16rem); } }
+	@media (max-width:760px) { .ball-hero { min-height: 44rem; }.hero-wash { background: linear-gradient(180deg,rgba(251,247,238,.95),rgba(251,247,238,.72) 62%,rgba(251,247,238,.38)); }.ball-intro,.origin-grid,.years-heading,.year-story,.auction-grid { grid-template-columns: 1fr; }.ball-intro-image { width: min(42%,12rem); margin: 0 0 0 auto; }.impact-grid { grid-template-columns: 1fr; }.impact-grid div { border-right: 0; border-bottom: 1px solid var(--line); text-align: center; }.year-story { min-height: auto; }.year-image { width: min(72%,16rem); } }
 </style>
 
