@@ -20,7 +20,7 @@
 />
 
 <section class="projects-hero">
-	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" />
+	<ImageBand src={media.projectsHero} alt="Blue lightbulbs with one bright idea" mobilePanorama mobilePosition="35% center" />
 	<div class="container hero-copy" use:reveal>
 		<p class="eyebrow">{copy.eyebrow}</p>
 		<h1>{copy.title}</h1>
@@ -67,6 +67,7 @@
 <ImageBand
 	src={media.projectsFooter}
 	alt="A pattern of blue lightbulbs"
+	mobilePanorama
 />
 
 <style>
@@ -166,6 +167,10 @@
 	}
 
 	@media (max-width: 680px) {
+		.projects-hero :global(.band.mobile-panorama) {
+			min-height: 0;
+		}
+
 		.project-grid,
 		.support-grid {
 			grid-template-columns: 1fr;

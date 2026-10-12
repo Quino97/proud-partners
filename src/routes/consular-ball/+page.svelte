@@ -16,7 +16,7 @@
 
 <article>
 	<header class="ball-hero">
-		<ImageBand src={content.banner} alt="An elegant Consular Ball table setting" />
+		<ImageBand src={content.banner} alt="An elegant Consular Ball table setting" mobilePanorama mobilePosition="35% center" />
 		<div class="container ball-intro" use:reveal>
 			<div>
 				<p class="eyebrow">{content.eyebrow}</p>
@@ -95,12 +95,13 @@
 	</section>
 
 	<blockquote class="closing-quote"><p>“{content.closingQuote}”</p></blockquote>
-	<ImageBand src={content.footerBanner} alt="Consular Ball flags and table setting" />
+	<ImageBand src={content.footerBanner} alt="Consular Ball flags and table setting" mobilePanorama />
 </article>
 
 <style>
 	.ball-hero { padding-top: 5.4rem; background: var(--navy); color: white; }
 	.ball-hero :global(.band) { min-height: clamp(18rem,40vw,34rem); }
+	@media (max-width: 640px) { .ball-hero :global(.band.mobile-panorama) { min-height: 0; } }
 	.ball-intro { display: grid; grid-template-columns: minmax(0,1fr) minmax(11rem,.34fr); gap: clamp(2rem,6vw,6rem); align-items: end; padding-top: clamp(3rem,7vw,6rem); padding-bottom: clamp(4rem,8vw,7rem); }
 	.ball-intro .eyebrow { color: var(--sky-light); }
 	h1 { max-width: 10ch; margin: .65rem 0 1.2rem; font-size: var(--step-5); line-height: 1.025; letter-spacing: -.055em; }

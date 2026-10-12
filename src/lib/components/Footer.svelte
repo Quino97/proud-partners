@@ -69,7 +69,9 @@
 
 	.footer-brand span {
 		margin-top: 0.25rem;
+		font-family: var(--font-rounded);
 		font-size: 0.78rem;
+		letter-spacing: 0.02em;
 		color: rgba(255, 255, 255, 0.65);
 	}
 

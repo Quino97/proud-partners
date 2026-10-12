@@ -137,8 +137,8 @@ export const media = {
 	homeQuote: '/assets/images/community.jpg',
 	videoPoster: '/assets/images/schoolkids.jpg',
 	aboutPhoto: '/assets/images/isabel-prieur.png',
-	projectsHero: '/assets/images/projects-lightbulbs.jpg',
-	projectsFooter: '/assets/images/projects-lightbulbs-footer.jpg'
+	projectsHero: '/assets/images/projects-lightbulbs-branded.png',
+	projectsFooter: '/assets/images/projects-lightbulbs-footer-branded.png'
 };
 
 export const pages = {
@@ -461,7 +461,7 @@ export const consularBall = {
 	intro:
 		'An annual gathering where international representatives, local business leaders and community organisations turn one remarkable evening into practical support for young people.',
 	banner: '/assets/images/consular-banner-branded.png',
-	footerBanner: '/assets/images/consular-footer.jpg',
+	footerBanner: '/assets/images/consular-footer-branded.png',
 	originTitle: 'One room. More than fifty nations. A shared purpose.',
 	origin: [
 		'Isabel Verwey became involved in the Cape Town Consular Corps when her husband, Dr Prieur du Plessis, was appointed Honorary Consul of Slovenia in South Africa. Seeing the potential of the city’s consular community, she organised the first Consular Ball in 2012 in aid of local charities, including Proud Partners.',

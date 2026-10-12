@@ -59,7 +59,7 @@
 		<div class="principle-grid">
 			{#each site.about.principles as principle, index}
 				<article use:reveal={{ delay: index * 80 }}>
-					<img src={principle.image} alt="" />
+					{#if principle.image}<img src={principle.image} alt="" loading="lazy" />{/if}
 					<span>0{index + 1}</span>
 					<h2>{principle.title}</h2>
 					<p>{principle.copy}</p>
@@ -177,6 +177,7 @@
 	article img {
 		display: block;
 		width: calc(100% + 4rem);
+		max-width: none;
 		height: 10.5rem;
 		margin: -2rem -2rem 1.75rem;
 		object-fit: cover;
@@ -241,6 +242,11 @@
 		.origin-grid,
 		.principle-grid {
 			grid-template-columns: 1fr;
+		}
+
+		article img {
+			height: auto;
+			aspect-ratio: 16 / 9;
 		}
 	}
 </style>

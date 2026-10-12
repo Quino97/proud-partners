@@ -600,7 +600,7 @@
 		.home-hero {
 			align-items: start;
 			min-height: auto;
-			padding-top: 7.3rem;
+			padding-top: 7.9rem;
 		}
 
 		.hero-grid {
