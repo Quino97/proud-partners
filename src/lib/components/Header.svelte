@@ -73,9 +73,6 @@
 					onclick={() => (menuOpen = false)}>{item.label}</a
 				>
 			{/each}
-			<a class="support-link" href={sitePath('/projects#support')} onclick={() => (menuOpen = false)}>
-				Support a project
-			</a>
 		</nav>
 	</div>
 </header>
@@ -143,7 +140,7 @@
 		color: var(--navy);
 	}
 
-	nav a:not(.support-link)::after {
+	nav a::after {
 		content: '';
 		position: absolute;
 		left: 0;
@@ -160,17 +157,6 @@
 	nav a.active::after {
 		transform: scaleX(1);
 		transform-origin: left;
-	}
-
-	.support-link {
-		padding: 0.8rem 1rem;
-		background: var(--navy);
-		border-radius: 999px;
-		color: white;
-	}
-
-	.support-link:hover {
-		background: var(--blue);
 	}
 
 	.menu-button {
@@ -254,10 +240,5 @@
 			display: none;
 		}
 
-		nav .support-link {
-			margin-top: 0.75rem;
-			border: 0;
-			text-align: center;
-		}
 	}
 </style>

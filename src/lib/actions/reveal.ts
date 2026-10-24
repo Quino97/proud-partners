@@ -8,6 +8,8 @@ export const reveal: Action<HTMLElement, { delay?: number } | undefined> = (node
 		node.dataset.revealed = 'true';
 		return;
 	}
+	// Keep server-rendered content visible without JavaScript; animate only once mounted.
+	node.dataset.revealed = 'false';
 
 	const observer = new IntersectionObserver(
 		([entry]) => {

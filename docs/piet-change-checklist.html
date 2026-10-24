@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proud Partners change review checklist</title>
+<style>
+:root{font-family:Arial,sans-serif;color:#172b3d;background:#f6f2ea;line-height:1.55}*{box-sizing:border-box}body{margin:0}.document{max-width:960px;margin:auto;padding:48px 32px 90px}h1,h2,h3{color:#000;line-height:1.2;letter-spacing:-.02em}h1{font-size:clamp(2rem,5vw,3rem);margin:0 0 20px;max-width:24ch}h2{font-size:1.55rem;margin:48px 0 18px}h3{font-size:1rem;margin:0}p{margin:8px 0 15px}.date,.status,.progress{font-size:.82rem}.date{margin-bottom:16px;color:#536574}.lead{font-size:1.1rem;max-width:70ch}.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 12px}.toolbar input{flex:1 1 260px}button,input,select{font:inherit;padding:10px 12px;border:1px solid #9aa8ae;border-radius:7px;background:#fffdf8;color:inherit}button{cursor:pointer}button:hover{border-color:#0c5e96}nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:24px}nav a{font-size:.9rem;color:#155a86}.progress{color:#536574}.item{display:grid;grid-template-columns:25px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid #d7d9d6;break-inside:avoid}.item input{width:20px;height:20px;margin:3px 0 0;accent-color:#155a86}.item label{cursor:pointer}.item p{margin:5px 0 0}.status{display:inline-block;margin:0 0 6px;font-weight:bold;color:#315d47}.status.pending{color:#885719}.status.review{color:#5e547c}.item:has(input:checked) h3{color:#64766a}.item:has(input:checked){opacity:.7}.item[hidden],section[hidden]{display:none}.note{font-size:.9rem;color:#52606a}footer{margin-top:42px;font-size:.85rem;color:#52606a}.print-only{display:none}@media(max-width:600px){.document{padding:30px 20px 60px}.toolbar>*{width:100%}.item{gap:10px}}@media print{@page{margin:18mm;size:letter}body{background:white;color:black}.document{max-width:none;padding:0}.toolbar,nav,.progress{display:none}.print-only{display:block}h1{font-size:26pt}h2{font-size:17pt;margin-top:25px;break-after:avoid}.item{padding:10px 0;opacity:1!important}.item p{font-size:10.5pt}.status{font-size:9pt}.item input{appearance:none;border:1px solid #555;border-radius:0;padding:0;background:none;width:15px;height:15px}.item input:checked::after{content:'✓';display:block;line-height:13px;font-size:14px}a{color:black;text-decoration:none}footer{font-size:9pt}}
+</style>
+</head>
+<body><main class="document">
+<p class="date">Prepared for Quintin · 24 October 2026</p>
+<h1>Proud Partners change review checklist</h1>
+<p class="lead">Review Piet’s requested changes against the local website. Every item below pairs a request with a short implementation note. Tick a box when you have reviewed and accepted that item, not merely because it is labelled implemented.</p>
+<p>The content and layout changes are implemented locally. Contact email delivery still needs private credentials and deployment; the 2024 Consular Ball gallery still needs photographs. The 2026 results update is a future task.</p>
+<p class="note">The cream navbar was your earlier preference, not a direction from Piet. He requested specific banner removals and smaller headlines, while retaining the Proud Partners identity; he did not ask us to remove all motion, depth or modern styling. The final section separates your requests and our design decisions from his brief.</p>
+<div class="toolbar"><input id="search" type="search" placeholder="Find a page or requested change" aria-label="Search checklist"><select id="filter" aria-label="Filter checklist"><option value="all">All items</option><option value="unreviewed">Not yet reviewed</option><option value="pending">Pending and future items</option><option value="review">Design decisions to review</option></select><button id="print" type="button">Print or save as PDF</button><button id="reset" type="button">Clear ticks</button></div>
+<p class="progress" id="progress" aria-live="polite"></p><p class="print-only">Checkboxes record your review and acceptance. Implementation status is shown separately.</p>
+<nav aria-label="Checklist sections" id="contents"></nav><div id="checklist"></div>
+<footer><p>Source: Piet’s supplied Proud Partners document and the accompanying Photos folders. Implementation reviewed against the local version 3 page content and reusable page components.</p><p>No production content was published and no real contact email was sent as part of this review. Review ticks stay in this browser where local storage is available; print or save a PDF to retain a portable copy.</p></footer>
+</main>
+<script>
+const groups = [
+['Content across the website',[
+ ['Use Piet’s writing word for word','Imported the supplied headings, subheadings, paragraphs, tile copy and link labels; the verification script currently finds all 621 expected copy paragraphs verbatim.'],
+ ['Use Piet’s selected photographs','Mapped the supplied photos to their matching pages and tiles, retaining the original folder and filename in the content records.'],
+ ['Keep each project’s own story accessible','Built individual story pages linked from reusable category tiles instead of flattening all projects onto a single page.'],
+ ['Handle gaps in the supplied asset folders','Used existing site media with your permission because the Projects and Consular Ball photo folders were empty and the new Home video was absent.','pending'],
+ ['Retain the Proud Partners identity','Kept the current logo, blue and cream palette and established typography; the degree of modern visual expression remains open for your review.','review']
+]],
+['Home',[
+ ['Follow the supplied editorial narrative','Replaced the previous Home writing and arranged the new introduction, featured projects, origin story and closing sections in Piet’s sequence.'],
+ ['Make the main headline considerably smaller','Reduced the oversized heading to a responsive editorial headline beside the portrait.'],
+ ['Place the girl in pink beside the headline and introduction','Used the selected girl photograph as the main Home portrait beside the opening text on desktop and below it on mobile.'],
+ ['Remove the city background photograph','Removed the old city backdrop from the Home hero.'],
+ ['Remove the scrolling strip','Removed the rolling partners strip rather than merely changing its appearance.'],
+ ['Replace the three showcased projects but retain the tile mechanism','Featured Kinders vir die Koning, PJO Art Tracks and The Consular Ball using the supplied tile copy, chosen images and click-through links.'],
+ ['Limit the blue strip to the three requested statements','Set the strip to Established 2004, Western Cape and Partnership only.'],
+ ['Remove the bottom quotation','Removed the old quote section rather than retaining competing closing copy.'],
+ ['Include the requested video','Embedded the existing children’s educational-programme video as the authorised fallback for the missing supplied Home video.'],
+ ['Change the main navigation','Kept Home, About, Projects and Consular Ball, removed Partners and Support a Project, and added Contact.']
+]],
+['About',[
+ ['Replace the writing with Piet’s origin story','Imported the certificate story and all accompanying headings and paragraphs without rewriting them.'],
+ ['Use five distinct editorial sections','Arranged the five story sections after the introduction, preserving the supplied narrative order.'],
+ ['Make About a visual story rather than a corporate overview','Paired the story with alternating image-and-copy sections rather than generic mission cards.'],
+ ['Remove the Isabel and Prieur photograph','Removed that photograph from About in accordance with the newer brief.'],
+ ['Use the replacement photographs in the supplied folder','Placed the supplied About photographs throughout the story sections.']
+]],
+['Projects and category landing pages',[
+ ['Remove the top lightbulb image and its old headline and copy','Replaced the Projects banner and accompanying text with Piet’s new category introduction.'],
+ ['Replace the six previous categories with five in the specified order','Set the main tiles to Educational Projects, Music Projects, Childcare Projects, PJO Art Tracks and Domestic Project.'],
+ ['Use the selected category photographs','Mapped category tiles to matching supplied project media, using existing assets where the dedicated Projects folder was empty.'],
+ ['Remove the Support where it matters section','Removed that section and the Stand beside a project, Iris House, Durbanville Children’s Home and Tygerberg Children’s Choir donation prompts.'],
+ ['Remove donation prompts and links from Projects','Removed the old support calls to action from the Projects page rather than moving them into the category tiles.'],
+ ['Remove the bottom lightbulb photograph','Removed the old closing lightbulb banner from Projects.'],
+ ['Give Education seven clickable project tiles','Built seven linked Education tiles using the supplied titles, subtitles, descriptions and photos.'],
+ ['Give Music twelve clickable project tiles','Built twelve linked Music tiles using the supplied titles, subtitles, descriptions and photos.'],
+ ['Give Childcare four clickable project tiles','Built four linked Childcare tiles using the supplied titles, subtitles, descriptions and photos.'],
+ ['Use the same tile conventions on all three category pages','Reused one responsive tile component with consistent links, hover treatment and mobile stacking.'],
+ ['Remove Education’s old pencil banners and accompanying old copy','Removed both pencil photographs and replaced the old introduction with Piet’s writing.'],
+ ['Remove Music’s old piano banners and accompanying old copy','Removed both piano-key photographs and replaced the old introduction with Piet’s writing.'],
+ ['End Music with the Lesedi fish and chips story rather than another tile','Added Sometimes, happiness comes with chips as a closing story and gallery, not a thirteenth project tile.'],
+ ['Remove Childcare’s old top children banner and accompanying old copy','Replaced the old banner and introduction with Piet’s Childcare narrative.'],
+ ['Remove Childcare’s bottom toes photograph','Removed the previous closing toes banner.']
+]],
+['Education and Domestic stories',[
+ ['Kinders vir die Koning','Imported Piet’s complete story and used the supplied Kinders photographs.'],
+ ['End Period Poverty','Imported the complete #EndPeriodPoverty story without article photographs, as requested; the Education tile still uses its supplied graphic.'],
+ ['Temperance Town Primary School','Imported the full supplied school story and its associated photographs.'],
+ ['Stellenzicht Secondary School Reading Project','Imported the complete reading-project story with the supplied imagery.'],
+ ['Mathematics Support Project','Imported the full mathematics-support story and matching photographs.'],
+ ['Girl Talk Initiative Project','Imported the complete Girl Talk writing and supplied imagery.'],
+ ['Domestic Partnership','Imported the complete Domestic Partnership story and supplied photographs, with links from both relevant project groupings.']
+]],
+['Music stories',[
+ ['David Cyster','Imported Piet’s full David Cyster story and selected photographs.'],
+ ['Tygerberg Children’s Choir','Imported the complete choir story and supplied photographs.'],
+ ['Junior Rosa Choir','Imported the full Junior Rosa Choir writing and supplied photographs.'],
+ ['Stellenbosch University Choir','Imported the complete choir story and associated supplied photographs.'],
+ ['Restore the two requested Stellenbosch choir videos','Embedded both old-site videos and retained the two captions exactly as supplied.'],
+ ['The 5th St Peter’s Scouts','Imported the full Scouts story with the supplied photographs.'],
+ ['Instrument Donors','Imported the complete donor story and its selected imagery.'],
+ ['Artscape Wellington Youth Band','Imported the full youth-band story and supplied photographs.'],
+ ['Durbanville Children’s Home','Imported the complete music-project story and associated photographs.'],
+ ['Soyisile Primary School','Imported the full school music story and supplied imagery.'],
+ ['The Belhar Project','Imported Piet’s complete Belhar story and matching photographs.'],
+ ['Ermelo Music Project','Imported the full Ermelo music story with the supplied photographs.'],
+ ['Pick a Pal','Imported the complete Pick a Pal story and supplied photographs.']
+]],
+['Childcare stories and PJO Art Tracks',[
+ ['Iris House Children’s Hospice','Imported the full Iris House story and selected photographs.'],
+ ['St Joseph’s Home for Chronically Ill Children','Imported the complete St Joseph’s story and associated supplied imagery.'],
+ ['Operation Smile','Imported the full Operation Smile story and supplied photographs.'],
+ ['The Cableway Charity Challenge','Imported the complete Cableway story and supplied imagery.'],
+ ['Bring PJO Art Tracks into the shared page system','Built the art story using the same editable editorial sections and galleries as the other projects.'],
+ ['Remove PJO’s old top art banner and associated old headline and copy','Replaced the previous art hero and writing with Piet’s new introduction.'],
+ ['Remove PJO’s bottom art banner','Removed the old closing banner rather than retaining the outdated image.'],
+ ['Use the supplied PJO photos throughout','Added the chosen artwork photographs, including the year groupings for 2016, 2017, 2018, 2019 and 2026.'],
+ ['Retain all of Piet’s PJO writing','Imported the full introduction, project history, artwork descriptions and accompanying headings.']
+]],
+['The Consular Ball',[
+ ['Create one substantial flagship Ball page','Combined the supplied introduction, history, auctions, entertainment, achievements and future-event sections on the main Ball page.'],
+ ['Match the other pages while keeping a black tie editorial feel','Used the shared editorial components with a restrained title, subtitle, alternating photographs and a dark-blue fundraising strip.','review'],
+ ['Remove the former top banner and its old headline and copy','Removed the previous large Ball banner and replaced its writing with Piet’s new opening.'],
+ ['Remove the old bottom banner photograph','Removed the previous closing banner, including its obsolete logo artwork.'],
+ ['Interleave the writing with relevant photographs','Placed existing Ball archive photographs alongside the history, auction and entertainment sections while the new folder remains empty.'],
+ ['Avoid oversized headings and unnecessarily tall heroes','Used a compact editorial title rather than a full-height image hero.'],
+ ['Include individual year tiles opening separate archive pages','Created linked year pages for 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022 and 2024.'],
+ ['Focus each year’s archive on that Ball and its unique auction items','Grouped recovered old-site event and prize photographs by year, with enlargeable galleries and load-more controls.'],
+ ['Complete the 2024 Ball photograph collection','Created the 2024 destination but left its gallery awaiting appropriate photographs instead of passing off another year’s pictures as 2024.','pending'],
+ ['Make clear that the fundraising figures cover the combined beneficiaries','Labelled the figures as amounts raised for the combined charitable beneficiaries, not Proud Partners alone.'],
+ ['Retain the principal historical fundraising figures','Included 2012 R205,000; 2018 more than R1 million; 2022 R1.8 million; 2024 R900,000; and more than R7 million cumulatively.'],
+ ['Accommodate the upcoming 2026 Ball','Added The next chapter: 2026 with Piet’s supplied copy and the 21 November 2026 event date.'],
+ ['Update 2026 after the Ball and incorporate it into the archive','Made the section editable and years addable, but the results and archive update must wait until after the event.','pending']
+]],
+['Contact',[
+ ['Add a Contact page containing only the submission form','Built a form-only page without additional contact copy, a printed email address or a telephone number in the page body.'],
+ ['Use the old website’s submission fields','Provided Name, Email, Phone, Message and Submit fields with validation and clear success or failure feedback.'],
+ ['Send submissions to amouton at plexus dot co dot za','Prepared a Supabase email function with the requested recipient, but real delivery is not active until credentials, a verified sender and deployment are completed.','pending'],
+ ['Keep email credentials private','Prepared server-side email handling with spam checks and rate limits instead of exposing a private email-service key in the browser.']
+]],
+['Your requests and implementation decisions',[
+ ['Make the editing portal easier to use','Reorganised the admin by page, with collapsible sections, searchable images, draft preview, publish controls, backups and straightforward reorder or remove actions.'],
+ ['Keep text and media editable and removable','Stored page writing, tiles, photos, galleries, videos and links as structured content editable in the admin.'],
+ ['Make it easy to add project and Ball year items','Added create, hide, remove and ordering controls for project pages and Ball years.'],
+ ['Keep the navbar cream','Retained your earlier cream-navbar instruction; Piet’s document changes the menu items but does not prescribe this background.','review'],
+ ['Preserve a modern visual identity','Restored subtle heading and tile reveals, portrait depth and gentle floating motion while keeping Piet’s requested removals; a wider visual redesign has not been treated as approved.','review'],
+ ['Zoom the Home portrait in again','Tightened the girl’s crop using the same chosen photograph and added a Home portrait zoom slider in the admin.'],
+ ['Remove the large cream gutters around tile pictures','Made all tile images fill their frames, including the two previously letterboxed graphics; gallery thumbnails now fill their frames and enlarge to show the complete original.'],
+ ['Keep the missing media fallbacks temporary','Retained your approval to use existing assets for empty folders and the missing Home video; replacement files can be selected later in the admin.']
+]]];
+const root=document.querySelector('#checklist');let index=0;
+for(const [title,items] of groups){const section=document.createElement('section');section.id='group-'+root.children.length;const heading=document.createElement('h2');heading.textContent=title;section.append(heading);const link=document.createElement('a');link.href='#'+section.id;link.textContent=title;document.querySelector('#contents').append(link);for(const [request,action,status='done'] of items){const item=document.createElement('div');item.className='item';item.dataset.status=status;item.dataset.search=(title+' '+request+' '+action).toLowerCase();const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.id='review-'+(++index);const content=document.createElement('div');const badge=document.createElement('span');badge.className='status '+status;badge.textContent=status==='pending'?'Pending or future action':status==='review'?'Implemented — design review':'Implemented';const h=document.createElement('h3');const label=document.createElement('label');label.htmlFor=checkbox.id;label.textContent=request;h.append(label);const p=document.createElement('p');p.textContent=action;content.append(badge,h,p);item.append(checkbox,content);section.append(item);}root.append(section);}
+const inputs=[...root.querySelectorAll('input')],key='proud-partners-review-2026-10-24';try{const saved=JSON.parse(localStorage.getItem(key)||'{}');inputs.forEach(i=>i.checked=Boolean(saved[i.id]));}catch{}
+function update(){const query=document.querySelector('#search').value.toLowerCase().trim(),filter=document.querySelector('#filter').value;root.querySelectorAll('.item').forEach(item=>{const checked=item.querySelector('input').checked;item.hidden=Boolean(query&&!item.dataset.search.includes(query))||(filter==='unreviewed'&&checked)||(filter==='pending'&&item.dataset.status!=='pending')||(filter==='review'&&item.dataset.status!=='review');});root.querySelectorAll('section').forEach(s=>s.hidden=![...s.querySelectorAll('.item')].some(i=>!i.hidden));document.querySelector('#progress').textContent=inputs.filter(i=>i.checked).length+' of '+inputs.length+' reviewed · '+root.querySelectorAll('.item[data-status="pending"]').length+' items need files, activation or a future update';}
+root.addEventListener('change',()=>{try{localStorage.setItem(key,JSON.stringify(Object.fromEntries(inputs.map(i=>[i.id,i.checked]))));}catch{}update();});document.querySelector('#search').addEventListener('input',update);document.querySelector('#filter').addEventListener('change',update);document.querySelector('#reset').onclick=()=>{if(confirm('Clear your review ticks?')){inputs.forEach(i=>i.checked=false);try{localStorage.removeItem(key);}catch{}update();}};document.querySelector('#print').onclick=()=>window.print();update();
+</script></body></html>

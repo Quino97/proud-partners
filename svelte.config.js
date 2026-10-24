@@ -19,7 +19,8 @@ const config = {
 				})
 			: adapter(),
 		paths: {
-			base: isGitHubPages ? pagesBasePath : ''
+			base: isGitHubPages ? pagesBasePath : '',
+			relative: false
 		},
 		prerender: {
 			handleMissingId: 'warn'

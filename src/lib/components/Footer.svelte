@@ -27,7 +27,7 @@
 
 	<div class="container footer-bottom">
 		<span>© {new Date().getFullYear()} Proud Partners</span>
-		<span>Partnership over charity.</span>
+		<span>{site.footerTagline}</span>
 	</div>
 </footer>
 

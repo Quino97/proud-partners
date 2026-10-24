@@ -25,3 +25,10 @@ export function addSiteBase<T>(value: T): T {
 	}
 	return value;
 }
+
+export function removeSiteBase<T>(value: T): T {
+	if (typeof value === 'string') return (base && value.startsWith(`${base}/`) ? value.slice(base.length) : value) as T;
+	if (Array.isArray(value)) return value.map(item => removeSiteBase(item)) as T;
+	if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,removeSiteBase(item)])) as T;
+	return value;
+}

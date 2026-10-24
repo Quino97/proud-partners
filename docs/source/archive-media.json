@@ -1,0 +1,973 @@
+{
+  "videos": [
+    {
+      "page": "Kinders vir die Koning",
+      "urls": [
+        "https://youtu.be/0yRNGcmamGU"
+      ]
+    },
+    {
+      "page": "Stellenbosch University Choir",
+      "urls": [
+        "https://youtu.be/W3-Y69zUgnw",
+        "https://youtu.be/7tOIsGNUMtM",
+        "https://youtu.be/MgZ9_A9fZ5o",
+        "https://youtu.be/lPEnbdSmE6Q"
+      ]
+    },
+    {
+      "page": "David Cyster",
+      "urls": [
+        "https://youtu.be/0RDKE4wG1jQ",
+        "https://youtu.be/zrFCH2Hbtvc"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "a85dfd97ff47",
+      "src": "/assets/ball-archive/2012-a85dfd97ff47.webp",
+      "alt": "Consular Ball 2012",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2012/02.jpg"
+    },
+    {
+      "id": "edc5953de7cf",
+      "src": "/assets/ball-archive/2012-edc5953de7cf.webp",
+      "alt": "Consular Ball 2012",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2012/03.jpg"
+    },
+    {
+      "id": "567f514f9359",
+      "src": "/assets/ball-archive/2013-567f514f9359.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/02.jpg"
+    },
+    {
+      "id": "02820b77985f",
+      "src": "/assets/ball-archive/2013-02820b77985f.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/03.jpg"
+    },
+    {
+      "id": "06caf1f534ac",
+      "src": "/assets/ball-archive/2013-06caf1f534ac.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/05.jpg"
+    },
+    {
+      "id": "c0aaf93cc102",
+      "src": "/assets/ball-archive/2013-c0aaf93cc102.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/10.jpg"
+    },
+    {
+      "id": "8a60ade0174b",
+      "src": "/assets/ball-archive/2013-8a60ade0174b.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/11.jpg"
+    },
+    {
+      "id": "9c124040cc09",
+      "src": "/assets/ball-archive/2013-9c124040cc09.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/12.jpg"
+    },
+    {
+      "id": "7b5820ca29a0",
+      "src": "/assets/ball-archive/2013-7b5820ca29a0.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/13.jpg"
+    },
+    {
+      "id": "9cee0614b413",
+      "src": "/assets/ball-archive/2013-9cee0614b413.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/19.jpg"
+    },
+    {
+      "id": "032b5d1057b1",
+      "src": "/assets/ball-archive/2013-032b5d1057b1.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/25.jpg"
+    },
+    {
+      "id": "8fd6dd4f7709",
+      "src": "/assets/ball-archive/2013-8fd6dd4f7709.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/31.jpg"
+    },
+    {
+      "id": "cfee42287ba2",
+      "src": "/assets/ball-archive/2013-cfee42287ba2.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/37.jpg"
+    },
+    {
+      "id": "08dcd23ef13d",
+      "src": "/assets/ball-archive/2013-08dcd23ef13d.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/43.jpg"
+    },
+    {
+      "id": "00c94732d9ce",
+      "src": "/assets/ball-archive/2013-00c94732d9ce.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/49.jpg"
+    },
+    {
+      "id": "a0642e088811",
+      "src": "/assets/ball-archive/2013-a0642e088811.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/55.jpg"
+    },
+    {
+      "id": "8e87766d2e67",
+      "src": "/assets/ball-archive/2013-8e87766d2e67.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/61.jpg"
+    },
+    {
+      "id": "960e8340a96f",
+      "src": "/assets/ball-archive/2013-960e8340a96f.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/67.jpg"
+    },
+    {
+      "id": "76389b526aff",
+      "src": "/assets/ball-archive/2013-76389b526aff.webp",
+      "alt": "Consular Ball 2013",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2013/73.jpg"
+    },
+    {
+      "id": "7142ecc96fdb",
+      "src": "/assets/ball-archive/2014-7142ecc96fdb.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/05.jpg"
+    },
+    {
+      "id": "0bdecd107c1d",
+      "src": "/assets/ball-archive/2014-0bdecd107c1d.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/08.jpg"
+    },
+    {
+      "id": "5e70cfd76477",
+      "src": "/assets/ball-archive/2014-5e70cfd76477.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/15.jpg"
+    },
+    {
+      "id": "baabe9a05236",
+      "src": "/assets/ball-archive/2014-baabe9a05236.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/16.jpg"
+    },
+    {
+      "id": "20f27ad791f0",
+      "src": "/assets/ball-archive/2014-20f27ad791f0.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/17.jpg"
+    },
+    {
+      "id": "52d4fd5a1845",
+      "src": "/assets/ball-archive/2014-52d4fd5a1845.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/18.jpg"
+    },
+    {
+      "id": "941d0e9ca413",
+      "src": "/assets/ball-archive/2014-941d0e9ca413.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/19.jpg"
+    },
+    {
+      "id": "b25210465848",
+      "src": "/assets/ball-archive/2014-b25210465848.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/23.jpg"
+    },
+    {
+      "id": "f51b170b1c36",
+      "src": "/assets/ball-archive/2014-f51b170b1c36.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/28.jpg"
+    },
+    {
+      "id": "da13cce60979",
+      "src": "/assets/ball-archive/2014-da13cce60979.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/33.jpg"
+    },
+    {
+      "id": "6a0c33ed599d",
+      "src": "/assets/ball-archive/2014-6a0c33ed599d.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/38.jpg"
+    },
+    {
+      "id": "226d6d411d80",
+      "src": "/assets/ball-archive/2014-226d6d411d80.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/43.jpg"
+    },
+    {
+      "id": "72288fd12dcc",
+      "src": "/assets/ball-archive/2014-72288fd12dcc.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/48.jpg"
+    },
+    {
+      "id": "a4e02a9995f6",
+      "src": "/assets/ball-archive/2014-a4e02a9995f6.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/53.jpg"
+    },
+    {
+      "id": "fc5f79fee14f",
+      "src": "/assets/ball-archive/2014-fc5f79fee14f.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/58.jpg"
+    },
+    {
+      "id": "3f9c8529441d",
+      "src": "/assets/ball-archive/2014-3f9c8529441d.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/63.jpg"
+    },
+    {
+      "id": "e13d03617804",
+      "src": "/assets/ball-archive/2014-e13d03617804.webp",
+      "alt": "Consular Ball 2014",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2014/13.jpg"
+    },
+    {
+      "id": "d9bca7f092bb",
+      "src": "/assets/ball-archive/2015-d9bca7f092bb.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/01.jpg"
+    },
+    {
+      "id": "8419b3d2c10f",
+      "src": "/assets/ball-archive/2015-8419b3d2c10f.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/02.jpg"
+    },
+    {
+      "id": "aeee805dbe03",
+      "src": "/assets/ball-archive/2015-aeee805dbe03.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/03.jpg"
+    },
+    {
+      "id": "ffa7b2295132",
+      "src": "/assets/ball-archive/2015-ffa7b2295132.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/06.jpg"
+    },
+    {
+      "id": "1823061e0274",
+      "src": "/assets/ball-archive/2015-1823061e0274.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/11.jpg"
+    },
+    {
+      "id": "fdfdefc9bae2",
+      "src": "/assets/ball-archive/2015-fdfdefc9bae2.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/12.jpg"
+    },
+    {
+      "id": "2296ef4b5888",
+      "src": "/assets/ball-archive/2015-2296ef4b5888.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/13.jpg"
+    },
+    {
+      "id": "00f645a3eb99",
+      "src": "/assets/ball-archive/2015-00f645a3eb99.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/20.jpg"
+    },
+    {
+      "id": "c47c34cb6325",
+      "src": "/assets/ball-archive/2015-c47c34cb6325.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/27.jpg"
+    },
+    {
+      "id": "8e8f0d37c7af",
+      "src": "/assets/ball-archive/2015-8e8f0d37c7af.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/33.jpg"
+    },
+    {
+      "id": "e8d8362cf85c",
+      "src": "/assets/ball-archive/2015-e8d8362cf85c.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/40.jpg"
+    },
+    {
+      "id": "2fd65a4b3ab9",
+      "src": "/assets/ball-archive/2015-2fd65a4b3ab9.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/47.jpg"
+    },
+    {
+      "id": "63307cda5f09",
+      "src": "/assets/ball-archive/2015-63307cda5f09.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/54.jpg"
+    },
+    {
+      "id": "c68cab769532",
+      "src": "/assets/ball-archive/2015-c68cab769532.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/60.jpg"
+    },
+    {
+      "id": "8ea63f28159c",
+      "src": "/assets/ball-archive/2015-8ea63f28159c.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/67.jpg"
+    },
+    {
+      "id": "96ae02eaa8d0",
+      "src": "/assets/ball-archive/2015-96ae02eaa8d0.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/74.jpg"
+    },
+    {
+      "id": "a80dcbfa23ef",
+      "src": "/assets/ball-archive/2015-a80dcbfa23ef.webp",
+      "alt": "Consular Ball 2015",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2015/00.jpg"
+    },
+    {
+      "id": "f076c2b78f68",
+      "src": "/assets/ball-archive/2016-f076c2b78f68.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue3.jpg"
+    },
+    {
+      "id": "9e57859a39c3",
+      "src": "/assets/ball-archive/2016-9e57859a39c3.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue6.jpg"
+    },
+    {
+      "id": "46247285d97e",
+      "src": "/assets/ball-archive/2016-46247285d97e.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue1.jpg"
+    },
+    {
+      "id": "8a4fd75f6fd2",
+      "src": "/assets/ball-archive/2016-8a4fd75f6fd2.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue2.jpg"
+    },
+    {
+      "id": "b5979720cbcf",
+      "src": "/assets/ball-archive/2016-b5979720cbcf.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue5.jpg"
+    },
+    {
+      "id": "fa821753fade",
+      "src": "/assets/ball-archive/2016-fa821753fade.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue4.jpg"
+    },
+    {
+      "id": "c33ed945d5dd",
+      "src": "/assets/ball-archive/2016-c33ed945d5dd.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/venue9.jpg"
+    },
+    {
+      "id": "2dff07877d26",
+      "src": "/assets/ball-archive/2016-2dff07877d26.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/auc01.jpg"
+    },
+    {
+      "id": "b56dcb92c28d",
+      "src": "/assets/ball-archive/2016-b56dcb92c28d.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/auc06.jpg"
+    },
+    {
+      "id": "b1d9b57b0d07",
+      "src": "/assets/ball-archive/2016-b1d9b57b0d07.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/auc10.jpg"
+    },
+    {
+      "id": "f4bc13534b0b",
+      "src": "/assets/ball-archive/2016-f4bc13534b0b.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/act1.jpg"
+    },
+    {
+      "id": "700e6a663019",
+      "src": "/assets/ball-archive/2016-700e6a663019.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/act8.jpg"
+    },
+    {
+      "id": "2d8533b5b27d",
+      "src": "/assets/ball-archive/2016-2d8533b5b27d.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/1565.jpg"
+    },
+    {
+      "id": "ba7051056c7c",
+      "src": "/assets/ball-archive/2016-ba7051056c7c.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/1360.jpg"
+    },
+    {
+      "id": "3ab5b97395d0",
+      "src": "/assets/ball-archive/2016-3ab5b97395d0.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/1531.jpg"
+    },
+    {
+      "id": "fdb5cd027dca",
+      "src": "/assets/ball-archive/2016-fdb5cd027dca.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/1383.jpg"
+    },
+    {
+      "id": "eff386aaeb50",
+      "src": "/assets/ball-archive/2016-eff386aaeb50.webp",
+      "alt": "Consular Ball 2016",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2016/1319.jpg"
+    },
+    {
+      "id": "346c735a9388",
+      "src": "/assets/ball-archive/2017-346c735a9388.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017intro5.jpg"
+    },
+    {
+      "id": "b36821c09964",
+      "src": "/assets/ball-archive/2017-b36821c09964.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017intro6.jpg"
+    },
+    {
+      "id": "32e380e13ac2",
+      "src": "/assets/ball-archive/2017-32e380e13ac2.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017intro1.jpg"
+    },
+    {
+      "id": "fb158fa60dde",
+      "src": "/assets/ball-archive/2017-fb158fa60dde.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017intro2.jpg"
+    },
+    {
+      "id": "77d8b91cecff",
+      "src": "/assets/ball-archive/2017-77d8b91cecff.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017intro3.jpg"
+    },
+    {
+      "id": "35039a7c9a34",
+      "src": "/assets/ball-archive/2017-35039a7c9a34.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests000.jpg"
+    },
+    {
+      "id": "1cc89a02c428",
+      "src": "/assets/ball-archive/2017-1cc89a02c428.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests001.jpg"
+    },
+    {
+      "id": "d3423784eccc",
+      "src": "/assets/ball-archive/2017-d3423784eccc.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests004.jpg"
+    },
+    {
+      "id": "b1728ccc6901",
+      "src": "/assets/ball-archive/2017-b1728ccc6901.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests015.jpg"
+    },
+    {
+      "id": "b88d0e7a18ec",
+      "src": "/assets/ball-archive/2017-b88d0e7a18ec.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests026.jpg"
+    },
+    {
+      "id": "4cd280460187",
+      "src": "/assets/ball-archive/2017-4cd280460187.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests035.jpg"
+    },
+    {
+      "id": "360460b90e05",
+      "src": "/assets/ball-archive/2017-360460b90e05.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests046.jpg"
+    },
+    {
+      "id": "ee9b84c5b743",
+      "src": "/assets/ball-archive/2017-ee9b84c5b743.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests057.jpg"
+    },
+    {
+      "id": "871b0a34f44e",
+      "src": "/assets/ball-archive/2017-871b0a34f44e.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests068.jpg"
+    },
+    {
+      "id": "6a9a0089380c",
+      "src": "/assets/ball-archive/2017-6a9a0089380c.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests078.jpg"
+    },
+    {
+      "id": "dbfcd3e5c90c",
+      "src": "/assets/ball-archive/2017-dbfcd3e5c90c.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests090.jpg"
+    },
+    {
+      "id": "c5fe639c34c3",
+      "src": "/assets/ball-archive/2017-c5fe639c34c3.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests101.jpg"
+    },
+    {
+      "id": "8ba9959c171f",
+      "src": "/assets/ball-archive/2017-8ba9959c171f.webp",
+      "alt": "Consular Ball 2017",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2017/2017guests112.jpg"
+    },
+    {
+      "id": "0ec293613d8d",
+      "src": "/assets/ball-archive/2018-0ec293613d8d.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018bao4.jpg"
+    },
+    {
+      "id": "740e9a6d404b",
+      "src": "/assets/ball-archive/2018-740e9a6d404b.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018big1.jpg"
+    },
+    {
+      "id": "0252900b9f80",
+      "src": "/assets/ball-archive/2018-0252900b9f80.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018big2.jpg"
+    },
+    {
+      "id": "dd119e869f1f",
+      "src": "/assets/ball-archive/2018-dd119e869f1f.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest01.jpg"
+    },
+    {
+      "id": "6bb9f8dbacb1",
+      "src": "/assets/ball-archive/2018-6bb9f8dbacb1.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest02.jpg"
+    },
+    {
+      "id": "6fcc197e922e",
+      "src": "/assets/ball-archive/2018-6fcc197e922e.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest05.jpg"
+    },
+    {
+      "id": "3c2335b8d8f2",
+      "src": "/assets/ball-archive/2018-3c2335b8d8f2.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest03.jpg"
+    },
+    {
+      "id": "9cc2969d0089",
+      "src": "/assets/ball-archive/2018-9cc2969d0089.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest04.jpg"
+    },
+    {
+      "id": "329543ab888b",
+      "src": "/assets/ball-archive/2018-329543ab888b.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest12.jpg"
+    },
+    {
+      "id": "3f2bf85bd6ec",
+      "src": "/assets/ball-archive/2018-3f2bf85bd6ec.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest20.jpg"
+    },
+    {
+      "id": "676234c56eaf",
+      "src": "/assets/ball-archive/2018-676234c56eaf.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest27.jpg"
+    },
+    {
+      "id": "54d8ffb82924",
+      "src": "/assets/ball-archive/2018-54d8ffb82924.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest35.jpg"
+    },
+    {
+      "id": "179fce3ba7d2",
+      "src": "/assets/ball-archive/2018-179fce3ba7d2.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest42.jpg"
+    },
+    {
+      "id": "867af8337136",
+      "src": "/assets/ball-archive/2018-867af8337136.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest50.jpg"
+    },
+    {
+      "id": "2bc1ff6fdbeb",
+      "src": "/assets/ball-archive/2018-2bc1ff6fdbeb.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest57.jpg"
+    },
+    {
+      "id": "1f123c5f603f",
+      "src": "/assets/ball-archive/2018-1f123c5f603f.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest65.jpg"
+    },
+    {
+      "id": "bf21789b65a9",
+      "src": "/assets/ball-archive/2018-bf21789b65a9.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest72.jpg"
+    },
+    {
+      "id": "9926132c91a4",
+      "src": "/assets/ball-archive/2018-9926132c91a4.webp",
+      "alt": "Consular Ball 2018",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2018/2018guest80.jpg"
+    },
+    {
+      "id": "06050d1185b0",
+      "src": "/assets/ball-archive/2022-06050d1185b0.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/264ca660e1d3466d8951d72627f29447"
+    },
+    {
+      "id": "35d1114631e4",
+      "src": "/assets/ball-archive/2022-35d1114631e4.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/d5405643af144e9fa756a663d25d1f80"
+    },
+    {
+      "id": "9b0de9572cde",
+      "src": "/assets/ball-archive/2022-9b0de9572cde.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/e0258e3f2cbd4172b289855aab15b32d"
+    },
+    {
+      "id": "006a9a8e60b7",
+      "src": "/assets/ball-archive/2022-006a9a8e60b7.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/82ba9d02d0ae431ebc5914a82ccd7398"
+    },
+    {
+      "id": "b3a1d1e3d66e",
+      "src": "/assets/ball-archive/2022-b3a1d1e3d66e.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/ba030b4518c44e5dbab7d33003b85e40"
+    },
+    {
+      "id": "e28becfd995a",
+      "src": "/assets/ball-archive/2022-e28becfd995a.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/e01f247db322486e9f3eb94a2ebf862b"
+    },
+    {
+      "id": "10b217767e3e",
+      "src": "/assets/ball-archive/2022-10b217767e3e.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/3cff2bdeac564f178cd916a59749cf6e"
+    },
+    {
+      "id": "ea5ab22501f4",
+      "src": "/assets/ball-archive/2022-ea5ab22501f4.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/b1ecd80f24ea4c909a960bed64bdf69c"
+    },
+    {
+      "id": "2395a8a5d0c2",
+      "src": "/assets/ball-archive/2022-2395a8a5d0c2.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/2e7fe387da5d4624a0805ad56ec807a4"
+    },
+    {
+      "id": "f659fcfd79a5",
+      "src": "/assets/ball-archive/2022-f659fcfd79a5.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/eecf6bbe7b2842acbc1be0c7b0992b73"
+    },
+    {
+      "id": "35539b704861",
+      "src": "/assets/ball-archive/2022-35539b704861.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/70f18595cc0c400dac9a086692032e44"
+    },
+    {
+      "id": "918f7ee28f17",
+      "src": "/assets/ball-archive/2022-918f7ee28f17.webp",
+      "alt": "Consular Ball 2022",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball archive/2022/250a6350e209476dbf08cbf2ef50248e"
+    }
+  ],
+  "failures": []
+}

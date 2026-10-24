@@ -23,6 +23,7 @@
 	--radius-md: 1.25rem;
 	--radius-lg: 2rem;
 	--font-rounded: 'Trebuchet MS', 'Segoe UI', sans-serif;
+	--font-editorial: Georgia, 'Times New Roman', serif;
 	--step--1: clamp(0.79rem, 0.76rem + 0.12vw, 0.86rem);
 	--step-0: clamp(1rem, 0.95rem + 0.2vw, 1.12rem);
 	--step-1: clamp(1.18rem, 1.06rem + 0.5vw, 1.45rem);

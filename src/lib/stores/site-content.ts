@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import { defaultContent, type SiteContent } from '$lib/content/site';
+import { defaultContent, normaliseContent, type SiteContent } from '$lib/content/site';
 import { addSiteBase } from '$lib/utils/site-path';
 import { supabase } from '$lib/supabase/client';
 
@@ -20,5 +20,5 @@ export async function refreshPublishedContent() {
 		return;
 	}
 
-	if (data?.content) siteContent.set(addSiteBase(data.content as SiteContent));
+	if (data?.content) siteContent.set(addSiteBase(normaliseContent(data.content)));
 }
