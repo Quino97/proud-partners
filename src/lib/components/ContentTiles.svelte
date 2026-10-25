@@ -34,5 +34,6 @@
 	.tile-action { margin-top:auto; padding-top:1.25rem; font-family:var(--font-rounded); font-size:1rem; line-height:1.5; font-weight:700; color:var(--blue); }
 	.content-tile:hover h3,.content-tile:focus-visible h3 { color:var(--blue); }
 	@media(max-width:1000px) { .tile-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+	@media(max-width:760px) { .tile-copy > p:not(.tile-subtitle) { text-align:justify; text-align-last:left; text-wrap:wrap; hyphens:auto; hyphenate-limit-chars:8 4 4; overflow-wrap:break-word; } }
 	@media(max-width:620px) { .tile-grid,.tile-grid.two { grid-template-columns:1fr; } .tile-copy { padding:1.5rem; } }
 </style>

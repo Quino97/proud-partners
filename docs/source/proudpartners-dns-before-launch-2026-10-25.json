@@ -1,0 +1,158 @@
+{
+  "Domain": "proudpartners.org",
+  "CapturedAt": "2026-10-25T15:33:57.4262167+02:00",
+  "Note": "Public DNS snapshot only; not a complete zone export. Domain confirmed by owner; preserve existing email and obtain the full provider zone export before changing nameservers.",
+  "Queries": [
+    {
+      "Query": {
+        "Type": "NS",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 2,
+          "TTL": 7200,
+          "IPAddress": null,
+          "NameHost": "ns2.worldnic.com",
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        },
+        {
+          "Name": "proudpartners.org",
+          "Type": 2,
+          "TTL": 7200,
+          "IPAddress": null,
+          "NameHost": "ns1.worldnic.com",
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "A",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 1,
+          "TTL": 7200,
+          "IPAddress": "66.235.200.2",
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "AAAA",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 6,
+          "TTL": 3600,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "MX",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 6,
+          "TTL": 3600,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "TXT",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 6,
+          "TTL": 3600,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "CNAME",
+        "Name": "www.proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "proudpartners.org",
+          "Type": 6,
+          "TTL": 3600,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    },
+    {
+      "Query": {
+        "Type": "TXT",
+        "Name": "_dmarc.proudpartners.org"
+      },
+      "Records": [],
+      "Error": "_dmarc.proudpartners.org : DNS name does not exist."
+    },
+    {
+      "Query": {
+        "Type": "DS",
+        "Name": "proudpartners.org"
+      },
+      "Records": [
+        {
+          "Name": "org",
+          "Type": 6,
+          "TTL": 3600,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null,
+          "Strings": null
+        }
+      ],
+      "Error": null
+    }
+  ]
+}

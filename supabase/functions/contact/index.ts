@@ -1,7 +1,7 @@
 // Deploy with JWT verification disabled: this is a public website form.
 // Private mail and service-role credentials remain inside this Edge Function.
 const env = (name: string) => Deno.env.get(name) || '';
-const allowedOrigins = (env('CONTACT_ALLOWED_ORIGINS') || 'https://quino97.github.io,http://localhost:5173,http://127.0.0.1:5173').split(',').map(s => s.trim());
+const allowedOrigins = (env('CONTACT_ALLOWED_ORIGINS') || 'https://proudpartners.org,https://www.proudpartners.org,https://quino97.github.io,http://localhost:5173,http://127.0.0.1:5173').split(',').map(s => s.trim());
 
 Deno.serve(async (request: Request) => {
 	const origin = request.headers.get('origin') || '';

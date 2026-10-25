@@ -106,6 +106,7 @@
 	}
 
 	@media (max-width: 760px) {
+		footer p { text-align:justify; text-align-last:left; text-wrap:wrap; hyphens:auto; hyphenate-limit-chars:8 4 4; overflow-wrap:break-word; }
 		.footer-grid {
 			grid-template-columns: 1fr;
 		}

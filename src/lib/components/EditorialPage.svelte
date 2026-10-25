@@ -98,6 +98,7 @@
 		.home .editorial-header + .editorial-section.tile-section::before { content:''; position:absolute; top:0; left:50%; translate:-50% 0; width:80%; height:1px; background:#c6d4dc; }
 	}
 	@media(max-width:760px) {
+		.home-intro,.opening-copy p,.section-copy > p:not(.action-copy) { text-align:justify; text-align-last:left; text-wrap:wrap; hyphens:auto; hyphenate-limit-chars:8 4 4; overflow-wrap:break-word; }
 		.home-title-break { display:none; }
 		article { padding-top:5.4rem; } .with-portrait,.with-story { grid-template-columns:1fr; gap:2.25rem; }
 		.split,.split.flow { display:flex; flex-direction:column; gap:1.75rem; }
