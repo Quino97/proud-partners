@@ -43,7 +43,7 @@
 	.contact-shell { position:relative; isolation:isolate; }
 	.contact-page { padding:clamp(9rem,12vw,11rem) 0 clamp(4rem,9vw,7rem); min-height:75svh; }
 	header { width:100%; max-width:52rem; margin:0 auto 2.75rem; }
-	h1 { margin:0; font-family:'Nugo Sans','Segoe UI',sans-serif; font-size:clamp(3.5rem,6vw,5.8rem); line-height:1.12; letter-spacing:-.04em; color:var(--navy); }
+	h1 { margin:0; font-family:var(--font-heading); font-size:clamp(3.5rem,6vw,5.8rem); line-height:1.12; letter-spacing:-.015em; color:var(--navy); }
 	header::after { content:''; display:block; width:80%; height:1px; margin-top:1.7rem; background:#c6d4dc; }
 	header p { margin:1rem 0 0; font-size:clamp(1.25rem,2vw,1.6rem); color:var(--ink-soft); }
 	form { width:100%; max-width:52rem; margin:auto; display:grid; gap:1.5rem; }

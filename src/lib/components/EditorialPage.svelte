@@ -46,7 +46,7 @@
 </article>
 <style>
 	article { position:relative; isolation:isolate; padding-top:5.6rem; } .editorial-header { padding-block:clamp(2.8rem,5vw,4.5rem) clamp(1rem,2vw,1.6rem); }
-	h1 { max-width:23ch; margin:0; font-size:clamp(2.7rem,4.8vw,4.7rem); line-height:1.13; letter-spacing:-.04em; color:var(--navy); overflow-wrap:break-word; }
+	h1 { max-width:23ch; margin:0; font-size:clamp(2.7rem,4.8vw,4.7rem); line-height:1.13; letter-spacing:-.015em; color:var(--navy); overflow-wrap:break-word; }
 	.project-index h1 { max-width:none; } .title-phrase { display:inline-block; white-space:nowrap; }
 	.project-index .editorial-header { padding-bottom:.5rem; }
 	.project-index .editorial-header + .editorial-section { padding-top:.5rem; padding-bottom:1rem; }
@@ -55,7 +55,8 @@
 	.breadcrumb { display:inline-flex; align-items:center; min-height:2.75rem; margin-bottom:1.2rem; padding:.25rem 0; font-family:var(--font-rounded); font-size:1rem; color:var(--blue); text-underline-offset:.35em; } .breadcrumb:hover { text-decoration:underline; }
 	.with-story { display:grid; grid-template-columns:1.15fr .85fr; gap:clamp(2rem,5vw,5rem); align-items:center; padding-block:clamp(2.8rem,6vw,5rem); }
 	.with-story h1 { max-width:15ch; } .opening-copy { margin-top:1.75rem; } .opening-copy p { margin:0 0 1rem; font-size:clamp(1.1rem,1.15vw,1.2rem); line-height:1.7; color:var(--ink-soft); }
-	.opening-photo :global(.section-photos) { margin:0; } .opening-photo { position:relative; } .opening-photo::before { content:''; position:absolute; inset:1.2rem -.7rem -.7rem 1.2rem; z-index:-1; border:1px solid rgba(13,103,173,.2); border-radius:1rem; }
+	.opening-photo :global(.section-photos) { margin:0; }
+	.opening-photo :global(.photo-gallery img) { transform:scale(1.03); }
 	.with-portrait { display:grid; grid-template-columns:1.15fr .85fr; gap:clamp(2.5rem,7vw,7rem); align-items:center; padding-block:clamp(2.8rem,6vw,5rem); } .home h1 { max-width:13ch; font-size:clamp(3rem,4.6vw,4.7rem); }
 	.home-intro { max-width:34rem; font-size:clamp(1.15rem,1.7vw,1.4rem); line-height:1.7; color:var(--ink-soft); margin:1.75rem 0 0; }
 	.hero-portrait { position:relative; isolation:isolate; margin:0; animation:portrait-drift 7s ease-in-out infinite; }
@@ -67,10 +68,11 @@
 	.editorial-section { position:relative; padding-block:clamp(2rem,4vw,3.4rem); } .editorial-header + .editorial-section { padding-top:1.5rem; }
 	.editorial-section.tile-section { padding-top:clamp(3rem,5vw,4.5rem); }
 	.editorial-section.has-heading:not(.blue):not(.tile-section) { padding-top:clamp(3rem,5vw,4.25rem); }
+	.ball .editorial-section.has-heading:not(.blue):not(.tile-section) { padding-top:clamp(2.5rem,4vw,3.5rem); }
 	.editorial-section.has-heading:not(.blue):not(.tile-section)::before { content:''; position:absolute; top:0; left:50%; translate:-50% 0; width:80%; height:1px; background:#c6d4dc; }
 	.blue + .editorial-section.has-heading:not(.blue):not(.tile-section)::before { content:none; }
 	.section-copy { max-width:68rem; margin:0 auto; } .section-copy.wide { max-width:58rem; margin:0 auto 2.8rem; text-align:center; }
-	h2 { margin:0 0 1.3rem; font-size:clamp(2rem,3.3vw,3.2rem); line-height:1.2; letter-spacing:-.03em; color:var(--navy); text-wrap:balance; } .section-copy > p { margin:0 0 1rem; font-size:clamp(1.1rem,1.15vw,1.2rem); line-height:1.7; color:var(--ink-soft); }
+	h2 { margin:0 0 1.3rem; font-size:clamp(2rem,3.3vw,3.2rem); line-height:1.2; letter-spacing:-.015em; color:var(--navy); text-wrap:balance; } .section-copy > p { margin:0 0 1rem; font-size:clamp(1.1rem,1.15vw,1.2rem); line-height:1.7; color:var(--ink-soft); }
 	.section-copy > p.action-copy { font-family:var(--font-rounded); font-size:1.05rem; font-weight:700; }
 	.editorial-link { display:inline-block; margin:1rem 1.5rem 1rem 0; border-bottom:1px solid currentColor; padding-bottom:.3rem; font-family:var(--font-rounded); font-size:.9rem; color:var(--blue); } .section-photos { margin-top:2.5rem; }
 	.split { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,.9fr); gap:clamp(2rem,4vw,4rem); align-items:start; }

@@ -51,7 +51,7 @@
 	<a class="skip-link" href="#main-content">Skip to content</a>
 	<div class="container nav-shell">
 		<a class="brand" href={sitePath('/')} aria-label="Proud Partners home" onclick={() => (menuOpen = false)}>
-			<img src={media.wordmark} alt="Proud Partners" />
+			<img src={media.mark} alt="Proud Partners" />
 		</a>
 
 		<button
@@ -79,12 +79,12 @@
 
 <style>
 	header {
+		--navbar-surface: var(--cream);
 		position: fixed;
 		inset: 0 0 auto;
 		z-index: 50;
 		padding: 0.85rem 0;
-		background: var(--cream);
-		border-bottom: 1px solid var(--line);
+		background: var(--navbar-surface);
 		transition:
 			transform 300ms cubic-bezier(0.22, 1, 0.36, 1),
 			padding 220ms ease,
@@ -96,10 +96,7 @@
 	header.scrolled,
 	header.open {
 		padding: 0.55rem 0;
-		background: var(--cream);
-		border-color: var(--line);
-		box-shadow: 0 10px 35px rgba(8, 45, 80, 0.07);
-		backdrop-filter: blur(16px);
+		background: var(--navbar-surface);
 	}
 
 	header.hidden:not(.open) {
@@ -114,8 +111,11 @@
 	}
 
 	.brand {
+			position: relative;
+			z-index: 52;
 		display: inline-flex;
-		width: min(13.5rem, 48vw);
+		width: 3.5rem;
+		flex-shrink: 0;
 	}
 
 	.brand img {
@@ -180,6 +180,8 @@
 
 	@media (max-width: 1020px) {
 		.menu-button {
+			position: relative;
+			z-index: 52;
 			display: grid;
 			place-content: center;
 			gap: 0.42rem;
@@ -209,14 +211,21 @@
 
 		nav {
 			position: fixed;
-			inset: 4.7rem 1rem auto;
+			inset: 0;
+			z-index: 51;
+			width: 100vw;
+			height: 100vh;
+			height: 100dvh;
+			box-sizing: border-box;
 			display: grid;
+			align-content: start;
 			gap: 0;
-			padding: 0.8rem;
+			padding: 6rem 1.35rem 2rem;
 			background: var(--cream);
-			border: 1px solid var(--line);
-			border-radius: var(--radius-md);
-			box-shadow: var(--shadow-lg);
+			border: 0;
+			border-radius: 0;
+			box-shadow: none;
+			overflow-y: auto;
 			opacity: 0;
 			pointer-events: none;
 			transform: translateY(-0.5rem);
@@ -232,7 +241,7 @@
 		}
 
 		nav a {
-			padding: 1rem;
+			padding: 1.15rem 0.35rem;
 			border-bottom: 1px solid var(--line);
 		}
 
