@@ -2,7 +2,7 @@
 // Only presentation markers change; every plain-text value is checked verbatim.
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import { plainText, parseInline } from '../src/lib/utils/rich-text.ts';
+import { plainText } from '../src/lib/utils/rich-text.ts';
 
 const input = process.argv.find(arg => arg.endsWith('.json')) || '../proud-partners-work/piet-format-runs.json';
 const apply = process.argv.includes('--apply');
@@ -37,14 +37,27 @@ function formatParagraph(paragraph) {
 		const markers = run.bold ? run.italic ? '***' : '**' : '*';
 		return leading + markers + run.text.slice(leading.length, run.text.length - trailing.length) + markers + trailing;
 	}).join('');
-	assert.equal(plainText(marked), text, `Could not encode formatting without changing text: ${text}`);
-	return { text, marked, runs };
+	// The supplied document also contains a few literal Markdown italics.
+	assert.equal(plainText(marked), plainText(text), `Could not encode formatting without changing text: ${text}`);
+	return { text: plainText(text), marked, runs };
 }
 
 const source = paragraphs.map(formatParagraph).filter(p => p.text);
+let currentScope = '';
+const normaliseScope = text => text.toLowerCase().replaceAll('’', "'");
+for (const paragraph of source) {
+	const heading = paragraph.text.match(/^(.+?) Page(?: - no photos)?:$/);
+	if (heading) currentScope = normaliseScope(heading[1]);
+	paragraph.scope = currentScope;
+}
+const scopeOverrides = { home:'Home', about:'About', projects:'Projects', education:'Educational Projects', music:'Music Projects', 'child-care':'Childcare Projects', art:'PJO Art Tracks', 'consular-ball':'The Consular Ball', 'stellenzicht-reading':'Stellenzicht Secondary School Reading Project', 'mathematics-support':'Mathematics Support Project', 'girl-talk':'Girl Talk Initiative Project', 'domestic-partnership':'Domestic Partnership', belhar:'The Belhar Project', 'cableway-charity-challenge':'The Cableway Charity Challenge', '5th-st-peters-scouts':"The 5th St Peter's Scouts" };
+const scopes = new Map(content.pages.map(page => [page.id, normaliseScope(scopeOverrides[page.id] || page.card.title)]));
 const byText = new Map();
+const byScope = new Map();
 const conflicts = [];
 for (const paragraph of source) {
+	if (!byScope.has(paragraph.scope)) byScope.set(paragraph.scope, new Map());
+	byScope.get(paragraph.scope).set(paragraph.text, paragraph);
 	const previous = byText.get(paragraph.text);
 	if (previous && previous.marked !== paragraph.marked) conflicts.push(paragraph.text);
 	// Some repeated labels have a plain instance and a formatted instance.
@@ -56,10 +69,14 @@ function formatField(object, key, location) {
 	if (typeof object[key] !== 'string' || !object[key]) return;
 	const original = object[key];
 	const text = plainText(original);
-	const source = byText.get(text);
-	if (!source) { missing.push({ location, text }); return; }
-	assert.equal(plainText(source.marked), text);
-	if (original !== source.marked) { object[key] = source.marked; changes.push({ location, text, formatted: source.marked }); }
+	const scoped = byScope.get(scopes.get(location.split('.')[0]));
+	const find = value => scoped?.get(value) || byText.get(value);
+	const paragraph = find(text);
+	const lines = text.split('\n').map(line => find(line));
+	const marked = paragraph?.marked ?? (lines.every(Boolean) ? lines.map(line => line.marked).join('\n') : undefined);
+	if (marked === undefined) { missing.push({ location, text }); return; }
+	assert.equal(plainText(marked), text);
+	if (original !== marked) { object[key] = marked; changes.push({ location, text, formatted: marked }); }
 }
 function formatTile(tile, location) {
 	for (const key of ['subtitle', 'copy', 'label']) formatField(tile, key, `${location}.${key}`);
@@ -87,7 +104,7 @@ const wholeHeadings = new Set(content.pages.flatMap(page => [page.title, page.ca
 const fields = [];
 function collect(value) { if (typeof value === 'string') fields.push(value); else if (Array.isArray(value)) value.forEach(collect); else if (value && typeof value === 'object') Object.values(value).forEach(collect); }
 collect(content);
-const unaccounted = copiedEmphasis.filter(p => !fields.includes(p.marked) && !wholeHeadings.has(p.text));
+const unaccounted = copiedEmphasis.filter(p => !fields.some(field => field === p.marked || field.split('\n').includes(p.marked)) && !wholeHeadings.has(p.text));
 console.log(JSON.stringify({ changedFields: changes.length, formattedSourceParagraphs: copiedEmphasis.length, duplicateFormatting: [...new Set(conflicts)], unaccounted: unaccounted.map(p => ({ text: p.text, marked: p.marked })), changes }, null, 2));
 if (unaccounted.length) process.exitCode = 1;
 if (apply) {

@@ -58,7 +58,7 @@
         "title": "Partnership changes what is possible.",
         "subtitle": "",
         "copy": "",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": null
       },
       "sections": [
@@ -98,7 +98,7 @@
               "title": "Kinders vir die Koning",
               "subtitle": "The importance of a good beginning.",
               "copy": "The early years can shape a child's entire future. Through Kinders vir die Koning, Proud Partners continues its involvement in early childhood care and development, helping give young children the opportunities and encouragement they deserve.",
-              "label": "Discover the Project →",
+              "label": "*Discover the Project* →",
               "image": {
                 "id": "a3b804a961",
                 "src": "/assets/piet/home-page-a3b804a961.webp",
@@ -115,7 +115,7 @@
               "title": "PJO Art Tracks",
               "subtitle": "The town became their canvas.",
               "copy": "From a girl on a swing to a giant sloth listening to music, the young artists of Stellenbosch transformed ordinary public spaces into extraordinary works of art. Discover the imagination, talent and surprising creations behind PJO Art Tracks.",
-              "label": "Discover the Project →",
+              "label": "*Discover the Project* →",
               "image": {
                 "id": "8cfcd57e6c",
                 "src": "/assets/piet/home-page-8cfcd57e6c.webp",
@@ -132,7 +132,7 @@
               "title": "The Consular Ball",
               "subtitle": "An evening with a purpose.",
               "copy": "Since 2012, the Consular Ball has brought together Cape Town's diplomatic and business communities for extraordinary evenings in support of worthy causes. Discover the people, the celebrations and the achievements that have made the event so memorable.",
-              "label": "Explore the Consular Ball →",
+              "label": "*Explore the Consular Ball* →",
               "image": {
                 "id": "9672c85fd5",
                 "src": "/assets/piet/home-page-9672c85fd5.webp",
@@ -188,7 +188,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Discover Our Story →",
+              "label": "*Discover Our Story* →",
               "href": "/about"
             }
           ],
@@ -209,7 +209,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Explore All Our Projects →",
+              "label": "*Explore All Our Projects* →",
               "href": "/projects"
             }
           ],
@@ -241,16 +241,16 @@
       "path": "/about",
       "parentId": "",
       "title": "It began with a certificate.",
-      "subtitle": "The story of Proud Partners",
+      "subtitle": "*The story of Proud Partners*",
       "description": "Sometimes, the most meaningful ideas have the simplest beginnings. For Proud Partners, it was a certificate presented by a woman named Selina Radebe to her long-time employer, Isabel Verwey.",
       "kind": "story",
       "hidden": false,
       "heroImage": null,
       "card": {
         "title": "It began with a certificate.",
-        "subtitle": "The story of Proud Partners",
+        "subtitle": "*The story of Proud Partners*",
         "copy": "",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": null
       },
       "sections": [
@@ -258,8 +258,8 @@
           "id": "82f5812f-bd73-422a-84bf-ee83771ffed6",
           "heading": "",
           "paragraphs": [
-            "Sometimes, the most meaningful ideas have the simplest beginnings. For Proud Partners, it was a certificate presented by a woman named Selina Radebe to her long-time employer, Isabel Verwey.",
-            "On it were the words: \"In recognition of 20 years of partnership.\"",
+            "Sometimes, the most meaningful ideas have the simplest beginnings. For *Proud Partners*, it was a certificate presented by a woman named Selina Radebe to her long-time employer, Isabel Verwey.",
+            "On it were the words: \"**In recognition of 20 years of partnership.**\"",
             "Neither could have imagined how far those words would travel."
           ],
           "layout": "split",
@@ -288,7 +288,7 @@
             "In 1994, Isabel left Johannesburg to marry a Capetonian. It meant leaving behind her career at the SABC, her friends, her family and a city she loved. But one of the people she missed most was Selina, who had worked in her household for 13 years.",
             "Fortunately, Selina felt the same way. Before long, she and her four children had also moved to Cape Town.",
             "Some years later, Selina surprised Isabel with a certificate celebrating the twentieth anniversary of the day she had first knocked on the door of Isabel's Hillbrow flat, looking for work.",
-            "Isabel was initially intrigued by the word partnership. But on reflection, she realised how appropriate it was. Their relationship extended beyond employment to include concern for each other's families, shared experiences and the everyday challenges of life.",
+            "Isabel was initially intrigued by the word *partnership*. But on reflection, she realised how appropriate it was. Their relationship extended beyond employment to include concern for each other's families, shared experiences and the everyday challenges of life.",
             "It also gave Isabel an idea. What if more South Africans recognised the value of working together, looking beyond their differences to find common ground?"
           ],
           "layout": "split",
@@ -315,9 +315,9 @@
           "heading": "From an idea to a purpose",
           "paragraphs": [
             "In 2004, a visit to Khayelitsha in the Western Cape brought that idea into sharper focus.",
-            "The founding members of Proud Partners were deeply affected by the living conditions they encountered. Yet they were equally struck by the optimism, goodwill and determination of the people they met.",
+            "The founding members of *Proud Partners* were deeply affected by the living conditions they encountered. Yet they were equally struck by the optimism, goodwill and determination of the people they met.",
             "They realised that making a meaningful difference required more than good intentions. It required people to become personally involved.",
-            "And so, Proud Partners was born."
+            "And so, *Proud Partners* was born."
           ],
           "layout": "split",
           "tone": "cream",
@@ -344,7 +344,7 @@
           "paragraphs": [
             "With the initial financial support of Plexus Asset Management, Proud Partners was able to establish itself and begin putting its ideas into practice.",
             "In 2005, employees of Plexus and their families took their commitment a step further, participating in a two-day charity walk in Ceres. Together, they set themselves a target of 1,000 kilometres, raising an impressive R80,000 through sponsorships.",
-            "It was an early demonstration of the Proud Partners philosophy: people coming together, giving their time and energy and making something happen."
+            "It was an early demonstration of the *Proud Partners* philosophy: people coming together, giving their time and energy and making something happen."
           ],
           "layout": "split",
           "tone": "cream",
@@ -369,7 +369,7 @@
           "id": "11de92cb-781f-4cda-8415-e9ef2a4cf16c",
           "heading": "A shared commitment.",
           "paragraphs": [
-            "From the beginning, Proud Partners was founded on a simple principle: real change happens when people become involved in one another's lives.",
+            "From the beginning, *Proud Partners* was founded on a simple principle: real change happens when people become involved in one another's lives.",
             "Rather than merely collecting and distributing donations, the organisation encourages practical cooperation between South Africans from different backgrounds and communities.",
             "Whether through schools, community initiatives or individual relationships, the emphasis has always been on sharing knowledge, offering guidance, contributing skills and building understanding.",
             "Because a successful partnership should enrich the lives of everyone involved."
@@ -397,11 +397,11 @@
           "id": "8c5e39c0-a2f2-47d4-a733-29a6729e571f",
           "heading": "The story continues",
           "paragraphs": [
-            "More than two decades later, Proud Partners has played a role in projects spanning education, music, childcare and community development.",
+            "More than two decades later, *Proud Partners* has played a role in projects spanning education, music, childcare and community development.",
             "Some of those projects have come to an end, leaving behind achievements and memories worth celebrating. Others continue to make a difference today.",
-            "Its three principal ongoing initiatives are Kinders vir die Koning, PJO Art Tracks and the Consular Ball.",
+            "Its three principal ongoing initiatives are **Kinders vir die Koning**, **PJO Art Tracks** and the **Consular Ball**.",
             "Each has its own story. All share the belief that inspired Proud Partners in the first place.",
-            "Because partnership is not simply something we believe in. It's something we do."
+            "**Because partnership is not simply something we believe in. It's something we do.**"
           ],
           "layout": "text",
           "tone": "cream",
@@ -409,7 +409,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Explore Our Projects →",
+              "label": "*Explore Our Projects* →",
               "href": "/projects"
             }
           ],
@@ -432,7 +432,7 @@
         "title": "A classroom. A concert hall. A canvas. A helping hand.",
         "subtitle": "",
         "copy": "",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": null
       },
       "sections": [
@@ -471,9 +471,9 @@
           "cards": [
             {
               "title": "Domestic Project",
-              "subtitle": "A partnership begins at home.",
+              "subtitle": "**A partnership begins at home.**",
               "copy": "From adult education and financial literacy to nutritional guidance and opportunities for children, the Domestic Partnership Project encouraged employers and domestic workers to share knowledge, develop understanding and build more meaningful working relationships.",
-              "label": "Explore Project →",
+              "label": "*Explore Project* →",
               "image": {
                 "id": "4e3a8b1f32",
                 "src": "/assets/piet/educational-projects-page-4e3a8b1f32.webp",
@@ -495,7 +495,7 @@
       "path": "/projects/kinders-vir-die-koning",
       "parentId": "education",
       "title": "Kinders vir die Koning",
-      "subtitle": "From a community hall to a school of their own.",
+      "subtitle": "**From a community hall to a school of their own.**",
       "description": "In 1995, a small group of children began gathering in a community hall in Casablanca, near Gordon's Bay. There were no proper classrooms, precious few resources and an enormous need for early childhood care and education.",
       "kind": "story",
       "hidden": false,
@@ -504,7 +504,7 @@
         "title": "Kinders vir die Koning",
         "subtitle": "Where little beginnings matter.",
         "copy": "The earliest years lay the foundations for everything that follows. Through Kinders vir die Koning, Proud Partners continues its involvement in early childhood care and development, supporting the children and educators who make those important first years count.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "d4af064769",
           "src": "/assets/piet/educational-projects-page-d4af064769.webp",
@@ -611,7 +611,7 @@
             "But there was another problem.",
             "While the six-year-olds were receiving lessons in the container, the younger children who accompanied them had nowhere to go.",
             "Proud Partners recognised an opportunity to help.",
-            "The organisation established a preschool playgroup called Proud Pellies, appointed three women from the community as educators and undertook to pay their monthly salaries.",
+            "The organisation established a preschool playgroup called *Proud Pellies*, appointed three women from the community as educators and undertook to pay their monthly salaries.",
             "Before long, more than 80 children between the ages of three and six were attending developmental activities in the community hall four mornings a week.",
             "For the children, it meant a safer, more stimulating start. For the three women, it also meant employment and an opportunity to contribute directly to their community."
           ],
@@ -671,7 +671,7 @@
             "Partnership can take many forms, sometimes from unexpected quarters.",
             "In 2019, Proud Partners introduced the school to the Russian Consulate General, facilitating a meeting with Consul General Roman Ambarov and his team.",
             "The Consulate subsequently donated a laptop and video projector to support the school's educational activities.",
-            "At the handover ceremony, the children entertained their visitors with songs before enjoying a screening of the Russian animated series Masha and the Bear.",
+            "At the handover ceremony, the children entertained their visitors with songs before enjoying a screening of the Russian animated series *Masha and the Bear*.",
             "It was a memorable occasion and another example of how a simple introduction can lead to something worthwhile."
           ],
           "layout": "split",
@@ -700,7 +700,7 @@
             "For decades, the dream had been to give Kinders vir die Koning a permanent home.",
             "A site had been donated in 2009, but bringing the building project to completion proved a long and difficult undertaking. Funding constraints, construction challenges and unexpected setbacks repeatedly delayed progress.",
             "Then, in 2026, the dream finally became reality.",
-            "A contribution of R6.15 million from the Tirisano Construction Trust, facilitated through the ASLA Foundation, provided the crucial funding for the new school building.",
+            "A contribution of *R6.15 million from the Tirisano Construction Trust*, facilitated through the ASLA Foundation, provided the crucial funding for the new school building.",
             "On 7 September 2026, the children moved into their new home in Sercor Park.",
             "Exactly one month later, on 7 October, the school celebrated its official opening, bringing together the people and organisations who had contributed to its remarkable journey.",
             "Isabel Verwey attended on behalf of the Verwey family and Proud Partners, lighting a candle in remembrance of those whose dedication had helped make the day possible.",
@@ -735,7 +735,7 @@
             "It is a relationship that has endured because of a shared belief in the importance of early childhood development and the power of people working together.",
             "Today, Kinders vir die Koning continues to serve the children and families of Casablanca and Sercor Park.",
             "The buildings may have changed beyond recognition, but the idea that started it all remains wonderfully simple.",
-            "Give children a good beginning, and you give them a better chance at everything that follows."
+            "*Give children a good beginning, and you give them a better chance at everything that follows.*"
           ],
           "layout": "gallery",
           "tone": "cream",
@@ -794,7 +794,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit the Kinders vir die Koning Website →",
+              "label": "*Visit the Kinders vir die Koning Website* →",
               "href": "https://kvdkoning.co.za/"
             }
           ],
@@ -835,7 +835,7 @@
         "title": "#EndPeriodPoverty",
         "subtitle": "A period shouldn't interrupt an education.",
         "copy": "For students struggling to afford basic sanitary products, something as ordinary as attending lectures can become a challenge. Discover how Proud Partners' annual contribution to Stellenbosch University's #EndPeriodPoverty initiative is helping remove barriers to studying.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "b868a4e688",
           "src": "/assets/piet/educational-projects-page-b868a4e688.webp",
@@ -855,7 +855,7 @@
             "Imagine having to choose between buying food and buying sanitary products. Or missing lectures because you simply cannot afford the essentials.",
             "For many South African university students, period poverty is a very real barrier to education.",
             "In 2023, Stellenbosch University introduced its #EndPeriodPoverty initiative to help address this challenge, installing sanitary pad dispensing machines on its campuses to give students free, convenient and discreet access to essential menstrual products.",
-            "The initiative forms part of the University's Bridge the Gap programme, which helps students overcome financial challenges that could otherwise stand in the way of their studies.",
+            "The initiative forms part of the University's *Bridge the Gap* programme, which helps students overcome financial challenges that could otherwise stand in the way of their studies.",
             "With three dispensing machines designed to supply approximately 1,100 packs of sanitary pads every month, the programme is helping remove one unnecessary worry from students' lives.",
             "Recognising the importance of this initiative, Proud Partners began contributing R10,000 annually in 2024, an ongoing commitment to helping students focus on their education rather than the affordability of basic necessities.",
             "It's a relatively modest contribution towards a much bigger challenge. But it reflects a belief that has guided Proud Partners for more than two decades.",
@@ -886,7 +886,7 @@
         "title": "Temperance Town Primary School",
         "subtitle": "A school. A community. A partnership.",
         "copy": "Sometimes, making a difference starts with identifying what a school needs and finding ways to help. Discover how practical assistance and personal involvement helped build a relationship with Temperance Town Primary School in the Gordon's Bay area.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "a4c2932071",
           "src": "/assets/piet/educational-projects-page-a4c2932071.webp",
@@ -996,7 +996,7 @@
         "title": "Stellenzicht Reading Project",
         "subtitle": "A whole new world of words.",
         "copy": "Reading opens doors to knowledge, imagination and opportunity. At Stellenzicht Secondary School, a programme of individual reading assistance gave learners additional support in developing one of life's most valuable skills.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "c8cbcd7026",
           "src": "/assets/piet/educational-projects-page-c8cbcd7026.webp",
@@ -1017,7 +1017,7 @@
             "In 2015, the Friends of Stellenzicht, led by Dale Simons, joined forces with principal Lester Allies and his staff to introduce additional literacy lessons for Grades 8 and 9.",
             "Retired teacher Alfred Christians joined the initiative in 2016, when more than 60 learners were identified as needing extra help. He was soon joined by local resident Ria Engelbrecht, who volunteered her time to provide individual attention to those who needed it most.",
             "What began with some reluctance from learners soon developed into genuine enthusiasm. Reading aloud, spelling exercises and individual lessons helped build skills and confidence. And then came the competitions.",
-            "With financial support from Proud Partners, the school introduced incentives and prizes for StellenSpel, its spelling competition, StellenStorie for short stories and StellenDig for poetry. There was even StellenBundel, a collection of learners' writing illustrated by two talented young artists from the school.",
+            "With financial support from Proud Partners, the school introduced incentives and prizes for *StellenSpel*, its spelling competition, *StellenStorie* for short stories and *StellenDig* for poetry. There was even *StellenBundel*, a collection of learners' writing illustrated by two talented young artists from the school.",
             "What started as additional reading lessons became something much more: an opportunity for learners to discover the pleasure of words and take pride in their achievements.",
             "And for Proud Partners, another opportunity to support dedicated people like Alfred and Ria, who were already making remarkable things happen."
           ],
@@ -1106,7 +1106,7 @@
         "title": "Mathematics Support Project",
         "subtitle": "When the numbers began to add up.",
         "copy": "A dedicated organiser, eight volunteer tutors and an intensive mathematics camp helped learners tackle one of their toughest subjects, with remarkable results. Discover how Proud Partners helped bring the initiative to life.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "44cd25e75f",
           "src": "/assets/piet/educational-projects-page-44cd25e75f.webp",
@@ -1126,7 +1126,7 @@
             "Eight volunteers. One determined organiser. And a mathematics pass rate of 94.4%.",
             "In 2019, Nolubabalo Noji was determined to give learners the extra help they needed to succeed in mathematics. Her solution was an intensive study camp during the June school holidays, where eight volunteer mathematics teachers and Stellenbosch University students provided individual tuition, helped learners tackle difficult problems and worked through past examination papers.",
             "Proud Partners contributed towards the cost of accommodation and study facilities, but there were still meals, transport and other expenses to consider.",
-            "Not one to be discouraged, Nolubabalo organised a fundraising campaign, including a Funky Socks and Hats concert performed by the learners themselves.",
+            "Not one to be discouraged, Nolubabalo organised a fundraising campaign, including a *Funky Socks and Hats* concert performed by the learners themselves.",
             "The result? A remarkable 94.4% pass rate, which even encouraged more learners to choose mathematics as a subject.",
             "Proud Partners subsequently treated the eight volunteer tutors to a celebratory lunch, presenting each with a Certificate of Appreciation.",
             "Although COVID-19 prevented the camp from taking place in 2020, the volunteers continued helping learners through weekend classes.",
@@ -1208,7 +1208,7 @@
         "title": "Girl Talk by BecomingKids",
         "subtitle": "Big questions. Honest conversations.",
         "copy": "Growing up brings all kinds of questions, challenges and uncertainties. Girl Talk by BecomingKids created a space for girls aged 11 to 14 at Cloetesville Primary School to share experiences, gain confidence and navigate the sometimes complicated journey towards adulthood.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "59a983448a",
           "src": "/assets/piet/educational-projects-page-59a983448a.webp",
@@ -1300,16 +1300,16 @@
       "path": "/projects/domestic-partnership",
       "parentId": "projects",
       "title": "Domestic Partnership Project",
-      "subtitle": "A partnership begins at home.",
+      "subtitle": "**A partnership begins at home.**",
       "description": "The idea behind Proud Partners didn't begin in a boardroom or at a fundraising event. It began in a home, with two women who had shared twenty years of their lives.",
       "kind": "story",
       "hidden": false,
       "heroImage": null,
       "card": {
         "title": "Domestic Partnership Project",
-        "subtitle": "A partnership begins at home.",
+        "subtitle": "**A partnership begins at home.**",
         "copy": "From adult education and financial literacy to nutritional guidance and opportunities for children, the Domestic Partnership Project encouraged employers and domestic workers to share knowledge, develop understanding and build more meaningful working relationships.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "4e3a8b1f32",
           "src": "/assets/piet/educational-projects-page-4e3a8b1f32.webp",
@@ -1430,7 +1430,7 @@
       "path": "/projects/david-cyster",
       "parentId": "music",
       "title": "David Cyster",
-      "subtitle": "Music Projects | Kuils River, Western Cape\nThe right instrument. At the right time.",
+      "subtitle": "*Music Projects | Kuils River, Western Cape*\n**The right instrument. At the right time.**",
       "description": "Some children dream of becoming firefighters. Others want to be astronauts. At the age of three, David Cyster knew exactly what he wanted to do.",
       "kind": "story",
       "hidden": false,
@@ -1439,7 +1439,7 @@
         "title": "David Cyster",
         "subtitle": "From promising young musician to accomplished clarinettist.",
         "copy": "At seventeen, David Cyster was already collecting national music awards. But there was one instrument he needed to take his talent further. Discover how Proud Partners helped him acquire an A clarinet and follow his remarkable musical journey from Kuils River to the concert stage.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "7330b99b2c",
           "src": "/assets/piet/music-projects-page-7330b99b2c.webp",
@@ -1582,7 +1582,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Watch David Perform →",
+              "label": "*Watch David Perform* →",
               "href": "https://www.youtube.com/channel/UC7kVu1V1mdgVykInAy-EivA/videos"
             }
           ],
@@ -1605,7 +1605,7 @@
         "title": "Stellenbosch University Choir",
         "subtitle": "A world stage. A place for every voice.",
         "copy": "When the internationally acclaimed Stellenbosch University Choir travelled to Russia for the 2016 World Choir Games, not every student could afford the trip. Discover how Proud Partners helped talented young singers join their fellow choristers on the world stage.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "8afec22d41",
           "src": "/assets/piet/music-projects-page-8afec22d41.webp",
@@ -1628,7 +1628,7 @@
             "We sponsored half the travelling costs of four students and helped facilitate visa arrangements through Russian Consul General Roman Ambarov. In a generous personal gesture, he also waived the visa fees for 25 choir members who were experiencing financial difficulties.",
             "In the spirit of true partnership, choir members undertook to visit three disadvantaged schools in Cape Town to teach their choirs a song. Nine singers also performed the Russian and South African national anthems at the Russian National Day celebrations in Cape Town.",
             "And the trip to Russia?",
-            "The choir returned triumphant, winning all three of its categories at the 2016 World Choir Games: Musica Sacra, Spirituals and Mixed Choirs - further cementing its No. 1 ranking in the world on the Interkultur World Rankings, maintaining this position for 12 consecutive years.",
+            "The choir returned triumphant, winning all three of its categories at the 2016 World Choir Games: Musica Sacra, Spirituals and Mixed Choirs - further cementing its No. 1 ranking in the world on the *Interkultur World Rankings*, maintaining this position for 12 consecutive years.",
             "But perhaps the greatest reward came in the heartfelt letters of thanks from the students. One described the choir as \"my family away from my family\", while another called the opportunity to perform in Russia a dream come true.",
             "For Proud Partners, helping four young singers take their rightful places on the world stage was a privilege.",
             "Because extraordinary talent deserves extraordinary opportunities."
@@ -1690,7 +1690,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit the Stellenbosch University Choir YouTube channel →",
+              "label": "*Visit the Stellenbosch University Choir YouTube channel* →",
               "href": "https://www.youtube.com/channel/UCLJpFgv7AUCLyMKFImVYymQ"
             }
           ],
@@ -1736,7 +1736,7 @@
         "title": "Tygerberg Children's Choir",
         "subtitle": "Little voices. International acclaim.",
         "copy": "One of South Africa's most celebrated children's choirs has taken its notable talent around the world. Proud Partners helped young choristers participate in international competitions and experience the opportunities their exceptional musical abilities deserved.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "fde9c03ad7",
           "src": "/assets/piet/music-projects-page-fde9c03ad7.webp",
@@ -1754,7 +1754,7 @@
           "heading": "",
           "paragraphs": [
             "They've performed for royalty, presidents and audiences around the world. They've won international competitions and earned a reputation as one of the finest children's choirs anywhere. And they've done it all with singers between the ages of 10 and 14.",
-            "Established in 1972, the Tygerberg Children's Choir, affectionately known as the Ambassadors in Harmony, has brought generations of young South Africans together through music.",
+            "Established in 1972, the Tygerberg Children's Choir, affectionately known as the *Ambassadors in Harmony*, has brought generations of young South Africans together through music.",
             "In 2017, the choir performed at the Consular Ball, captivating an audience representing more than 20 countries. It was a partnership that would help ensure financial circumstances didn't stand in the way of musical opportunity.",
             "When the choir was selected to participate in the 2018 World Choir Games in Pretoria, Proud Partners sponsored the full participation costs of three young choristers whose families could not afford it.",
             "The choir returned triumphantly, having won four gold medals.",
@@ -1819,7 +1819,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit the Tygerberg Children's Choir website →",
+              "label": "*Visit the Tygerberg Children's Choir website* →",
               "href": "http://www.tcc.co.za/"
             }
           ],
@@ -1842,7 +1842,7 @@
         "title": "Junior Rosa Choir",
         "subtitle": "Different voices. One beautiful sound.",
         "copy": "Bringing children from different communities together through the joy of singing, the Junior Rosa Choir celebrates more than musical talent. It's an opportunity to discover friendship, understanding and the remarkable harmony that can emerge when people sing together.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "1b51d9732c",
           "src": "/assets/piet/music-projects-page-1b51d9732c.webp",
@@ -1943,7 +1943,7 @@
         "title": "5th St Peter's Scouts",
         "subtitle": "No April Fool's. A dream come true.",
         "copy": "When a group of young Scouts in Bloemfontein heard they were getting new instruments for their marching band, they thought it was an April Fool's joke. Discover the wonderfully unexpected surprise Proud Partners had in store.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "632b896274",
           "src": "/assets/piet/music-projects-page-632b896274.webp",
@@ -2045,7 +2045,7 @@
         "title": "Instrument Donors",
         "subtitle": "Some instruments deserve an encore.",
         "copy": "From a saxophone once sacrificed for a wedding ring to a violin that found a talented new owner, discover how generous music lovers helped Proud Partners put four instruments into the hands of aspiring young musicians.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "89bf2ff476",
           "src": "/assets/piet/music-projects-page-89bf2ff476.webp",
@@ -2177,7 +2177,7 @@
         "title": "Artscape Wellington Youth Band",
         "subtitle": "From borrowed instruments to the international stage.",
         "copy": "They started out borrowing instruments for Saturday rehearsals. Before long, they were entertaining diplomats at the Consular Ball. Discover how Proud Partners helped a talented group of young Wellington musicians find their rhythm.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "fdb9c7e9d1",
           "src": "/assets/piet/music-projects-page-fdb9c7e9d1.webp",
@@ -2290,7 +2290,7 @@
         "title": "Durbanville Children's Home",
         "subtitle": "A little music. A lot of heart.",
         "copy": "Fifteen recorders, a keyboard and a very special visit from South African singer Nianell. Discover how Proud Partners helped bring music, encouragement and new possibilities to the children of Durbanville Children's Home.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "2416543e21",
           "src": "/assets/piet/music-projects-page-2416543e21.webp",
@@ -2371,7 +2371,7 @@
         "title": "Soyisile Primary School",
         "subtitle": "Some performances mean more than awards.",
         "copy": "In 2005, singer Nianell chose a concert for children in Khayelitsha over an awards ceremony at Sun City. Discover how a new keyboard, music lessons and one extraordinary performer helped Proud Partners bring music to a deserving school.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "ae45dabc33",
           "src": "/assets/piet/music-projects-page-ae45dabc33.webp",
@@ -2444,7 +2444,7 @@
         "title": "The Belhar Project",
         "subtitle": "Giving musical talent a head start.",
         "copy": "When Proud Partners discovered that young musicians at Belhar High School were starting their training too late, we helped develop a programme involving 14 primary schools, 28 teachers and dozens of aspiring musicians.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "b21d1fe3a5",
           "src": "/assets/piet/music-projects-page-b21d1fe3a5.webp",
@@ -2557,7 +2557,7 @@
         "title": "Ermelo Music Project",
         "subtitle": "After school, the music began.",
         "copy": "When a determined maths teacher in Ermelo set out to bring music into her community, Proud Partners helped turn her idea into an expanding programme of instruments, lessons and teacher training across three local schools.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "96efdd4408",
           "src": "/assets/piet/music-projects-page-96efdd4408.webp",
@@ -2650,7 +2650,7 @@
         "title": "Pick A Pal",
         "subtitle": "First a song. Then a friendship.",
         "copy": "Fourteen schools, different languages and a whole lot of new friendships. Discover how Proud Partners' Pick A Pal initiative brought young children from different communities together through songs, drawings and shared experiences.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "1495b36b22",
           "src": "/assets/piet/music-projects-page-1495b36b22.webp",
@@ -2667,7 +2667,7 @@
           "id": "617a1281-f174-4c87-b970-6008da61722c",
           "heading": "",
           "paragraphs": [
-            "What do Jan Pierewiet, Twinkle Twinkle Little Star and a traditional isiXhosa song have in common?",
+            "What do *Jan Pierewiet*, *Twinkle Twinkle Little Star* and a traditional isiXhosa song have in common?",
             "They were all part of an initiative that brought children from different South African communities together, one song and one new friendship at a time.",
             "Pick A Pal was the brainchild of Ronel Barkhuizen, former principal of Welgemoed Pre-primary School and a founding member of Proud Partners. Under her leadership, 14 schools across the Western Cape joined an initiative designed to help children discover other cultures and make friends beyond their immediate communities.",
             "Every term, teachers gathered to exchange songs and dances, which they then taught to their own learners. Twice a year, the children came together for morning concerts, singing in Afrikaans, English, isiXhosa and Sesotho.",
@@ -2721,7 +2721,7 @@
         "title": "Iris House Children's Hospice",
         "subtitle": "Caring for children. Supporting families.",
         "copy": "From therapy animals and sensory activities to much-needed respite for exhausted parents, Iris House brings comfort and care to children and their families. Discover how Proud Partners helped support this remarkable organisation.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "6466c6fcc7",
           "src": "/assets/piet/childcare-projects-page-6466c6fcc7.webp",
@@ -2795,7 +2795,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit the Iris House website →",
+              "label": "*Visit the Iris House website* →",
               "href": "https://www.iris-house.org"
             }
           ],
@@ -2818,7 +2818,7 @@
         "title": "St Joseph's Home for Chronically Ill Children",
         "subtitle": "Because recovery takes more than medicine.",
         "copy": "For children recovering from serious illnesses and injuries, the journey home can be a long one. Discover how Proud Partners supported the remarkable rehabilitation work of St Joseph's Home in Cape Town.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "5ee77d9fb8",
           "src": "/assets/piet/childcare-projects-page-5ee77d9fb8.webp",
@@ -2882,7 +2882,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit St Joseph's Website →",
+              "label": "*Visit St Joseph's Website* →",
               "href": "http://stjosephshome.org.za/"
             }
           ],
@@ -2905,7 +2905,7 @@
         "title": "Operation Smile",
         "subtitle": "A smile can change everything.",
         "copy": "For children born with cleft lip or palate conditions, specialised medical care can transform far more than their appearance. Discover how Proud Partners helped five children receive the treatment they needed.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "4dcb3b1a58",
           "src": "/assets/piet/childcare-projects-page-4dcb3b1a58.webp",
@@ -2969,7 +2969,7 @@
           "videos": [],
           "links": [
             {
-              "label": "Visit Operation Smile South Africa →",
+              "label": "*Visit Operation Smile South Africa* →",
               "href": "http://southafrica.operationsmile.org/"
             }
           ],
@@ -2992,7 +2992,7 @@
         "title": "Cableway Charity Challenge",
         "subtitle": "Eight climbs. One mountain. A very good cause.",
         "copy": "Eight gruelling ascents of Table Mountain in a single day. Discover how Proud Partners sponsored trail runner Chantel Nienaber in the 2019 Cableway Charity Challenge, helping raise funds for organisations making a difference.",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "6bb7d4e8df",
           "src": "/assets/piet/childcare-projects-page-6bb7d4e8df.webp",
@@ -3016,7 +3016,7 @@
             "In 2019, the event raised an impressive R1,084,211, supporting organisations including Paedspal, CoolPlay and Ons Plek, all dedicated to improving lives in their respective communities.",
             "Proud Partners sponsored Chantel, one of South Africa's accomplished ultra-distance trail runners and a passionate supporter of charitable causes.",
             "She certainly didn't disappoint.",
-            "Chantel completed eight laps and earned the coveted title of Queen of the Mountain, recording the fastest women's ascent of Platteklip Gorge on the opening lap.",
+            "Chantel completed eight laps and earned the coveted title of *Queen of the Mountain*, recording the fastest women's ascent of Platteklip Gorge on the opening lap.",
             "For Chantel, the challenge was never simply a test of endurance. It was an opportunity to use her athletic ability to make a difference in the lives of others.",
             "And for Proud Partners, supporting someone prepared to go to such extraordinary lengths was an easy decision.",
             "Some people really will climb mountains for a good cause."
@@ -3067,7 +3067,7 @@
       "path": "/projects/art",
       "parentId": "projects",
       "title": "PJO Art Tracks",
-      "subtitle": "The town became their canvas.",
+      "subtitle": "**The town became their canvas.**",
       "description": "A girl swings from a creeper growing up a wall. A giant sloth listens to music. A young boy casts his fishing line into a stream, complete with a fish that actually moves.",
       "kind": "story",
       "hidden": false,
@@ -3076,7 +3076,7 @@
         "title": "PJO Art Tracks",
         "subtitle": "When a town becomes a canvas.",
         "copy": "Art has a wonderful way of bringing people together. In Stellenbosch, PJO Art Tracks gave young artists the opportunity to take their creativity into public spaces, transforming everyday surroundings into expressions of imagination, talent and community spirit.",
-        "label": "Explore PJO Art Tracks →",
+        "label": "*Explore PJO Art Tracks* →",
         "image": {
           "id": "8cfcd57e6c",
           "src": "/assets/piet/home-page-8cfcd57e6c.webp",
@@ -3155,10 +3155,10 @@
             "By 2017, the artists were becoming increasingly inventive.",
             "Lara Burger turned a stretch of pavement outside a music centre into a striking piano artwork, winning the public's online vote. Estelle Truter cleverly incorporated a creeper growing on a wall into her painting of a girl on a swing, earning the Proud Partners Choice Award.",
             "And Tasche Adams? She created a gigantic, colourful sloth listening to music.",
-            "In 2018, the imaginative Surrealistic Universe by Brooklyn Norkie and Melissa Wainwright had people turning their heads outside the Eikestad Mall. It won the public vote, while Hannah Reynolds received the Proud Partners Choice Award for transforming an ordinary walkway into a collection of vibrant lollipops.",
+            "In 2018, the imaginative *Surrealistic Universe* by Brooklyn Norkie and Melissa Wainwright had people turning their heads outside the Eikestad Mall. It won the public vote, while Hannah Reynolds received the Proud Partners Choice Award for transforming an ordinary walkway into a collection of vibrant lollipops.",
             "The following year brought even more surprises.",
-            "Katryn Groenewald and Ghia Hough's Communication was voted the public favourite, while Hilda Krige's Millstream Boy transformed the Meulstroom in Bird Street into a playful three-dimensional fishing scene, complete with a moving fish on the line.",
-            "Jana van Zyl's The Consequence also received the Teacher's Choice Award.",
+            "Katryn Groenewald and Ghia Hough's *Communication* was voted the public favourite, while Hilda Krige's *Millstream Boy* transformed the Meulstroom in Bird Street into a playful three-dimensional fishing scene, complete with a moving fish on the line.",
+            "Jana van Zyl's *The Consequence* also received the Teacher's Choice Award.",
             "Each year brought new artists, fresh ideas and another collection of unexpected encounters with art."
           ],
           "layout": "split",
@@ -3491,7 +3491,7 @@
         "title": "Educational Projects",
         "subtitle": "A good beginning can lead anywhere.",
         "copy": "From early childhood development and school partnerships to reading, mathematics and motivational programmes, education has always been central to Proud Partners. Discover the projects that have helped young South Africans develop their skills, build confidence and discover new possibilities.",
-        "label": "Explore Educational Projects →",
+        "label": "*Explore Educational Projects* →",
         "image": {
           "id": "287e2600b6",
           "src": "/assets/piet/educational-projects-page-287e2600b6.webp",
@@ -3580,7 +3580,7 @@
         "title": "Music Projects",
         "subtitle": "Every talent deserves to be heard.",
         "copy": "A donated instrument. A music lesson. A chance to perform. Sometimes a relatively small opportunity can make an enormous difference. Explore the many ways Proud Partners has supported young musicians, choirs and music programmes over the years.",
-        "label": "Explore Music Projects →",
+        "label": "*Explore Music Projects* →",
         "image": {
           "id": "114ad71570",
           "src": "/assets/piet/music-projects-page-114ad71570.webp",
@@ -3883,7 +3883,7 @@
         "title": "Childcare Projects",
         "subtitle": "Caring for those who need it most.",
         "copy": "Some children face challenges that demand special care. Through its involvement with specialist organisations, Proud Partners has helped support the people and programmes dedicated to improving the lives of vulnerable children and their families.",
-        "label": "Explore Childcare Projects →",
+        "label": "*Explore Childcare Projects* →",
         "image": {
           "id": "0101af823b",
           "src": "/assets/piet/childcare-projects-page-0101af823b.webp",
@@ -3970,16 +3970,16 @@
       "path": "/consular-ball",
       "parentId": "home",
       "title": "The Consular Ball",
-      "subtitle": "A world of good. In black tie.",
+      "subtitle": "**A world of good. In black tie.**",
       "description": "Where else could you bid for tea with Archbishop Desmond Tutu, an intimate dinner with Imtiaz Sooliman, founder of Gift of the Givers or an extraordinary one-day adventure to Antarctica?",
       "kind": "ball",
       "hidden": false,
       "heroImage": null,
       "card": {
         "title": "The Consular Ball",
-        "subtitle": "A world of good. In black tie.",
+        "subtitle": "**A world of good. In black tie.**",
         "copy": "",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": {
           "id": "9672c85fd5",
           "src": "/assets/piet/home-page-9672c85fd5.webp",
@@ -3996,7 +3996,7 @@
           "id": "e3a741c6-9cf4-4bad-8d1b-7cb72924e1f2",
           "heading": "",
           "paragraphs": [
-            "Where else could you bid for tea with Archbishop Desmond Tutu, an intimate dinner with Imtiaz Sooliman, founder of Gift of the Givers or an extraordinary one-day adventure to Antarctica?",
+            "Where else could you bid for tea with Archbishop Desmond Tutu, an intimate dinner with Imtiaz Sooliman, founder of *Gift of the Givers* or an extraordinary one-day adventure to Antarctica?",
             "Welcome to the Consular Ball, one of Cape Town's most distinctive fundraising occasions, where diplomats, business leaders and generous supporters come together for an evening of exceptional entertainment, unexpected experiences and a very good cause.",
             "Because behind the elegant gowns, black ties and spirited bidding lies something far more important.",
             "The opportunity to make a meaningful difference."
@@ -5588,7 +5588,9 @@
         {
           "id": "ball-2024-summary",
           "heading": "",
-          "paragraphs": ["By the end of 2024, the Consular Ball had raised more than R7 million for local charitable organisations."],
+          "paragraphs": [
+            "By the end of 2024, the Consular Ball had raised more than R7 million for local charitable organisations."
+          ],
           "layout": "gallery",
           "tone": "cream",
           "images": [],
@@ -5613,7 +5615,7 @@
         "title": "Contact",
         "subtitle": "",
         "copy": "",
-        "label": "Explore Project →",
+        "label": "*Explore Project* →",
         "image": null
       },
       "sections": []

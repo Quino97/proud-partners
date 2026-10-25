@@ -10,7 +10,7 @@
 		{@const lastSpace = tile.title.lastIndexOf(' ')}
 		<div class="tile-reveal" use:reveal={{ delay: (index % 3) * 75 }}><a class="content-tile" href={sitePath(item.path)}>
 			{#if tile.image}<div class="tile-image"><img src={tile.image.src} alt={tile.image.alt} loading="lazy" style:object-position={tile.image.position} /></div>{/if}
-			<div class="tile-copy"><h3>{#if lastSpace > 0}{tile.title.slice(0,lastSpace + 1)}<em>{tile.title.slice(lastSpace + 1)}</em>{:else}{tile.title}{/if}</h3>{#if tile.subtitle}<p class="tile-subtitle"><RichText text={tile.subtitle} /></p>{/if}{#if tile.copy}<p><RichText text={tile.copy} /></p>{/if}{#if tile.label}<span class="tile-action">{tile.label}</span>{/if}</div>
+			<div class="tile-copy"><h3>{#if lastSpace > 0}{tile.title.slice(0,lastSpace + 1)}<em>{tile.title.slice(lastSpace + 1)}</em>{:else}{tile.title}{/if}</h3>{#if tile.subtitle}<p class="tile-subtitle"><RichText text={tile.subtitle} /></p>{/if}{#if tile.copy}<p><RichText text={tile.copy} /></p>{/if}{#if tile.label}<span class="tile-action"><RichText text={tile.label} /></span>{/if}</div>
 		</a></div>
 	{/each}
 </div>

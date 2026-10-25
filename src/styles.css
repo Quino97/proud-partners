@@ -32,7 +32,7 @@
 	--step-4: clamp(3rem, 2.15rem + 3.5vw, 5.65rem);
 	--step-5: clamp(4rem, 2.7rem + 5.2vw, 7.6rem);
 	font-family: 'Nugo Sans', 'Segoe UI', sans-serif;
-	font-synthesis: weight;
+	font-synthesis: weight style;
 	color: var(--ink);
 	background: var(--cream);
 }
