@@ -1,10 +1,4 @@
 @font-face {
-	font-family: 'Nugo Sans';
-	src: url('./lib/assets/NugoSans.ttf') format('truetype');
-	font-display: swap;
-}
-
-@font-face {
 	font-family: 'Plus Jakarta Sans';
 	src: url('./lib/assets/PlusJakartaSans-Variable.ttf') format('truetype');
 	font-weight: 200 800;
@@ -23,7 +17,7 @@
 	--cream-deep: #eeede7;
 	--white: #ffffff;
 	--ink: #152e42;
-	--ink-soft: #526876;
+	--ink-soft: #405665;
 	--line: rgba(9, 61, 115, 0.15);
 	--shadow-sm: 0 16px 40px rgba(6, 40, 68, 0.08);
 	--shadow-lg: 0 30px 80px rgba(6, 40, 68, 0.16);
@@ -31,6 +25,7 @@
 	--radius-md: 1.25rem;
 	--radius-lg: 2rem;
 	--font-rounded: 'Trebuchet MS', 'Segoe UI', sans-serif;
+	--font-body: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
 	--font-heading: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
 	--font-editorial: Georgia, 'Times New Roman', serif;
 	--step--1: clamp(0.79rem, 0.76rem + 0.12vw, 0.86rem);
@@ -40,7 +35,7 @@
 	--step-3: clamp(2.15rem, 1.75rem + 1.7vw, 3.25rem);
 	--step-4: clamp(3rem, 2.15rem + 3.5vw, 5.65rem);
 	--step-5: clamp(4rem, 2.7rem + 5.2vw, 7.6rem);
-	font-family: 'Nugo Sans', 'Segoe UI', sans-serif;
+	font-family: var(--font-body);
 	font-synthesis: weight style;
 	color: var(--ink);
 	background: var(--cream);
@@ -63,6 +58,7 @@ body {
 	background: var(--cream);
 	color: var(--ink);
 	font-size: var(--step-0);
+	font-weight: 400;
 	line-height: 1.65;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;

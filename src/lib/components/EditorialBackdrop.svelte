@@ -1,4 +1,8 @@
-<div class="editorial-backdrop" aria-hidden="true">
+<script lang="ts">
+	let { upper = false }: { upper?: boolean } = $props();
+</script>
+
+<div class="editorial-backdrop" class:upper aria-hidden="true">
 	<span class="edge-orbit orbit-left"></span>
 	<span class="edge-orbit orbit-right"></span>
 	<span class="edge-bubble"></span>
@@ -27,6 +31,9 @@
 	.orbit-bottom { top:87%; right:-12rem; width:17rem; height:17rem; }
 	@keyframes edge-drift { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-12px); } }
 	@media(prefers-reduced-motion:reduce) { .edge-orbit { animation:none; } }
+	@media(min-width:761px) {
+		.editorial-backdrop.upper::before { width:32rem; height:32rem; top:-24rem; right:auto; left:-8rem; border-color:rgba(13,103,173,.1); box-shadow:0 0 0 2.5rem rgba(169,226,239,.05),0 0 0 5rem rgba(169,226,239,.035); }
+	}
 	@media(max-width:760px) {
 		.editorial-backdrop::before { width:22rem; height:22rem; right:-17rem; }
 		.edge-orbit,.edge-bubble { opacity:.55; }

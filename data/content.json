@@ -39,7 +39,7 @@
       "path": "/",
       "parentId": "",
       "title": "Partnership changes what is possible.",
-      "subtitle": "",
+      "subtitle": "Proud Partners · Since 2004",
       "description": "Since 2004, Proud Partners has brought South Africans together to share their time, knowledge and skills. What began with a simple idea has grown into a remarkable collection of projects, achievements and human stories.",
       "kind": "home",
       "hidden": false,
@@ -134,14 +134,14 @@
               "copy": "Since 2012, the Consular Ball has brought together Cape Town's diplomatic and business communities for extraordinary evenings in support of worthy causes. Discover the people, the celebrations and the achievements that have made the event so memorable.",
               "label": "*Explore the Consular Ball* →",
               "image": {
-                "id": "9672c85fd5",
-                "src": "/assets/piet/home-page-9672c85fd5.webp",
-                "alt": "Home Page",
+                "id": "consular-2024-5fc779df4b62",
+                "src": "/assets/consular-ball/2024/5fc779df4b62.webp",
+                "alt": "The 2024 Consular Ball — photo CB(6)",
                 "caption": "",
-                "position": "center",
-                "source": "Home Page/Photos/Project Tiles/ConBal-foto-2014 copy.JPG",
-                "width": 800,
-                "height": 533
+                "position": "center top",
+                "source": "Consular Ball/2024/CB(6).jpg",
+                "width": 2000,
+                "height": 1333
               },
               "id": "consular-ball"
             }
@@ -3981,14 +3981,14 @@
         "copy": "",
         "label": "*Explore Project* →",
         "image": {
-          "id": "9672c85fd5",
-          "src": "/assets/piet/home-page-9672c85fd5.webp",
-          "alt": "Home Page",
+          "id": "consular-2024-5fc779df4b62",
+          "src": "/assets/consular-ball/2024/5fc779df4b62.webp",
+          "alt": "The 2024 Consular Ball — photo CB(6)",
           "caption": "",
-          "position": "center",
-          "source": "Home Page/Photos/Project Tiles/ConBal-foto-2014 copy.JPG",
-          "width": 800,
-          "height": 533
+          "position": "center top",
+          "source": "Consular Ball/2024/CB(6).jpg",
+          "width": 2000,
+          "height": 1333
         }
       },
       "sections": [
@@ -4005,14 +4005,14 @@
           "tone": "cream",
           "images": [
             {
-              "id": "9672c85fd5",
-              "src": "/assets/piet/home-page-9672c85fd5.webp",
-              "alt": "Home Page",
-              "caption": "",
+              "id": "consular-2024-510fc7ed4ad5",
+              "src": "/assets/consular-ball/2024/510fc7ed4ad5.webp",
+              "alt": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
+              "caption": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
               "position": "center",
-              "source": "Home Page/Photos/Project Tiles/ConBal-foto-2014 copy.JPG",
-              "width": 800,
-              "height": 533
+              "source": "Consular Ball/2024/CB(28).jpg",
+              "width": 2000,
+              "height": 1333
             }
           ],
           "videos": [],
@@ -4035,12 +4035,14 @@
           "tone": "cream",
           "images": [
             {
-              "id": "02820b77985f",
-              "src": "/assets/ball-archive/2013-02820b77985f.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2012-f9b170a52a80",
+              "src": "/assets/consular-ball/2012/f9b170a52a80.webp",
+              "alt": "The 2012 Consular Ball — photo 50_261",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/03.jpg"
+              "source": "Consular Ball/2012/50_261.JPG",
+              "width": 1500,
+              "height": 1000
             }
           ],
           "videos": [],
@@ -4063,12 +4065,14 @@
           "tone": "cream",
           "images": [
             {
-              "id": "d9bca7f092bb",
-              "src": "/assets/ball-archive/2015-d9bca7f092bb.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
+              "id": "consular-2013-08e3a9802c0b",
+              "src": "/assets/consular-ball/2013/08e3a9802c0b.webp",
+              "alt": "Former Springbok Toks van der Linde in action as auctioneer.",
+              "caption": "Former Springbok Toks van der Linde in action as auctioneer.",
               "position": "center",
-              "source": "Consular Ball archive/2015/01.jpg"
+              "source": "Consular Ball/2013/59_1885.JPG",
+              "width": 1500,
+              "height": 1000
             }
           ],
           "videos": [],
@@ -4094,14 +4098,14 @@
           "tone": "cream",
           "images": [
             {
-              "id": "f0748f28bc",
-              "src": "/assets/piet/tygerberg-childrens-choir-f0748f28bc.webp",
-              "alt": "Tygerberg Childrens Choir",
-              "caption": "",
+              "id": "consular-2018-5797ee907703",
+              "src": "/assets/consular-ball/2018/5797ee907703.webp",
+              "alt": "the Tygerberg Children’s Choir in action",
+              "caption": "the Tygerberg Children’s Choir in action",
               "position": "center",
-              "source": "Tygerberg Childrens Choir/Screenshot 2026-10-23 at 4.26.05 PM.png",
-              "width": 1906,
-              "height": 1166
+              "source": "Consular Ball/2018/CB2018(lowres)-42.jpg",
+              "width": 2000,
+              "height": 1487
             }
           ],
           "videos": [],
@@ -4205,12 +4209,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "a85dfd97ff47",
-          "src": "/assets/ball-archive/2012-a85dfd97ff47.webp",
-          "alt": "Consular Ball 2012",
+          "id": "consular-2012-0d59011409a0",
+          "src": "/assets/consular-ball/2012/0d59011409a0.webp",
+          "alt": "The 2012 Consular Ball — photo 41_417",
           "caption": "",
-          "position": "center",
-          "source": "Consular Ball archive/2012/02.jpg"
+          "position": "center top",
+          "source": "Consular Ball/2012/41_417.JPG",
+          "width": 1500,
+          "height": 1000
         }
       },
       "sections": [
@@ -4222,20 +4228,154 @@
           "tone": "cream",
           "images": [
             {
-              "id": "a85dfd97ff47",
-              "src": "/assets/ball-archive/2012-a85dfd97ff47.webp",
-              "alt": "Consular Ball 2012",
+              "id": "consular-2012-2090051956a4",
+              "src": "/assets/consular-ball/2012/2090051956a4.webp",
+              "alt": "The 2012 Consular Ball — photo 10_66",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2012/02.jpg"
+              "source": "Consular Ball/2012/10_66.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "edc5953de7cf",
-              "src": "/assets/ball-archive/2012-edc5953de7cf.webp",
-              "alt": "Consular Ball 2012",
+              "id": "consular-2012-288d667796c5",
+              "src": "/assets/consular-ball/2012/288d667796c5.webp",
+              "alt": "The 2012 Consular Ball — photo 18_115",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2012/03.jpg"
+              "source": "Consular Ball/2012/18_115.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-cd9a6ab3a67d",
+              "src": "/assets/consular-ball/2012/cd9a6ab3a67d.webp",
+              "alt": "The 2012 Consular Ball — photo 32_265",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/32_265.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-0d59011409a0",
+              "src": "/assets/consular-ball/2012/0d59011409a0.webp",
+              "alt": "The 2012 Consular Ball — photo 41_417",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/41_417.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-f9b170a52a80",
+              "src": "/assets/consular-ball/2012/f9b170a52a80.webp",
+              "alt": "The 2012 Consular Ball — photo 50_261",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/50_261.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-dc973937fd4b",
+              "src": "/assets/consular-ball/2012/dc973937fd4b.webp",
+              "alt": "The 2012 Consular Ball — photo 50_408",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/50_408.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-0c0ea913beee",
+              "src": "/assets/consular-ball/2012/0c0ea913beee.webp",
+              "alt": "The MC: Dr. Michael Moll.",
+              "caption": "The MC: Dr. Michael Moll.",
+              "position": "center",
+              "source": "Consular Ball/2012/70_230.JPG",
+              "width": 1000,
+              "height": 1500
+            },
+            {
+              "id": "consular-2012-3d1f8fb7419d",
+              "src": "/assets/consular-ball/2012/3d1f8fb7419d.webp",
+              "alt": "The Dean of Cape Town Consular Corps, Sylvio Rogobete",
+              "caption": "The Dean of Cape Town Consular Corps, Sylvio Rogobete",
+              "position": "center",
+              "source": "Consular Ball/2012/71_239.JPG",
+              "width": 1000,
+              "height": 1500
+            },
+            {
+              "id": "consular-2012-4d643a2aa551",
+              "src": "/assets/consular-ball/2012/4d643a2aa551.webp",
+              "alt": "The Premier of Western Cape, Helen Zille, was the guest speaker.",
+              "caption": "The Premier of Western Cape, Helen Zille, was the guest speaker.",
+              "position": "center",
+              "source": "Consular Ball/2012/72_285.JPG",
+              "width": 1000,
+              "height": 1500
+            },
+            {
+              "id": "consular-2012-6572037e6e1e",
+              "src": "/assets/consular-ball/2012/6572037e6e1e.webp",
+              "alt": "Singer Nianell entertained the guests.",
+              "caption": "Singer Nianell entertained the guests.",
+              "position": "center",
+              "source": "Consular Ball/2012/73_356.JPG",
+              "width": 1000,
+              "height": 1500
+            },
+            {
+              "id": "consular-2012-cdc4498936c9",
+              "src": "/assets/consular-ball/2012/cdc4498936c9.webp",
+              "alt": "Winners of a unique auction item.",
+              "caption": "Winners of a unique auction item.",
+              "position": "center",
+              "source": "Consular Ball/2012/81_473.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-d3fa725d62ad",
+              "src": "/assets/consular-ball/2012/d3fa725d62ad.webp",
+              "alt": "The 2012 Consular Ball — photo 82_480",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/82_480.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-d350a4bef19e",
+              "src": "/assets/consular-ball/2012/d350a4bef19e.webp",
+              "alt": "The 2012 Consular Ball — photo 85_507",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/85_507.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-30dd806b126a",
+              "src": "/assets/consular-ball/2012/30dd806b126a.webp",
+              "alt": "The 2012 Consular Ball — photo 86_513",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/86_513.JPG",
+              "width": 1500,
+              "height": 1000
+            },
+            {
+              "id": "consular-2012-90f65af5a974",
+              "src": "/assets/consular-ball/2012/90f65af5a974.webp",
+              "alt": "The 2012 Consular Ball — photo DSC_6554",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2012/DSC_6554.JPG",
+              "width": 1500,
+              "height": 1000
             }
           ],
           "videos": [],
@@ -4260,6 +4400,27 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2012",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2012 2e artikel (PDF)",
+              "href": "/assets/consular-ball/2012/consular-ball-2012-2e-artikel.pdf"
+            },
+            {
+              "label": "Consular Ball 2012 Article 3 (PDF)",
+              "href": "/assets/consular-ball/2012/consular-ball-2012-article-3.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -4279,12 +4440,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "567f514f9359",
-          "src": "/assets/ball-archive/2013-567f514f9359.webp",
-          "alt": "Consular Ball 2013",
+          "id": "consular-2013-45b6bdcf8315",
+          "src": "/assets/consular-ball/2013/45b6bdcf8315.webp",
+          "alt": "The 2013 Consular Ball — photo 50_1243",
           "caption": "",
           "position": "center",
-          "source": "Consular Ball archive/2013/02.jpg"
+          "source": "Consular Ball/2013/50_1243.JPG",
+          "width": 1500,
+          "height": 1000
         }
       },
       "sections": [
@@ -4296,140 +4459,154 @@
           "tone": "cream",
           "images": [
             {
-              "id": "567f514f9359",
-              "src": "/assets/ball-archive/2013-567f514f9359.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-0d739ea61bfe",
+              "src": "/assets/consular-ball/2013/0d739ea61bfe.webp",
+              "alt": "The 2013 Consular Ball — photo 6_1284",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/02.jpg"
+              "source": "Consular Ball/2013/6_1284.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "02820b77985f",
-              "src": "/assets/ball-archive/2013-02820b77985f.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-5a0aaa924b9d",
+              "src": "/assets/consular-ball/2013/5a0aaa924b9d.webp",
+              "alt": "The 2013 Consular Ball — photo 9_1303",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/03.jpg"
+              "source": "Consular Ball/2013/9_1303.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "06caf1f534ac",
-              "src": "/assets/ball-archive/2013-06caf1f534ac.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-f22f1201bfe0",
+              "src": "/assets/consular-ball/2013/f22f1201bfe0.webp",
+              "alt": "The 2013 Consular Ball — photo 20_1372",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/05.jpg"
+              "source": "Consular Ball/2013/20_1372.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "c0aaf93cc102",
-              "src": "/assets/ball-archive/2013-c0aaf93cc102.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-9c72808280ca",
+              "src": "/assets/consular-ball/2013/9c72808280ca.webp",
+              "alt": "The 2013 Consular Ball — photo 31_1911",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/10.jpg"
+              "source": "Consular Ball/2013/31_1911.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "8a60ade0174b",
-              "src": "/assets/ball-archive/2013-8a60ade0174b.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-2bb04a9930e0",
+              "src": "/assets/consular-ball/2013/2bb04a9930e0.webp",
+              "alt": "The 2013 Consular Ball — photo 38_2102",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/11.jpg"
+              "source": "Consular Ball/2013/38_2102.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "9c124040cc09",
-              "src": "/assets/ball-archive/2013-9c124040cc09.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-1729798dee08",
+              "src": "/assets/consular-ball/2013/1729798dee08.webp",
+              "alt": "The 2013 Consular Ball — photo 50_1195",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/12.jpg"
+              "source": "Consular Ball/2013/50_1195.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "7b5820ca29a0",
-              "src": "/assets/ball-archive/2013-7b5820ca29a0.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-5e2a5bc65fb7",
+              "src": "/assets/consular-ball/2013/5e2a5bc65fb7.webp",
+              "alt": "The 2013 Consular Ball — photo 50_1197",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/13.jpg"
+              "source": "Consular Ball/2013/50_1197.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "9cee0614b413",
-              "src": "/assets/ball-archive/2013-9cee0614b413.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-45b6bdcf8315",
+              "src": "/assets/consular-ball/2013/45b6bdcf8315.webp",
+              "alt": "The 2013 Consular Ball — photo 50_1243",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/19.jpg"
+              "source": "Consular Ball/2013/50_1243.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "032b5d1057b1",
-              "src": "/assets/ball-archive/2013-032b5d1057b1.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-08e3a9802c0b",
+              "src": "/assets/consular-ball/2013/08e3a9802c0b.webp",
+              "alt": "Former Springbok Toks van der Linde in action as auctioneer.",
+              "caption": "Former Springbok Toks van der Linde in action as auctioneer.",
               "position": "center",
-              "source": "Consular Ball archive/2013/25.jpg"
+              "source": "Consular Ball/2013/59_1885.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "8fd6dd4f7709",
-              "src": "/assets/ball-archive/2013-8fd6dd4f7709.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-a25e94c06a66",
+              "src": "/assets/consular-ball/2013/a25e94c06a66.webp",
+              "alt": "The lucky winner of Roger Federer’s racket",
+              "caption": "The lucky winner of Roger Federer’s racket",
               "position": "center",
-              "source": "Consular Ball archive/2013/31.jpg"
+              "source": "Consular Ball/2013/59_2015.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "cfee42287ba2",
-              "src": "/assets/ball-archive/2013-cfee42287ba2.webp",
-              "alt": "Consular Ball 2013",
+              "id": "consular-2013-d3a8a4250876",
+              "src": "/assets/consular-ball/2013/d3a8a4250876.webp",
+              "alt": "The 2013 Consular Ball — photo 59d_2029",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2013/37.jpg"
+              "source": "Consular Ball/2013/59d_2029.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "08dcd23ef13d",
-              "src": "/assets/ball-archive/2013-08dcd23ef13d.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-cdfcfccaf6b0",
+              "src": "/assets/consular-ball/2013/cdfcfccaf6b0.webp",
+              "alt": "TV-personality, Elsabe Daneel was the MC",
+              "caption": "TV-personality, Elsabe Daneel was the MC",
               "position": "center",
-              "source": "Consular Ball archive/2013/43.jpg"
+              "source": "Consular Ball/2013/60_1399.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "00c94732d9ce",
-              "src": "/assets/ball-archive/2013-00c94732d9ce.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-bc5e11f5ad37",
+              "src": "/assets/consular-ball/2013/bc5e11f5ad37.webp",
+              "alt": "Guest Speaker Tony Leon.",
+              "caption": "Guest Speaker Tony Leon.",
               "position": "center",
-              "source": "Consular Ball archive/2013/49.jpg"
+              "source": "Consular Ball/2013/64a_1592.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "a0642e088811",
-              "src": "/assets/ball-archive/2013-a0642e088811.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-d43868e64290",
+              "src": "/assets/consular-ball/2013/d43868e64290.webp",
+              "alt": "The Artscape Wellington Youth Band entertained the guests",
+              "caption": "The Artscape Wellington Youth Band entertained the guests",
               "position": "center",
-              "source": "Consular Ball archive/2013/55.jpg"
+              "source": "Consular Ball/2013/70_1471.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "8e87766d2e67",
-              "src": "/assets/ball-archive/2013-8e87766d2e67.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
+              "id": "consular-2013-e6e10c2b1c0e",
+              "src": "/assets/consular-ball/2013/e6e10c2b1c0e.webp",
+              "alt": "A Tombola (lucky draw) was introduced.",
+              "caption": "A Tombola (lucky draw) was introduced.",
               "position": "center",
-              "source": "Consular Ball archive/2013/61.jpg"
-            },
-            {
-              "id": "960e8340a96f",
-              "src": "/assets/ball-archive/2013-960e8340a96f.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2013/67.jpg"
-            },
-            {
-              "id": "76389b526aff",
-              "src": "/assets/ball-archive/2013-76389b526aff.webp",
-              "alt": "Consular Ball 2013",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2013/73.jpg"
+              "source": "Consular Ball/2013/98_1709.JPG",
+              "width": 1500,
+              "height": 1000
             }
           ],
           "videos": [],
@@ -4454,6 +4631,31 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2013",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2013 article 1 (PDF)",
+              "href": "/assets/consular-ball/2013/consular-ball-2013-article-1.pdf"
+            },
+            {
+              "label": "Consular Ball 2013 Article 3 pdf (PDF)",
+              "href": "/assets/consular-ball/2013/consular-ball-2013-article-3-pdf.pdf"
+            },
+            {
+              "label": "Consular Ball 2013 Article 4 (PDF)",
+              "href": "/assets/consular-ball/2013/consular-ball-2013-article-4.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -4473,12 +4675,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "7142ecc96fdb",
-          "src": "/assets/ball-archive/2014-7142ecc96fdb.webp",
-          "alt": "Consular Ball 2014",
-          "caption": "",
-          "position": "center",
-          "source": "Consular Ball archive/2014/05.jpg"
+          "id": "consular-2014-081b32e9dc03",
+          "src": "/assets/consular-ball/2014/081b32e9dc03.webp",
+          "alt": "The US Choir entertained the guests",
+          "caption": "The US Choir entertained the guests",
+          "position": "center top",
+          "source": "Consular Ball/2014/90_1806.JPG",
+          "width": 1500,
+          "height": 1000
         }
       },
       "sections": [
@@ -4490,140 +4694,174 @@
           "tone": "cream",
           "images": [
             {
-              "id": "7142ecc96fdb",
-              "src": "/assets/ball-archive/2014-7142ecc96fdb.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-0a50242a631f",
+              "src": "/assets/consular-ball/2014/0a50242a631f.webp",
+              "alt": "The 2014 Consular Ball — photo 17_1639",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/05.jpg"
+              "source": "Consular Ball/2014/17_1639.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "0bdecd107c1d",
-              "src": "/assets/ball-archive/2014-0bdecd107c1d.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-735edde00ae9",
+              "src": "/assets/consular-ball/2014/735edde00ae9.webp",
+              "alt": "The 2014 Consular Ball — photo 22_1680",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/08.jpg"
+              "source": "Consular Ball/2014/22_1680.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "5e70cfd76477",
-              "src": "/assets/ball-archive/2014-5e70cfd76477.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-5ed193bcc7c4",
+              "src": "/assets/consular-ball/2014/5ed193bcc7c4.webp",
+              "alt": "The 2014 Consular Ball — photo 30_2104",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/15.jpg"
+              "source": "Consular Ball/2014/30_2104.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "baabe9a05236",
-              "src": "/assets/ball-archive/2014-baabe9a05236.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-13c1d306115e",
+              "src": "/assets/consular-ball/2014/13c1d306115e.webp",
+              "alt": "The 2014 Consular Ball — photo 34_2120",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/16.jpg"
+              "source": "Consular Ball/2014/34_2120.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "20f27ad791f0",
-              "src": "/assets/ball-archive/2014-20f27ad791f0.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-f1809b8ab8ad",
+              "src": "/assets/consular-ball/2014/f1809b8ab8ad.webp",
+              "alt": "The 2014 Consular Ball — photo 39_2323",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/17.jpg"
+              "source": "Consular Ball/2014/39_2323.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "52d4fd5a1845",
-              "src": "/assets/ball-archive/2014-52d4fd5a1845.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-703315584954",
+              "src": "/assets/consular-ball/2014/703315584954.webp",
+              "alt": "The 2014 Consular Ball — photo 46_2299",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/18.jpg"
+              "source": "Consular Ball/2014/46_2299.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "941d0e9ca413",
-              "src": "/assets/ball-archive/2014-941d0e9ca413.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-21f63389aa69",
+              "src": "/assets/consular-ball/2014/21f63389aa69.webp",
+              "alt": "The 2014 Consular Ball — photo 49_2315",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/19.jpg"
+              "source": "Consular Ball/2014/49_2315.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "b25210465848",
-              "src": "/assets/ball-archive/2014-b25210465848.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-c1c779c2fc5a",
+              "src": "/assets/consular-ball/2014/c1c779c2fc5a.webp",
+              "alt": "Ariella Kuper  was our auctioneer.",
+              "caption": "Ariella Kuper  was our auctioneer.",
               "position": "center",
-              "source": "Consular Ball archive/2014/23.jpg"
+              "source": "Consular Ball/2014/59_2007.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "f51b170b1c36",
-              "src": "/assets/ball-archive/2014-f51b170b1c36.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-ee59f60799c4",
+              "src": "/assets/consular-ball/2014/ee59f60799c4.webp",
+              "alt": "Auctioneer Ariella in action.",
+              "caption": "Auctioneer Ariella in action.",
               "position": "center",
-              "source": "Consular Ball archive/2014/28.jpg"
+              "source": "Consular Ball/2014/59_2009.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "da13cce60979",
-              "src": "/assets/ball-archive/2014-da13cce60979.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-d0b0ced15a66",
+              "src": "/assets/consular-ball/2014/d0b0ced15a66.webp",
+              "alt": "Johanna Strauss presented the auction items to the highest bidders",
+              "caption": "Johanna Strauss presented the auction items to the highest bidders",
               "position": "center",
-              "source": "Consular Ball archive/2014/33.jpg"
+              "source": "Consular Ball/2014/59_2164.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "6a0c33ed599d",
-              "src": "/assets/ball-archive/2014-6a0c33ed599d.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-3d71d4706024",
+              "src": "/assets/consular-ball/2014/3d71d4706024.webp",
+              "alt": "TV personality Eon de Vos as MC",
+              "caption": "TV personality Eon de Vos as MC",
               "position": "center",
-              "source": "Consular Ball archive/2014/38.jpg"
+              "source": "Consular Ball/2014/81_1743.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "226d6d411d80",
-              "src": "/assets/ball-archive/2014-226d6d411d80.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-8f6bd463fa47",
+              "src": "/assets/consular-ball/2014/8f6bd463fa47.webp",
+              "alt": "Business leader Christo Wiese was the guest speaker.",
+              "caption": "Business leader Christo Wiese was the guest speaker.",
               "position": "center",
-              "source": "Consular Ball archive/2014/43.jpg"
+              "source": "Consular Ball/2014/82_1757.JPG",
+              "width": 1000,
+              "height": 1500
             },
             {
-              "id": "72288fd12dcc",
-              "src": "/assets/ball-archive/2014-72288fd12dcc.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-c3dcf361191c",
+              "src": "/assets/consular-ball/2014/c3dcf361191c.webp",
+              "alt": "The Tombola.",
+              "caption": "The Tombola.",
               "position": "center",
-              "source": "Consular Ball archive/2014/48.jpg"
+              "source": "Consular Ball/2014/89_2145.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "a4e02a9995f6",
-              "src": "/assets/ball-archive/2014-a4e02a9995f6.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-081b32e9dc03",
+              "src": "/assets/consular-ball/2014/081b32e9dc03.webp",
+              "alt": "The US Choir entertained the guests",
+              "caption": "The US Choir entertained the guests",
               "position": "center",
-              "source": "Consular Ball archive/2014/53.jpg"
+              "source": "Consular Ball/2014/90_1806.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "fc5f79fee14f",
-              "src": "/assets/ball-archive/2014-fc5f79fee14f.webp",
-              "alt": "Consular Ball 2014",
-              "caption": "",
+              "id": "consular-2014-3fb30208e420",
+              "src": "/assets/consular-ball/2014/3fb30208e420.webp",
+              "alt": "Choirmaster Andre van der Merwe",
+              "caption": "Choirmaster Andre van der Merwe",
               "position": "center",
-              "source": "Consular Ball archive/2014/58.jpg"
+              "source": "Consular Ball/2014/90_1840.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "3f9c8529441d",
-              "src": "/assets/ball-archive/2014-3f9c8529441d.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-29103758a3e2",
+              "src": "/assets/consular-ball/2014/29103758a3e2.webp",
+              "alt": "The 2014 Consular Ball — photo 99_1490",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/63.jpg"
+              "source": "Consular Ball/2014/99_1490.JPG",
+              "width": 1500,
+              "height": 1000
             },
             {
-              "id": "e13d03617804",
-              "src": "/assets/ball-archive/2014-e13d03617804.webp",
-              "alt": "Consular Ball 2014",
+              "id": "consular-2014-76842f21607c",
+              "src": "/assets/consular-ball/2014/76842f21607c.webp",
+              "alt": "The 2014 Consular Ball — photo 99_1497",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2014/13.jpg"
+              "source": "Consular Ball/2014/99_1497.JPG",
+              "width": 1000,
+              "height": 1500
             }
           ],
           "videos": [],
@@ -4648,6 +4886,27 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2014",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2014 Article 3_small (PDF)",
+              "href": "/assets/consular-ball/2014/consular-ball-2014-article-3-small.pdf"
+            },
+            {
+              "label": "Consular Ball 2014 Article 4 (PDF)",
+              "href": "/assets/consular-ball/2014/consular-ball-2014-article-4.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -4667,12 +4926,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "d9bca7f092bb",
-          "src": "/assets/ball-archive/2015-d9bca7f092bb.webp",
-          "alt": "Consular Ball 2015",
-          "caption": "",
-          "position": "center",
-          "source": "Consular Ball archive/2015/01.jpg"
+          "id": "consular-2015-3f9fc606e958",
+          "src": "/assets/consular-ball/2015/3f9fc606e958.webp",
+          "alt": "Die Nuwe Graskouetrappers entertained the guests",
+          "caption": "Die Nuwe Graskouetrappers entertained the guests",
+          "position": "center top",
+          "source": "Consular Ball/2015/2015-09-26 20.34.02.jpg",
+          "width": 2000,
+          "height": 1246
         }
       },
       "sections": [
@@ -4684,144 +4945,159 @@
           "tone": "cream",
           "images": [
             {
-              "id": "d9bca7f092bb",
-              "src": "/assets/ball-archive/2015-d9bca7f092bb.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-ac946ea3cf8f",
+              "src": "/assets/consular-ball/2015/ac946ea3cf8f.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 18.06.16",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/01.jpg"
+              "source": "Consular Ball/2015/2015-09-26 18.06.16.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "8419b3d2c10f",
-              "src": "/assets/ball-archive/2015-8419b3d2c10f.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-705652effeda",
+              "src": "/assets/consular-ball/2015/705652effeda.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 18.28.26-1",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/02.jpg"
+              "source": "Consular Ball/2015/2015-09-26 18.28.26-1.jpg",
+              "width": 1200,
+              "height": 806
             },
             {
-              "id": "aeee805dbe03",
-              "src": "/assets/ball-archive/2015-aeee805dbe03.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
+              "id": "consular-2015-7873f69ff04d",
+              "src": "/assets/consular-ball/2015/7873f69ff04d.webp",
+              "alt": "Alderman Ian Nielson and his wife Elmarie",
+              "caption": "Alderman Ian Nielson and his wife Elmarie",
               "position": "center",
-              "source": "Consular Ball archive/2015/03.jpg"
+              "source": "Consular Ball/2015/2015-09-26 18.38.24.jpg",
+              "width": 2000,
+              "height": 1442
             },
             {
-              "id": "ffa7b2295132",
-              "src": "/assets/ball-archive/2015-ffa7b2295132.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
+              "id": "consular-2015-e4d8a0db3103",
+              "src": "/assets/consular-ball/2015/e4d8a0db3103.webp",
+              "alt": "Jo-Ann Strauss, previous Miss. S.A., was the MC",
+              "caption": "Jo-Ann Strauss, previous Miss. S.A., was the MC",
               "position": "center",
-              "source": "Consular Ball archive/2015/06.jpg"
+              "source": "Consular Ball/2015/2015-09-26 18.42.24.jpg",
+              "width": 1606,
+              "height": 2000
             },
             {
-              "id": "1823061e0274",
-              "src": "/assets/ball-archive/2015-1823061e0274.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-2a772bf6ed10",
+              "src": "/assets/consular-ball/2015/2a772bf6ed10.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 19.16.05",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/11.jpg"
+              "source": "Consular Ball/2015/2015-09-26 19.16.05.jpg",
+              "width": 2000,
+              "height": 1802
             },
             {
-              "id": "fdfdefc9bae2",
-              "src": "/assets/ball-archive/2015-fdfdefc9bae2.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
+              "id": "consular-2015-4307c7048a61",
+              "src": "/assets/consular-ball/2015/4307c7048a61.webp",
+              "alt": "The guest speaker, Simon Susman, chairman of Woolworths",
+              "caption": "The guest speaker, Simon Susman, chairman of Woolworths",
               "position": "center",
-              "source": "Consular Ball archive/2015/12.jpg"
+              "source": "Consular Ball/2015/2015-09-26 19.42.17.jpg",
+              "width": 1444,
+              "height": 2000
             },
             {
-              "id": "2296ef4b5888",
-              "src": "/assets/ball-archive/2015-2296ef4b5888.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-b85f2a19b832",
+              "src": "/assets/consular-ball/2015/b85f2a19b832.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 19.52.02-1",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/13.jpg"
+              "source": "Consular Ball/2015/2015-09-26 19.52.02-1.jpg",
+              "width": 1191,
+              "height": 1000
             },
             {
-              "id": "00f645a3eb99",
-              "src": "/assets/ball-archive/2015-00f645a3eb99.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
+              "id": "consular-2015-3f9fc606e958",
+              "src": "/assets/consular-ball/2015/3f9fc606e958.webp",
+              "alt": "Die Nuwe Graskouetrappers entertained the guests",
+              "caption": "Die Nuwe Graskouetrappers entertained the guests",
               "position": "center",
-              "source": "Consular Ball archive/2015/20.jpg"
+              "source": "Consular Ball/2015/2015-09-26 20.34.02.jpg",
+              "width": 2000,
+              "height": 1246
             },
             {
-              "id": "c47c34cb6325",
-              "src": "/assets/ball-archive/2015-c47c34cb6325.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-bac20d621aea",
+              "src": "/assets/consular-ball/2015/bac20d621aea.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 20.40.33-1",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/27.jpg"
+              "source": "Consular Ball/2015/2015-09-26 20.40.33-1.jpg",
+              "width": 1200,
+              "height": 800
             },
             {
-              "id": "8e8f0d37c7af",
-              "src": "/assets/ball-archive/2015-8e8f0d37c7af.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-6e493e0e9711",
+              "src": "/assets/consular-ball/2015/6e493e0e9711.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 21.40.32",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/33.jpg"
+              "source": "Consular Ball/2015/2015-09-26 21.40.32.jpg",
+              "width": 2000,
+              "height": 1427
             },
             {
-              "id": "e8d8362cf85c",
-              "src": "/assets/ball-archive/2015-e8d8362cf85c.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-40a40bfc2b2d",
+              "src": "/assets/consular-ball/2015/40a40bfc2b2d.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 22.17.17",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/40.jpg"
+              "source": "Consular Ball/2015/2015-09-26 22.17.17.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "2fd65a4b3ab9",
-              "src": "/assets/ball-archive/2015-2fd65a4b3ab9.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-84cfd7c55a5e",
+              "src": "/assets/consular-ball/2015/84cfd7c55a5e.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 23.07.45",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/47.jpg"
+              "source": "Consular Ball/2015/2015-09-26 23.07.45.jpg",
+              "width": 2000,
+              "height": 1673
             },
             {
-              "id": "63307cda5f09",
-              "src": "/assets/ball-archive/2015-63307cda5f09.webp",
-              "alt": "Consular Ball 2015",
+              "id": "consular-2015-e5f15847051e",
+              "src": "/assets/consular-ball/2015/e5f15847051e.webp",
+              "alt": "The 2015 Consular Ball — photo 2015-09-26 23.53.33",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2015/54.jpg"
-            },
-            {
-              "id": "c68cab769532",
-              "src": "/assets/ball-archive/2015-c68cab769532.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2015/60.jpg"
-            },
-            {
-              "id": "8ea63f28159c",
-              "src": "/assets/ball-archive/2015-8ea63f28159c.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2015/67.jpg"
-            },
-            {
-              "id": "96ae02eaa8d0",
-              "src": "/assets/ball-archive/2015-96ae02eaa8d0.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2015/74.jpg"
-            },
-            {
-              "id": "a80dcbfa23ef",
-              "src": "/assets/ball-archive/2015-a80dcbfa23ef.webp",
-              "alt": "Consular Ball 2015",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2015/00.jpg"
+              "source": "Consular Ball/2015/2015-09-26 23.53.33.jpg",
+              "width": 2000,
+              "height": 1333
             }
           ],
           "videos": [],
           "links": [],
+          "tileIds": [],
+          "stats": []
+        },
+        {
+          "id": "consular-documents-2015",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2015 Article 1 (PDF)",
+              "href": "/assets/consular-ball/2015/consular-ball-2015-article-1.pdf"
+            },
+            {
+              "label": "Consular Ball 2015 Article 4 klein (PDF)",
+              "href": "/assets/consular-ball/2015/consular-ball-2015-article-4-klein.pdf"
+            }
+          ],
           "tileIds": [],
           "stats": []
         }
@@ -4843,12 +5119,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "f076c2b78f68",
-          "src": "/assets/ball-archive/2016-f076c2b78f68.webp",
-          "alt": "Consular Ball 2016",
+          "id": "consular-2016-af4421e47f49",
+          "src": "/assets/consular-ball/2016/af4421e47f49.webp",
+          "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0755",
           "caption": "",
           "position": "center",
-          "source": "Consular Ball archive/2016/venue3.jpg"
+          "source": "Consular Ball/2016/coetzerphoto.com-0755.JPG",
+          "width": 2000,
+          "height": 1334
         }
       },
       "sections": [
@@ -4860,140 +5138,134 @@
           "tone": "cream",
           "images": [
             {
-              "id": "f076c2b78f68",
-              "src": "/assets/ball-archive/2016-f076c2b78f68.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-af4421e47f49",
+              "src": "/assets/consular-ball/2016/af4421e47f49.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0755",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue3.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0755.JPG",
+              "width": 2000,
+              "height": 1334
             },
             {
-              "id": "9e57859a39c3",
-              "src": "/assets/ball-archive/2016-9e57859a39c3.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-a337e6fb1e45",
+              "src": "/assets/consular-ball/2016/a337e6fb1e45.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0817",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue6.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0817.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "46247285d97e",
-              "src": "/assets/ball-archive/2016-46247285d97e.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-d488a7980e38",
+              "src": "/assets/consular-ball/2016/d488a7980e38.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0833",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue1.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0833.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "8a4fd75f6fd2",
-              "src": "/assets/ball-archive/2016-8a4fd75f6fd2.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-a6f7163d7e01",
+              "src": "/assets/consular-ball/2016/a6f7163d7e01.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0865",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue2.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0865.JPG",
+              "width": 2000,
+              "height": 1334
             },
             {
-              "id": "b5979720cbcf",
-              "src": "/assets/ball-archive/2016-b5979720cbcf.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-3704ee120dde",
+              "src": "/assets/consular-ball/2016/3704ee120dde.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0909",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue5.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0909.JPG",
+              "width": 2000,
+              "height": 1334
             },
             {
-              "id": "fa821753fade",
-              "src": "/assets/ball-archive/2016-fa821753fade.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
+              "id": "consular-2016-860163035070",
+              "src": "/assets/consular-ball/2016/860163035070.webp",
+              "alt": "Television presenter Katlego Maboe was the MC for the 5th Ball",
+              "caption": "Television presenter Katlego Maboe was the MC for the 5th Ball",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue4.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-0925.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "c33ed945d5dd",
-              "src": "/assets/ball-archive/2016-c33ed945d5dd.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
+              "id": "consular-2016-4d833f9230da",
+              "src": "/assets/consular-ball/2016/4d833f9230da.webp",
+              "alt": "Members of the Zip Zap Circus",
+              "caption": "Members of the Zip Zap Circus",
               "position": "center",
-              "source": "Consular Ball archive/2016/venue9.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1092.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "2dff07877d26",
-              "src": "/assets/ball-archive/2016-2dff07877d26.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
+              "id": "consular-2016-e00df8483c07",
+              "src": "/assets/consular-ball/2016/e00df8483c07.webp",
+              "alt": "Real time artwork for the auction",
+              "caption": "Real time artwork for the auction",
               "position": "center",
-              "source": "Consular Ball archive/2016/auc01.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1193.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "b56dcb92c28d",
-              "src": "/assets/ball-archive/2016-b56dcb92c28d.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-705d2530eb8e",
+              "src": "/assets/consular-ball/2016/705d2530eb8e.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1247",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/auc06.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1247.JPG",
+              "width": 2000,
+              "height": 1334
             },
             {
-              "id": "b1d9b57b0d07",
-              "src": "/assets/ball-archive/2016-b1d9b57b0d07.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-eaa3945091c8",
+              "src": "/assets/consular-ball/2016/eaa3945091c8.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1398",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/auc10.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1398.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "f4bc13534b0b",
-              "src": "/assets/ball-archive/2016-f4bc13534b0b.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
+              "id": "consular-2016-644bd97c2cd7",
+              "src": "/assets/consular-ball/2016/644bd97c2cd7.webp",
+              "alt": "the cast from Remembering the Lux.",
+              "caption": "the cast from Remembering the Lux.",
               "position": "center",
-              "source": "Consular Ball archive/2016/act1.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1492.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "700e6a663019",
-              "src": "/assets/ball-archive/2016-700e6a663019.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-1ac1acca57b1",
+              "src": "/assets/consular-ball/2016/1ac1acca57b1.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1496",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/act8.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1496.JPG",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "2d8533b5b27d",
-              "src": "/assets/ball-archive/2016-2d8533b5b27d.webp",
-              "alt": "Consular Ball 2016",
+              "id": "consular-2016-3e961896c639",
+              "src": "/assets/consular-ball/2016/3e961896c639.webp",
+              "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1519",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2016/1565.jpg"
-            },
-            {
-              "id": "ba7051056c7c",
-              "src": "/assets/ball-archive/2016-ba7051056c7c.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2016/1360.jpg"
-            },
-            {
-              "id": "3ab5b97395d0",
-              "src": "/assets/ball-archive/2016-3ab5b97395d0.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2016/1531.jpg"
-            },
-            {
-              "id": "fdb5cd027dca",
-              "src": "/assets/ball-archive/2016-fdb5cd027dca.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2016/1383.jpg"
-            },
-            {
-              "id": "eff386aaeb50",
-              "src": "/assets/ball-archive/2016-eff386aaeb50.webp",
-              "alt": "Consular Ball 2016",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2016/1319.jpg"
+              "source": "Consular Ball/2016/coetzerphoto.com-1519.JPG",
+              "width": 2000,
+              "height": 1334
             }
           ],
           "videos": [],
@@ -5018,6 +5290,27 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2016",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2016 Article 2 (PDF)",
+              "href": "/assets/consular-ball/2016/consular-ball-2016-article-2.pdf"
+            },
+            {
+              "label": "Consular Ball 2016 Article 4 (PDF)",
+              "href": "/assets/consular-ball/2016/consular-ball-2016-article-4.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -5037,12 +5330,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "346c735a9388",
-          "src": "/assets/ball-archive/2017-346c735a9388.webp",
-          "alt": "Consular Ball 2017",
-          "caption": "",
-          "position": "center",
-          "source": "Consular Ball archive/2017/2017intro5.jpg"
+          "id": "consular-2017-ae1a892c167d",
+          "src": "/assets/consular-ball/2017/ae1a892c167d.webp",
+          "alt": "Tygerberg Children’s Choir enthralled the guests.",
+          "caption": "Tygerberg Children’s Choir enthralled the guests.",
+          "position": "center top",
+          "source": "Consular Ball/2017/Kinderkoor-6.jpg",
+          "width": 2000,
+          "height": 1333
         }
       },
       "sections": [
@@ -5054,148 +5349,74 @@
           "tone": "cream",
           "images": [
             {
-              "id": "346c735a9388",
-              "src": "/assets/ball-archive/2017-346c735a9388.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
+              "id": "consular-2017-d35814329ab5",
+              "src": "/assets/consular-ball/2017/d35814329ab5.webp",
+              "alt": "The Consul General of Brazil, Carlos Asfora, performs with the Cape Jazz Ensemble",
+              "caption": "The Consul General of Brazil, Carlos Asfora, performs with the Cape Jazz Ensemble",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017intro5.jpg"
+              "source": "Consular Ball/2017/Carlos-2.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "b36821c09964",
-              "src": "/assets/ball-archive/2017-b36821c09964.webp",
-              "alt": "Consular Ball 2017",
+              "id": "consular-2017-c1d1be099904",
+              "src": "/assets/consular-ball/2017/c1d1be099904.webp",
+              "alt": "The 2017 Consular Ball — photo Gastearriveer-23",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017intro6.jpg"
+              "source": "Consular Ball/2017/Gastearriveer-23.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "32e380e13ac2",
-              "src": "/assets/ball-archive/2017-32e380e13ac2.webp",
-              "alt": "Consular Ball 2017",
+              "id": "consular-2017-45e8c455adb6",
+              "src": "/assets/consular-ball/2017/45e8c455adb6.webp",
+              "alt": "The 2017 Consular Ball — photo Ingang-33",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017intro1.jpg"
+              "source": "Consular Ball/2017/Ingang-33.jpg",
+              "width": 2000,
+              "height": 1335
             },
             {
-              "id": "fb158fa60dde",
-              "src": "/assets/ball-archive/2017-fb158fa60dde.webp",
-              "alt": "Consular Ball 2017",
+              "id": "consular-2017-a09bc70e6573",
+              "src": "/assets/consular-ball/2017/a09bc70e6573.webp",
+              "alt": "The 2017 Consular Ball — photo IsaenPrieur-3",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017intro2.jpg"
+              "source": "Consular Ball/2017/IsaenPrieur-3.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "77d8b91cecff",
-              "src": "/assets/ball-archive/2017-77d8b91cecff.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
+              "id": "consular-2017-ae1a892c167d",
+              "src": "/assets/consular-ball/2017/ae1a892c167d.webp",
+              "alt": "Tygerberg Children’s Choir enthralled the guests.",
+              "caption": "Tygerberg Children’s Choir enthralled the guests.",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017intro3.jpg"
+              "source": "Consular Ball/2017/Kinderkoor-6.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "35039a7c9a34",
-              "src": "/assets/ball-archive/2017-35039a7c9a34.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
+              "id": "consular-2017-6c2ecd9ce7e1",
+              "src": "/assets/consular-ball/2017/6c2ecd9ce7e1.webp",
+              "alt": "Dr Micael Moll was the MC for the evening.",
+              "caption": "Dr Micael Moll was the MC for the evening.",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017guests000.jpg"
+              "source": "Consular Ball/2017/Michael-7.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "1cc89a02c428",
-              "src": "/assets/ball-archive/2017-1cc89a02c428.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
+              "id": "consular-2017-990aece61e99",
+              "src": "/assets/consular-ball/2017/990aece61e99.webp",
+              "alt": "The A capella group, Navi Redd.",
+              "caption": "The A capella group, Navi Redd.",
               "position": "center",
-              "source": "Consular Ball archive/2017/2017guests001.jpg"
-            },
-            {
-              "id": "d3423784eccc",
-              "src": "/assets/ball-archive/2017-d3423784eccc.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests004.jpg"
-            },
-            {
-              "id": "b1728ccc6901",
-              "src": "/assets/ball-archive/2017-b1728ccc6901.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests015.jpg"
-            },
-            {
-              "id": "b88d0e7a18ec",
-              "src": "/assets/ball-archive/2017-b88d0e7a18ec.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests026.jpg"
-            },
-            {
-              "id": "4cd280460187",
-              "src": "/assets/ball-archive/2017-4cd280460187.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests035.jpg"
-            },
-            {
-              "id": "360460b90e05",
-              "src": "/assets/ball-archive/2017-360460b90e05.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests046.jpg"
-            },
-            {
-              "id": "ee9b84c5b743",
-              "src": "/assets/ball-archive/2017-ee9b84c5b743.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests057.jpg"
-            },
-            {
-              "id": "871b0a34f44e",
-              "src": "/assets/ball-archive/2017-871b0a34f44e.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests068.jpg"
-            },
-            {
-              "id": "6a9a0089380c",
-              "src": "/assets/ball-archive/2017-6a9a0089380c.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests078.jpg"
-            },
-            {
-              "id": "dbfcd3e5c90c",
-              "src": "/assets/ball-archive/2017-dbfcd3e5c90c.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests090.jpg"
-            },
-            {
-              "id": "c5fe639c34c3",
-              "src": "/assets/ball-archive/2017-c5fe639c34c3.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests101.jpg"
-            },
-            {
-              "id": "8ba9959c171f",
-              "src": "/assets/ball-archive/2017-8ba9959c171f.webp",
-              "alt": "Consular Ball 2017",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2017/2017guests112.jpg"
+              "source": "Consular Ball/2017/Navi-5.jpg",
+              "width": 2000,
+              "height": 1333
             }
           ],
           "videos": [],
@@ -5220,6 +5441,31 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2017",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2017 Article 2 (PDF)",
+              "href": "/assets/consular-ball/2017/consular-ball-2017-article-2.pdf"
+            },
+            {
+              "label": "Consular Ball 2017 Article 3 (PDF)",
+              "href": "/assets/consular-ball/2017/consular-ball-2017-article-3.pdf"
+            },
+            {
+              "label": "Consular Ball 2017 Article 4 (PDF)",
+              "href": "/assets/consular-ball/2017/consular-ball-2017-article-4.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -5239,12 +5485,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "0ec293613d8d",
-          "src": "/assets/ball-archive/2018-0ec293613d8d.webp",
-          "alt": "Consular Ball 2018",
+          "id": "consular-2018-56cb61fa59cc",
+          "src": "/assets/consular-ball/2018/56cb61fa59cc.webp",
+          "alt": "The 2018 Consular Ball — photo CB2018(lowres)-3",
           "caption": "",
           "position": "center",
-          "source": "Consular Ball archive/2018/2018bao4.jpg"
+          "source": "Consular Ball/2018/CB2018(lowres)-3.jpg",
+          "width": 2000,
+          "height": 1333
         }
       },
       "sections": [
@@ -5256,148 +5504,84 @@
           "tone": "cream",
           "images": [
             {
-              "id": "0ec293613d8d",
-              "src": "/assets/ball-archive/2018-0ec293613d8d.webp",
-              "alt": "Consular Ball 2018",
+              "id": "consular-2018-56cb61fa59cc",
+              "src": "/assets/consular-ball/2018/56cb61fa59cc.webp",
+              "alt": "The 2018 Consular Ball — photo CB2018(lowres)-3",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018bao4.jpg"
+              "source": "Consular Ball/2018/CB2018(lowres)-3.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "740e9a6d404b",
-              "src": "/assets/ball-archive/2018-740e9a6d404b.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-5656c6bd6380",
+              "src": "/assets/consular-ball/2018/5656c6bd6380.webp",
+              "alt": "Prof Thuli Madonsela with MC  Dr Michael Moll",
+              "caption": "Prof Thuli Madonsela with MC  Dr Michael Moll",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018big1.jpg"
+              "source": "Consular Ball/2018/CB2018(lowres)-37.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "0252900b9f80",
-              "src": "/assets/ball-archive/2018-0252900b9f80.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-5797ee907703",
+              "src": "/assets/consular-ball/2018/5797ee907703.webp",
+              "alt": "the Tygerberg Children’s Choir in action",
+              "caption": "the Tygerberg Children’s Choir in action",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018big2.jpg"
+              "source": "Consular Ball/2018/CB2018(lowres)-42.jpg",
+              "width": 2000,
+              "height": 1487
             },
             {
-              "id": "dd119e869f1f",
-              "src": "/assets/ball-archive/2018-dd119e869f1f.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-641c306b78f4",
+              "src": "/assets/consular-ball/2018/641c306b78f4.webp",
+              "alt": "Joey Bourke was the auctioneer",
+              "caption": "Joey Bourke was the auctioneer",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018guest01.jpg"
+              "source": "Consular Ball/2018/CB2018(lowres)-47.jpg",
+              "width": 2000,
+              "height": 1567
             },
             {
-              "id": "6bb9f8dbacb1",
-              "src": "/assets/ball-archive/2018-6bb9f8dbacb1.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-e9a234af0dbd",
+              "src": "/assets/consular-ball/2018/e9a234af0dbd.webp",
+              "alt": "the Tombola ticket that won a trip for two to Namibia.",
+              "caption": "the Tombola ticket that won a trip for two to Namibia.",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018guest02.jpg"
+              "source": "Consular Ball/2018/Guests&rest-81.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "6fcc197e922e",
-              "src": "/assets/ball-archive/2018-6fcc197e922e.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-ee5e235cf3dc",
+              "src": "/assets/consular-ball/2018/ee5e235cf3dc.webp",
+              "alt": "The organizers: Isabel Verwey and Johanna Strauss",
+              "caption": "The organizers: Isabel Verwey and Johanna Strauss",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018guest05.jpg"
+              "source": "Consular Ball/2018/Guests&rest(highres)-3.jpg",
+              "width": 1333,
+              "height": 2000
             },
             {
-              "id": "3c2335b8d8f2",
-              "src": "/assets/ball-archive/2018-3c2335b8d8f2.webp",
-              "alt": "Consular Ball 2018",
+              "id": "consular-2018-2fd30300c2c2",
+              "src": "/assets/consular-ball/2018/2fd30300c2c2.webp",
+              "alt": "The 2018 Consular Ball — photo Guests&rest(highres)-66",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018guest03.jpg"
+              "source": "Consular Ball/2018/Guests&rest(highres)-66.jpg",
+              "width": 2000,
+              "height": 1333
             },
             {
-              "id": "9cc2969d0089",
-              "src": "/assets/ball-archive/2018-9cc2969d0089.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
+              "id": "consular-2018-1349752709b8",
+              "src": "/assets/consular-ball/2018/1349752709b8.webp",
+              "alt": "the Russian duo Quick Change entertained the guests",
+              "caption": "the Russian duo Quick Change entertained the guests",
               "position": "center",
-              "source": "Consular Ball archive/2018/2018guest04.jpg"
-            },
-            {
-              "id": "329543ab888b",
-              "src": "/assets/ball-archive/2018-329543ab888b.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest12.jpg"
-            },
-            {
-              "id": "3f2bf85bd6ec",
-              "src": "/assets/ball-archive/2018-3f2bf85bd6ec.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest20.jpg"
-            },
-            {
-              "id": "676234c56eaf",
-              "src": "/assets/ball-archive/2018-676234c56eaf.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest27.jpg"
-            },
-            {
-              "id": "54d8ffb82924",
-              "src": "/assets/ball-archive/2018-54d8ffb82924.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest35.jpg"
-            },
-            {
-              "id": "179fce3ba7d2",
-              "src": "/assets/ball-archive/2018-179fce3ba7d2.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest42.jpg"
-            },
-            {
-              "id": "867af8337136",
-              "src": "/assets/ball-archive/2018-867af8337136.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest50.jpg"
-            },
-            {
-              "id": "2bc1ff6fdbeb",
-              "src": "/assets/ball-archive/2018-2bc1ff6fdbeb.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest57.jpg"
-            },
-            {
-              "id": "1f123c5f603f",
-              "src": "/assets/ball-archive/2018-1f123c5f603f.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest65.jpg"
-            },
-            {
-              "id": "bf21789b65a9",
-              "src": "/assets/ball-archive/2018-bf21789b65a9.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest72.jpg"
-            },
-            {
-              "id": "9926132c91a4",
-              "src": "/assets/ball-archive/2018-9926132c91a4.webp",
-              "alt": "Consular Ball 2018",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2018/2018guest80.jpg"
+              "source": "Consular Ball/2018/Quickchange-4.jpg",
+              "width": 2000,
+              "height": 1675
             }
           ],
           "videos": [],
@@ -5422,6 +5606,31 @@
           "links": [],
           "tileIds": [],
           "stats": []
+        },
+        {
+          "id": "consular-documents-2018",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2018 Article 1 (PDF)",
+              "href": "/assets/consular-ball/2018/consular-ball-2018-article-1.pdf"
+            },
+            {
+              "label": "Consular Ball 2018 Article 3 (PDF)",
+              "href": "/assets/consular-ball/2018/consular-ball-2018-article-3.pdf"
+            },
+            {
+              "label": "Consular Ball 2018 Article 4 (PDF)",
+              "href": "/assets/consular-ball/2018/consular-ball-2018-article-4.pdf"
+            }
+          ],
+          "tileIds": [],
+          "stats": []
         }
       ]
     },
@@ -5441,12 +5650,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "06050d1185b0",
-          "src": "/assets/ball-archive/2022-06050d1185b0.webp",
-          "alt": "Consular Ball 2022",
-          "caption": "",
-          "position": "center",
-          "source": "Consular Ball archive/2022/264ca660e1d3466d8951d72627f29447"
+          "id": "consular-2022-12b1f0b913ae",
+          "src": "/assets/consular-ball/2022/12b1f0b913ae.webp",
+          "alt": "Husband and wife duo Raaf had the guests on their feet",
+          "caption": "Husband and wife duo Raaf had the guests on their feet",
+          "position": "center top",
+          "source": "Consular Ball/2022/4.jpg",
+          "width": 900,
+          "height": 600
         }
       },
       "sections": [
@@ -5458,104 +5669,135 @@
           "tone": "cream",
           "images": [
             {
-              "id": "06050d1185b0",
-              "src": "/assets/ball-archive/2022-06050d1185b0.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-c23de9a6c523",
+              "src": "/assets/consular-ball/2022/c23de9a6c523.webp",
+              "alt": "The 2022 Consular Ball — photo 1",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/264ca660e1d3466d8951d72627f29447"
+              "source": "Consular Ball/2022/1.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "35d1114631e4",
-              "src": "/assets/ball-archive/2022-35d1114631e4.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-79baf1cd3c54",
+              "src": "/assets/consular-ball/2022/79baf1cd3c54.webp",
+              "alt": "The 2022 Consular Ball — photo 2",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/d5405643af144e9fa756a663d25d1f80"
+              "source": "Consular Ball/2022/2.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "9b0de9572cde",
-              "src": "/assets/ball-archive/2022-9b0de9572cde.webp",
-              "alt": "Consular Ball 2022",
-              "caption": "",
+              "id": "consular-2022-03f3955dba28",
+              "src": "/assets/consular-ball/2022/03f3955dba28.webp",
+              "alt": "Singer Amira Willighagen entertained the guests",
+              "caption": "Singer Amira Willighagen entertained the guests",
               "position": "center",
-              "source": "Consular Ball archive/2022/e0258e3f2cbd4172b289855aab15b32d"
+              "source": "Consular Ball/2022/3.jpg",
+              "width": 600,
+              "height": 900
             },
             {
-              "id": "006a9a8e60b7",
-              "src": "/assets/ball-archive/2022-006a9a8e60b7.webp",
-              "alt": "Consular Ball 2022",
-              "caption": "",
+              "id": "consular-2022-12b1f0b913ae",
+              "src": "/assets/consular-ball/2022/12b1f0b913ae.webp",
+              "alt": "Husband and wife duo Raaf had the guests on their feet",
+              "caption": "Husband and wife duo Raaf had the guests on their feet",
               "position": "center",
-              "source": "Consular Ball archive/2022/82ba9d02d0ae431ebc5914a82ccd7398"
+              "source": "Consular Ball/2022/4.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "b3a1d1e3d66e",
-              "src": "/assets/ball-archive/2022-b3a1d1e3d66e.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-87c7ebcee14e",
+              "src": "/assets/consular-ball/2022/87c7ebcee14e.webp",
+              "alt": "The 2022 Consular Ball — photo 5",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/ba030b4518c44e5dbab7d33003b85e40"
+              "source": "Consular Ball/2022/5.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "e28becfd995a",
-              "src": "/assets/ball-archive/2022-e28becfd995a.webp",
-              "alt": "Consular Ball 2022",
-              "caption": "",
+              "id": "consular-2022-d89d90613d20",
+              "src": "/assets/consular-ball/2022/d89d90613d20.webp",
+              "alt": "Comedian and actor Alan Committie was the MC and auctioneer",
+              "caption": "Comedian and actor Alan Committie was the MC and auctioneer",
               "position": "center",
-              "source": "Consular Ball archive/2022/e01f247db322486e9f3eb94a2ebf862b"
+              "source": "Consular Ball/2022/6.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "10b217767e3e",
-              "src": "/assets/ball-archive/2022-10b217767e3e.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-feb81b90db4d",
+              "src": "/assets/consular-ball/2022/feb81b90db4d.webp",
+              "alt": "The 2022 Consular Ball — photo 7",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/3cff2bdeac564f178cd916a59749cf6e"
+              "source": "Consular Ball/2022/7.jpg",
+              "width": 600,
+              "height": 900
             },
             {
-              "id": "ea5ab22501f4",
-              "src": "/assets/ball-archive/2022-ea5ab22501f4.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-ac726eeb7da1",
+              "src": "/assets/consular-ball/2022/ac726eeb7da1.webp",
+              "alt": "The 2022 Consular Ball — photo 8",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/b1ecd80f24ea4c909a960bed64bdf69c"
+              "source": "Consular Ball/2022/8.jpg",
+              "width": 900,
+              "height": 600
             },
             {
-              "id": "2395a8a5d0c2",
-              "src": "/assets/ball-archive/2022-2395a8a5d0c2.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-a752de6c8c92",
+              "src": "/assets/consular-ball/2022/a752de6c8c92.webp",
+              "alt": "The 2022 Consular Ball — photo 9",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/2e7fe387da5d4624a0805ad56ec807a4"
+              "source": "Consular Ball/2022/9.jpg",
+              "width": 600,
+              "height": 900
             },
             {
-              "id": "f659fcfd79a5",
-              "src": "/assets/ball-archive/2022-f659fcfd79a5.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-389529c68dae",
+              "src": "/assets/consular-ball/2022/389529c68dae.webp",
+              "alt": "The 2022 Consular Ball — photo 10",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/eecf6bbe7b2842acbc1be0c7b0992b73"
+              "source": "Consular Ball/2022/10.jpg",
+              "width": 600,
+              "height": 900
             },
             {
-              "id": "35539b704861",
-              "src": "/assets/ball-archive/2022-35539b704861.webp",
-              "alt": "Consular Ball 2022",
+              "id": "consular-2022-6307a2b46355",
+              "src": "/assets/consular-ball/2022/6307a2b46355.webp",
+              "alt": "The 2022 Consular Ball — photo 11",
               "caption": "",
               "position": "center",
-              "source": "Consular Ball archive/2022/70f18595cc0c400dac9a086692032e44"
-            },
-            {
-              "id": "918f7ee28f17",
-              "src": "/assets/ball-archive/2022-918f7ee28f17.webp",
-              "alt": "Consular Ball 2022",
-              "caption": "",
-              "position": "center",
-              "source": "Consular Ball archive/2022/250a6350e209476dbf08cbf2ef50248e"
+              "source": "Consular Ball/2022/11.jpg",
+              "width": 900,
+              "height": 600
             }
           ],
           "videos": [],
           "links": [],
+          "tileIds": [],
+          "stats": []
+        },
+        {
+          "id": "consular-documents-2022",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2022 Article (PDF)",
+              "href": "/assets/consular-ball/2022/consular-ball-2022-article.pdf"
+            }
+          ],
           "tileIds": [],
           "stats": []
         }
@@ -5577,11 +5819,14 @@
         "copy": "",
         "label": "",
         "image": {
-          "id": "ball-2024-mark",
-          "src": "/assets/images/proud-partners-mark.png",
-          "alt": "Proud Partners",
+          "id": "consular-2024-5fc779df4b62",
+          "src": "/assets/consular-ball/2024/5fc779df4b62.webp",
+          "alt": "The 2024 Consular Ball — photo CB(6)",
           "caption": "",
-          "position": "center"
+          "position": "center top",
+          "source": "Consular Ball/2024/CB(6).jpg",
+          "width": 2000,
+          "height": 1333
         }
       },
       "sections": [
@@ -5593,9 +5838,217 @@
           ],
           "layout": "gallery",
           "tone": "cream",
-          "images": [],
+          "images": [
+            {
+              "id": "consular-2024-da9e23a76783",
+              "src": "/assets/consular-ball/2024/da9e23a76783.webp",
+              "alt": "The 2024 Consular Ball — photo CB (14)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB (14).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-bd814100d20c",
+              "src": "/assets/consular-ball/2024/bd814100d20c.webp",
+              "alt": "The dancers of Cape Town City Ballet performed",
+              "caption": "The dancers of Cape Town City Ballet performed",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(3).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-5fc779df4b62",
+              "src": "/assets/consular-ball/2024/5fc779df4b62.webp",
+              "alt": "The 2024 Consular Ball — photo CB(6)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(6).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-14eead58968a",
+              "src": "/assets/consular-ball/2024/14eead58968a.webp",
+              "alt": "The 2024 Consular Ball — photo CB(10)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(10).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-863417c552cf",
+              "src": "/assets/consular-ball/2024/863417c552cf.webp",
+              "alt": "Actor and comedian Alan Committie was the MC and auctioneer.",
+              "caption": "Actor and comedian Alan Committie was the MC and auctioneer.",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(13).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-90a066ae51de",
+              "src": "/assets/consular-ball/2024/90a066ae51de.webp",
+              "alt": "Members of the Cape Town Opera Choir performing.",
+              "caption": "Members of the Cape Town Opera Choir performing.",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(16).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-c9f297239afd",
+              "src": "/assets/consular-ball/2024/c9f297239afd.webp",
+              "alt": "The 2024 Consular Ball — photo CB(17)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(17).jpg",
+              "width": 1332,
+              "height": 2000
+            },
+            {
+              "id": "consular-2024-4d9e5c4ae527",
+              "src": "/assets/consular-ball/2024/4d9e5c4ae527.webp",
+              "alt": "The 2024 Consular Ball — photo CB(19)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(19).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-510fc7ed4ad5",
+              "src": "/assets/consular-ball/2024/510fc7ed4ad5.webp",
+              "alt": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
+              "caption": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(28).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-585cc286b1e6",
+              "src": "/assets/consular-ball/2024/585cc286b1e6.webp",
+              "alt": "The 2024 Consular Ball — photo CB(102)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(102).jpg",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "id": "consular-2024-380b2bfd9ed1",
+              "src": "/assets/consular-ball/2024/380b2bfd9ed1.webp",
+              "alt": "The 9th Consular Ball took place in Artscape, courtesy of Marlene le Roux, CEO of Artscape",
+              "caption": "The 9th Consular Ball took place in Artscape, courtesy of Marlene le Roux, CEO of Artscape",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(103).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-eb88b9bae5e2",
+              "src": "/assets/consular-ball/2024/eb88b9bae5e2.webp",
+              "alt": "The 2024 Consular Ball — photo CB(106)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(106).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-049091a8b62a",
+              "src": "/assets/consular-ball/2024/049091a8b62a.webp",
+              "alt": "The 2024 Consular Ball — photo CB(108)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(108).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-8843b724eb86",
+              "src": "/assets/consular-ball/2024/8843b724eb86.webp",
+              "alt": "Greek dansers from the Hellenic Dancing Academy entertained guests in the foyer",
+              "caption": "Greek dansers from the Hellenic Dancing Academy entertained guests in the foyer",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(131).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-cd332604bc89",
+              "src": "/assets/consular-ball/2024/cd332604bc89.webp",
+              "alt": "The 2024 Consular Ball — photo CB(133)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(133).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-cabe47282e69",
+              "src": "/assets/consular-ball/2024/cabe47282e69.webp",
+              "alt": "The 2024 Consular Ball — photo CB(151)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(151).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-8968d767982a",
+              "src": "/assets/consular-ball/2024/8968d767982a.webp",
+              "alt": "The 2024 Consular Ball — photo CB(181)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(181).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-d02f89dca720",
+              "src": "/assets/consular-ball/2024/d02f89dca720.webp",
+              "alt": "The 2024 Consular Ball — photo CB(203)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(203).jpg",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "id": "consular-2024-57d028e8282c",
+              "src": "/assets/consular-ball/2024/57d028e8282c.webp",
+              "alt": "The 2024 Consular Ball — photo CB(208)",
+              "caption": "",
+              "position": "center",
+              "source": "Consular Ball/2024/CB(208).jpg",
+              "width": 2000,
+              "height": 1333
+            }
+          ],
           "videos": [],
           "links": [],
+          "tileIds": [],
+          "stats": []
+        },
+        {
+          "id": "consular-documents-2024",
+          "heading": "Event documents",
+          "paragraphs": [],
+          "layout": "text",
+          "tone": "cream",
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "label": "Consular Ball 2024 Auction Brochure (PDF)",
+              "href": "/assets/consular-ball/2024/consular-ball-2024-auction-brochure.pdf"
+            }
+          ],
           "tileIds": [],
           "stats": []
         }
@@ -5622,6 +6075,1186 @@
     }
   ],
   "mediaLibrary": [
+    {
+      "id": "consular-2012-2090051956a4",
+      "src": "/assets/consular-ball/2012/2090051956a4.webp",
+      "alt": "The 2012 Consular Ball — photo 10_66",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/10_66.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-288d667796c5",
+      "src": "/assets/consular-ball/2012/288d667796c5.webp",
+      "alt": "The 2012 Consular Ball — photo 18_115",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/18_115.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-cd9a6ab3a67d",
+      "src": "/assets/consular-ball/2012/cd9a6ab3a67d.webp",
+      "alt": "The 2012 Consular Ball — photo 32_265",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/32_265.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-0d59011409a0",
+      "src": "/assets/consular-ball/2012/0d59011409a0.webp",
+      "alt": "The 2012 Consular Ball — photo 41_417",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/41_417.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-f9b170a52a80",
+      "src": "/assets/consular-ball/2012/f9b170a52a80.webp",
+      "alt": "The 2012 Consular Ball — photo 50_261",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/50_261.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-dc973937fd4b",
+      "src": "/assets/consular-ball/2012/dc973937fd4b.webp",
+      "alt": "The 2012 Consular Ball — photo 50_408",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/50_408.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-0c0ea913beee",
+      "src": "/assets/consular-ball/2012/0c0ea913beee.webp",
+      "alt": "The MC: Dr. Michael Moll.",
+      "caption": "The MC: Dr. Michael Moll.",
+      "position": "center",
+      "source": "Consular Ball/2012/70_230.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2012-3d1f8fb7419d",
+      "src": "/assets/consular-ball/2012/3d1f8fb7419d.webp",
+      "alt": "The Dean of Cape Town Consular Corps, Sylvio Rogobete",
+      "caption": "The Dean of Cape Town Consular Corps, Sylvio Rogobete",
+      "position": "center",
+      "source": "Consular Ball/2012/71_239.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2012-4d643a2aa551",
+      "src": "/assets/consular-ball/2012/4d643a2aa551.webp",
+      "alt": "The Premier of Western Cape, Helen Zille, was the guest speaker.",
+      "caption": "The Premier of Western Cape, Helen Zille, was the guest speaker.",
+      "position": "center",
+      "source": "Consular Ball/2012/72_285.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2012-6572037e6e1e",
+      "src": "/assets/consular-ball/2012/6572037e6e1e.webp",
+      "alt": "Singer Nianell entertained the guests.",
+      "caption": "Singer Nianell entertained the guests.",
+      "position": "center",
+      "source": "Consular Ball/2012/73_356.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2012-cdc4498936c9",
+      "src": "/assets/consular-ball/2012/cdc4498936c9.webp",
+      "alt": "Winners of a unique auction item.",
+      "caption": "Winners of a unique auction item.",
+      "position": "center",
+      "source": "Consular Ball/2012/81_473.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-d3fa725d62ad",
+      "src": "/assets/consular-ball/2012/d3fa725d62ad.webp",
+      "alt": "The 2012 Consular Ball — photo 82_480",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/82_480.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-d350a4bef19e",
+      "src": "/assets/consular-ball/2012/d350a4bef19e.webp",
+      "alt": "The 2012 Consular Ball — photo 85_507",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/85_507.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-30dd806b126a",
+      "src": "/assets/consular-ball/2012/30dd806b126a.webp",
+      "alt": "The 2012 Consular Ball — photo 86_513",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/86_513.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2012-90f65af5a974",
+      "src": "/assets/consular-ball/2012/90f65af5a974.webp",
+      "alt": "The 2012 Consular Ball — photo DSC_6554",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2012/DSC_6554.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-0d739ea61bfe",
+      "src": "/assets/consular-ball/2013/0d739ea61bfe.webp",
+      "alt": "The 2013 Consular Ball — photo 6_1284",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/6_1284.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-5a0aaa924b9d",
+      "src": "/assets/consular-ball/2013/5a0aaa924b9d.webp",
+      "alt": "The 2013 Consular Ball — photo 9_1303",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/9_1303.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-f22f1201bfe0",
+      "src": "/assets/consular-ball/2013/f22f1201bfe0.webp",
+      "alt": "The 2013 Consular Ball — photo 20_1372",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/20_1372.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-9c72808280ca",
+      "src": "/assets/consular-ball/2013/9c72808280ca.webp",
+      "alt": "The 2013 Consular Ball — photo 31_1911",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/31_1911.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-2bb04a9930e0",
+      "src": "/assets/consular-ball/2013/2bb04a9930e0.webp",
+      "alt": "The 2013 Consular Ball — photo 38_2102",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/38_2102.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-1729798dee08",
+      "src": "/assets/consular-ball/2013/1729798dee08.webp",
+      "alt": "The 2013 Consular Ball — photo 50_1195",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/50_1195.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2013-5e2a5bc65fb7",
+      "src": "/assets/consular-ball/2013/5e2a5bc65fb7.webp",
+      "alt": "The 2013 Consular Ball — photo 50_1197",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/50_1197.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-45b6bdcf8315",
+      "src": "/assets/consular-ball/2013/45b6bdcf8315.webp",
+      "alt": "The 2013 Consular Ball — photo 50_1243",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/50_1243.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-08e3a9802c0b",
+      "src": "/assets/consular-ball/2013/08e3a9802c0b.webp",
+      "alt": "Former Springbok Toks van der Linde in action as auctioneer.",
+      "caption": "Former Springbok Toks van der Linde in action as auctioneer.",
+      "position": "center",
+      "source": "Consular Ball/2013/59_1885.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-a25e94c06a66",
+      "src": "/assets/consular-ball/2013/a25e94c06a66.webp",
+      "alt": "The lucky winner of Roger Federer’s racket",
+      "caption": "The lucky winner of Roger Federer’s racket",
+      "position": "center",
+      "source": "Consular Ball/2013/59_2015.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-d3a8a4250876",
+      "src": "/assets/consular-ball/2013/d3a8a4250876.webp",
+      "alt": "The 2013 Consular Ball — photo 59d_2029",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2013/59d_2029.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-cdfcfccaf6b0",
+      "src": "/assets/consular-ball/2013/cdfcfccaf6b0.webp",
+      "alt": "TV-personality, Elsabe Daneel was the MC",
+      "caption": "TV-personality, Elsabe Daneel was the MC",
+      "position": "center",
+      "source": "Consular Ball/2013/60_1399.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2013-bc5e11f5ad37",
+      "src": "/assets/consular-ball/2013/bc5e11f5ad37.webp",
+      "alt": "Guest Speaker Tony Leon.",
+      "caption": "Guest Speaker Tony Leon.",
+      "position": "center",
+      "source": "Consular Ball/2013/64a_1592.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-d43868e64290",
+      "src": "/assets/consular-ball/2013/d43868e64290.webp",
+      "alt": "The Artscape Wellington Youth Band entertained the guests",
+      "caption": "The Artscape Wellington Youth Band entertained the guests",
+      "position": "center",
+      "source": "Consular Ball/2013/70_1471.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2013-e6e10c2b1c0e",
+      "src": "/assets/consular-ball/2013/e6e10c2b1c0e.webp",
+      "alt": "A Tombola (lucky draw) was introduced.",
+      "caption": "A Tombola (lucky draw) was introduced.",
+      "position": "center",
+      "source": "Consular Ball/2013/98_1709.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-0a50242a631f",
+      "src": "/assets/consular-ball/2014/0a50242a631f.webp",
+      "alt": "The 2014 Consular Ball — photo 17_1639",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/17_1639.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-735edde00ae9",
+      "src": "/assets/consular-ball/2014/735edde00ae9.webp",
+      "alt": "The 2014 Consular Ball — photo 22_1680",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/22_1680.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-5ed193bcc7c4",
+      "src": "/assets/consular-ball/2014/5ed193bcc7c4.webp",
+      "alt": "The 2014 Consular Ball — photo 30_2104",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/30_2104.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-13c1d306115e",
+      "src": "/assets/consular-ball/2014/13c1d306115e.webp",
+      "alt": "The 2014 Consular Ball — photo 34_2120",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/34_2120.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2014-f1809b8ab8ad",
+      "src": "/assets/consular-ball/2014/f1809b8ab8ad.webp",
+      "alt": "The 2014 Consular Ball — photo 39_2323",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/39_2323.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-703315584954",
+      "src": "/assets/consular-ball/2014/703315584954.webp",
+      "alt": "The 2014 Consular Ball — photo 46_2299",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/46_2299.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-21f63389aa69",
+      "src": "/assets/consular-ball/2014/21f63389aa69.webp",
+      "alt": "The 2014 Consular Ball — photo 49_2315",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/49_2315.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-c1c779c2fc5a",
+      "src": "/assets/consular-ball/2014/c1c779c2fc5a.webp",
+      "alt": "Ariella Kuper  was our auctioneer.",
+      "caption": "Ariella Kuper  was our auctioneer.",
+      "position": "center",
+      "source": "Consular Ball/2014/59_2007.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2014-ee59f60799c4",
+      "src": "/assets/consular-ball/2014/ee59f60799c4.webp",
+      "alt": "Auctioneer Ariella in action.",
+      "caption": "Auctioneer Ariella in action.",
+      "position": "center",
+      "source": "Consular Ball/2014/59_2009.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-d0b0ced15a66",
+      "src": "/assets/consular-ball/2014/d0b0ced15a66.webp",
+      "alt": "Johanna Strauss presented the auction items to the highest bidders",
+      "caption": "Johanna Strauss presented the auction items to the highest bidders",
+      "position": "center",
+      "source": "Consular Ball/2014/59_2164.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2014-3d71d4706024",
+      "src": "/assets/consular-ball/2014/3d71d4706024.webp",
+      "alt": "TV personality Eon de Vos as MC",
+      "caption": "TV personality Eon de Vos as MC",
+      "position": "center",
+      "source": "Consular Ball/2014/81_1743.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2014-8f6bd463fa47",
+      "src": "/assets/consular-ball/2014/8f6bd463fa47.webp",
+      "alt": "Business leader Christo Wiese was the guest speaker.",
+      "caption": "Business leader Christo Wiese was the guest speaker.",
+      "position": "center",
+      "source": "Consular Ball/2014/82_1757.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2014-c3dcf361191c",
+      "src": "/assets/consular-ball/2014/c3dcf361191c.webp",
+      "alt": "The Tombola.",
+      "caption": "The Tombola.",
+      "position": "center",
+      "source": "Consular Ball/2014/89_2145.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-081b32e9dc03",
+      "src": "/assets/consular-ball/2014/081b32e9dc03.webp",
+      "alt": "The US Choir entertained the guests",
+      "caption": "The US Choir entertained the guests",
+      "position": "center",
+      "source": "Consular Ball/2014/90_1806.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-3fb30208e420",
+      "src": "/assets/consular-ball/2014/3fb30208e420.webp",
+      "alt": "Choirmaster Andre van der Merwe",
+      "caption": "Choirmaster Andre van der Merwe",
+      "position": "center",
+      "source": "Consular Ball/2014/90_1840.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-29103758a3e2",
+      "src": "/assets/consular-ball/2014/29103758a3e2.webp",
+      "alt": "The 2014 Consular Ball — photo 99_1490",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/99_1490.JPG",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "id": "consular-2014-76842f21607c",
+      "src": "/assets/consular-ball/2014/76842f21607c.webp",
+      "alt": "The 2014 Consular Ball — photo 99_1497",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2014/99_1497.JPG",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "consular-2015-ac946ea3cf8f",
+      "src": "/assets/consular-ball/2015/ac946ea3cf8f.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 18.06.16",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 18.06.16.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2015-705652effeda",
+      "src": "/assets/consular-ball/2015/705652effeda.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 18.28.26-1",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 18.28.26-1.jpg",
+      "width": 1200,
+      "height": 806
+    },
+    {
+      "id": "consular-2015-7873f69ff04d",
+      "src": "/assets/consular-ball/2015/7873f69ff04d.webp",
+      "alt": "Alderman Ian Nielson and his wife Elmarie",
+      "caption": "Alderman Ian Nielson and his wife Elmarie",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 18.38.24.jpg",
+      "width": 2000,
+      "height": 1442
+    },
+    {
+      "id": "consular-2015-e4d8a0db3103",
+      "src": "/assets/consular-ball/2015/e4d8a0db3103.webp",
+      "alt": "Jo-Ann Strauss, previous Miss. S.A., was the MC",
+      "caption": "Jo-Ann Strauss, previous Miss. S.A., was the MC",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 18.42.24.jpg",
+      "width": 1606,
+      "height": 2000
+    },
+    {
+      "id": "consular-2015-2a772bf6ed10",
+      "src": "/assets/consular-ball/2015/2a772bf6ed10.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 19.16.05",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 19.16.05.jpg",
+      "width": 2000,
+      "height": 1802
+    },
+    {
+      "id": "consular-2015-4307c7048a61",
+      "src": "/assets/consular-ball/2015/4307c7048a61.webp",
+      "alt": "The guest speaker, Simon Susman, chairman of Woolworths",
+      "caption": "The guest speaker, Simon Susman, chairman of Woolworths",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 19.42.17.jpg",
+      "width": 1444,
+      "height": 2000
+    },
+    {
+      "id": "consular-2015-b85f2a19b832",
+      "src": "/assets/consular-ball/2015/b85f2a19b832.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 19.52.02-1",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 19.52.02-1.jpg",
+      "width": 1191,
+      "height": 1000
+    },
+    {
+      "id": "consular-2015-3f9fc606e958",
+      "src": "/assets/consular-ball/2015/3f9fc606e958.webp",
+      "alt": "Die Nuwe Graskouetrappers entertained the guests",
+      "caption": "Die Nuwe Graskouetrappers entertained the guests",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 20.34.02.jpg",
+      "width": 2000,
+      "height": 1246
+    },
+    {
+      "id": "consular-2015-bac20d621aea",
+      "src": "/assets/consular-ball/2015/bac20d621aea.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 20.40.33-1",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 20.40.33-1.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "id": "consular-2015-6e493e0e9711",
+      "src": "/assets/consular-ball/2015/6e493e0e9711.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 21.40.32",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 21.40.32.jpg",
+      "width": 2000,
+      "height": 1427
+    },
+    {
+      "id": "consular-2015-40a40bfc2b2d",
+      "src": "/assets/consular-ball/2015/40a40bfc2b2d.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 22.17.17",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 22.17.17.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2015-84cfd7c55a5e",
+      "src": "/assets/consular-ball/2015/84cfd7c55a5e.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 23.07.45",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 23.07.45.jpg",
+      "width": 2000,
+      "height": 1673
+    },
+    {
+      "id": "consular-2015-e5f15847051e",
+      "src": "/assets/consular-ball/2015/e5f15847051e.webp",
+      "alt": "The 2015 Consular Ball — photo 2015-09-26 23.53.33",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2015/2015-09-26 23.53.33.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-af4421e47f49",
+      "src": "/assets/consular-ball/2016/af4421e47f49.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0755",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0755.JPG",
+      "width": 2000,
+      "height": 1334
+    },
+    {
+      "id": "consular-2016-a337e6fb1e45",
+      "src": "/assets/consular-ball/2016/a337e6fb1e45.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0817",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0817.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-d488a7980e38",
+      "src": "/assets/consular-ball/2016/d488a7980e38.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0833",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0833.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-a6f7163d7e01",
+      "src": "/assets/consular-ball/2016/a6f7163d7e01.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0865",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0865.JPG",
+      "width": 2000,
+      "height": 1334
+    },
+    {
+      "id": "consular-2016-3704ee120dde",
+      "src": "/assets/consular-ball/2016/3704ee120dde.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-0909",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0909.JPG",
+      "width": 2000,
+      "height": 1334
+    },
+    {
+      "id": "consular-2016-860163035070",
+      "src": "/assets/consular-ball/2016/860163035070.webp",
+      "alt": "Television presenter Katlego Maboe was the MC for the 5th Ball",
+      "caption": "Television presenter Katlego Maboe was the MC for the 5th Ball",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-0925.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-4d833f9230da",
+      "src": "/assets/consular-ball/2016/4d833f9230da.webp",
+      "alt": "Members of the Zip Zap Circus",
+      "caption": "Members of the Zip Zap Circus",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1092.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-e00df8483c07",
+      "src": "/assets/consular-ball/2016/e00df8483c07.webp",
+      "alt": "Real time artwork for the auction",
+      "caption": "Real time artwork for the auction",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1193.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-705d2530eb8e",
+      "src": "/assets/consular-ball/2016/705d2530eb8e.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1247",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1247.JPG",
+      "width": 2000,
+      "height": 1334
+    },
+    {
+      "id": "consular-2016-eaa3945091c8",
+      "src": "/assets/consular-ball/2016/eaa3945091c8.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1398",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1398.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-644bd97c2cd7",
+      "src": "/assets/consular-ball/2016/644bd97c2cd7.webp",
+      "alt": "the cast from Remembering the Lux.",
+      "caption": "the cast from Remembering the Lux.",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1492.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-1ac1acca57b1",
+      "src": "/assets/consular-ball/2016/1ac1acca57b1.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1496",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1496.JPG",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2016-3e961896c639",
+      "src": "/assets/consular-ball/2016/3e961896c639.webp",
+      "alt": "The 2016 Consular Ball — photo coetzerphoto.com-1519",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2016/coetzerphoto.com-1519.JPG",
+      "width": 2000,
+      "height": 1334
+    },
+    {
+      "id": "consular-2017-d35814329ab5",
+      "src": "/assets/consular-ball/2017/d35814329ab5.webp",
+      "alt": "The Consul General of Brazil, Carlos Asfora, performs with the Cape Jazz Ensemble",
+      "caption": "The Consul General of Brazil, Carlos Asfora, performs with the Cape Jazz Ensemble",
+      "position": "center",
+      "source": "Consular Ball/2017/Carlos-2.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2017-c1d1be099904",
+      "src": "/assets/consular-ball/2017/c1d1be099904.webp",
+      "alt": "The 2017 Consular Ball — photo Gastearriveer-23",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2017/Gastearriveer-23.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2017-45e8c455adb6",
+      "src": "/assets/consular-ball/2017/45e8c455adb6.webp",
+      "alt": "The 2017 Consular Ball — photo Ingang-33",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2017/Ingang-33.jpg",
+      "width": 2000,
+      "height": 1335
+    },
+    {
+      "id": "consular-2017-a09bc70e6573",
+      "src": "/assets/consular-ball/2017/a09bc70e6573.webp",
+      "alt": "The 2017 Consular Ball — photo IsaenPrieur-3",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2017/IsaenPrieur-3.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2017-ae1a892c167d",
+      "src": "/assets/consular-ball/2017/ae1a892c167d.webp",
+      "alt": "Tygerberg Children’s Choir enthralled the guests.",
+      "caption": "Tygerberg Children’s Choir enthralled the guests.",
+      "position": "center",
+      "source": "Consular Ball/2017/Kinderkoor-6.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2017-6c2ecd9ce7e1",
+      "src": "/assets/consular-ball/2017/6c2ecd9ce7e1.webp",
+      "alt": "Dr Micael Moll was the MC for the evening.",
+      "caption": "Dr Micael Moll was the MC for the evening.",
+      "position": "center",
+      "source": "Consular Ball/2017/Michael-7.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2017-990aece61e99",
+      "src": "/assets/consular-ball/2017/990aece61e99.webp",
+      "alt": "The A capella group, Navi Redd.",
+      "caption": "The A capella group, Navi Redd.",
+      "position": "center",
+      "source": "Consular Ball/2017/Navi-5.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2018-56cb61fa59cc",
+      "src": "/assets/consular-ball/2018/56cb61fa59cc.webp",
+      "alt": "The 2018 Consular Ball — photo CB2018(lowres)-3",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2018/CB2018(lowres)-3.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2018-5656c6bd6380",
+      "src": "/assets/consular-ball/2018/5656c6bd6380.webp",
+      "alt": "Prof Thuli Madonsela with MC  Dr Michael Moll",
+      "caption": "Prof Thuli Madonsela with MC  Dr Michael Moll",
+      "position": "center",
+      "source": "Consular Ball/2018/CB2018(lowres)-37.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2018-5797ee907703",
+      "src": "/assets/consular-ball/2018/5797ee907703.webp",
+      "alt": "the Tygerberg Children’s Choir in action",
+      "caption": "the Tygerberg Children’s Choir in action",
+      "position": "center",
+      "source": "Consular Ball/2018/CB2018(lowres)-42.jpg",
+      "width": 2000,
+      "height": 1487
+    },
+    {
+      "id": "consular-2018-641c306b78f4",
+      "src": "/assets/consular-ball/2018/641c306b78f4.webp",
+      "alt": "Joey Bourke was the auctioneer",
+      "caption": "Joey Bourke was the auctioneer",
+      "position": "center",
+      "source": "Consular Ball/2018/CB2018(lowres)-47.jpg",
+      "width": 2000,
+      "height": 1567
+    },
+    {
+      "id": "consular-2018-e9a234af0dbd",
+      "src": "/assets/consular-ball/2018/e9a234af0dbd.webp",
+      "alt": "the Tombola ticket that won a trip for two to Namibia.",
+      "caption": "the Tombola ticket that won a trip for two to Namibia.",
+      "position": "center",
+      "source": "Consular Ball/2018/Guests&rest-81.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2018-ee5e235cf3dc",
+      "src": "/assets/consular-ball/2018/ee5e235cf3dc.webp",
+      "alt": "The organizers: Isabel Verwey and Johanna Strauss",
+      "caption": "The organizers: Isabel Verwey and Johanna Strauss",
+      "position": "center",
+      "source": "Consular Ball/2018/Guests&rest(highres)-3.jpg",
+      "width": 1333,
+      "height": 2000
+    },
+    {
+      "id": "consular-2018-2fd30300c2c2",
+      "src": "/assets/consular-ball/2018/2fd30300c2c2.webp",
+      "alt": "The 2018 Consular Ball — photo Guests&rest(highres)-66",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2018/Guests&rest(highres)-66.jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2018-1349752709b8",
+      "src": "/assets/consular-ball/2018/1349752709b8.webp",
+      "alt": "the Russian duo Quick Change entertained the guests",
+      "caption": "the Russian duo Quick Change entertained the guests",
+      "position": "center",
+      "source": "Consular Ball/2018/Quickchange-4.jpg",
+      "width": 2000,
+      "height": 1675
+    },
+    {
+      "id": "consular-2022-c23de9a6c523",
+      "src": "/assets/consular-ball/2022/c23de9a6c523.webp",
+      "alt": "The 2022 Consular Ball — photo 1",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/1.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-79baf1cd3c54",
+      "src": "/assets/consular-ball/2022/79baf1cd3c54.webp",
+      "alt": "The 2022 Consular Ball — photo 2",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/2.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-03f3955dba28",
+      "src": "/assets/consular-ball/2022/03f3955dba28.webp",
+      "alt": "Singer Amira Willighagen entertained the guests",
+      "caption": "Singer Amira Willighagen entertained the guests",
+      "position": "center",
+      "source": "Consular Ball/2022/3.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "id": "consular-2022-12b1f0b913ae",
+      "src": "/assets/consular-ball/2022/12b1f0b913ae.webp",
+      "alt": "Husband and wife duo Raaf had the guests on their feet",
+      "caption": "Husband and wife duo Raaf had the guests on their feet",
+      "position": "center",
+      "source": "Consular Ball/2022/4.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-87c7ebcee14e",
+      "src": "/assets/consular-ball/2022/87c7ebcee14e.webp",
+      "alt": "The 2022 Consular Ball — photo 5",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/5.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-d89d90613d20",
+      "src": "/assets/consular-ball/2022/d89d90613d20.webp",
+      "alt": "Comedian and actor Alan Committie was the MC and auctioneer",
+      "caption": "Comedian and actor Alan Committie was the MC and auctioneer",
+      "position": "center",
+      "source": "Consular Ball/2022/6.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-feb81b90db4d",
+      "src": "/assets/consular-ball/2022/feb81b90db4d.webp",
+      "alt": "The 2022 Consular Ball — photo 7",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/7.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "id": "consular-2022-ac726eeb7da1",
+      "src": "/assets/consular-ball/2022/ac726eeb7da1.webp",
+      "alt": "The 2022 Consular Ball — photo 8",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/8.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2022-a752de6c8c92",
+      "src": "/assets/consular-ball/2022/a752de6c8c92.webp",
+      "alt": "The 2022 Consular Ball — photo 9",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/9.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "id": "consular-2022-389529c68dae",
+      "src": "/assets/consular-ball/2022/389529c68dae.webp",
+      "alt": "The 2022 Consular Ball — photo 10",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/10.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "id": "consular-2022-6307a2b46355",
+      "src": "/assets/consular-ball/2022/6307a2b46355.webp",
+      "alt": "The 2022 Consular Ball — photo 11",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2022/11.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "consular-2024-da9e23a76783",
+      "src": "/assets/consular-ball/2024/da9e23a76783.webp",
+      "alt": "The 2024 Consular Ball — photo CB (14)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB (14).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-bd814100d20c",
+      "src": "/assets/consular-ball/2024/bd814100d20c.webp",
+      "alt": "The dancers of Cape Town City Ballet performed",
+      "caption": "The dancers of Cape Town City Ballet performed",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(3).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-5fc779df4b62",
+      "src": "/assets/consular-ball/2024/5fc779df4b62.webp",
+      "alt": "The 2024 Consular Ball — photo CB(6)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(6).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-14eead58968a",
+      "src": "/assets/consular-ball/2024/14eead58968a.webp",
+      "alt": "The 2024 Consular Ball — photo CB(10)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(10).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-863417c552cf",
+      "src": "/assets/consular-ball/2024/863417c552cf.webp",
+      "alt": "Actor and comedian Alan Committie was the MC and auctioneer.",
+      "caption": "Actor and comedian Alan Committie was the MC and auctioneer.",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(13).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-90a066ae51de",
+      "src": "/assets/consular-ball/2024/90a066ae51de.webp",
+      "alt": "Members of the Cape Town Opera Choir performing.",
+      "caption": "Members of the Cape Town Opera Choir performing.",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(16).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-c9f297239afd",
+      "src": "/assets/consular-ball/2024/c9f297239afd.webp",
+      "alt": "The 2024 Consular Ball — photo CB(17)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(17).jpg",
+      "width": 1332,
+      "height": 2000
+    },
+    {
+      "id": "consular-2024-4d9e5c4ae527",
+      "src": "/assets/consular-ball/2024/4d9e5c4ae527.webp",
+      "alt": "The 2024 Consular Ball — photo CB(19)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(19).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-510fc7ed4ad5",
+      "src": "/assets/consular-ball/2024/510fc7ed4ad5.webp",
+      "alt": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
+      "caption": "CEO of Artscape, Marlene le Roux, with Premier Alan Winde and his wife Tracy.",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(28).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-585cc286b1e6",
+      "src": "/assets/consular-ball/2024/585cc286b1e6.webp",
+      "alt": "The 2024 Consular Ball — photo CB(102)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(102).jpg",
+      "width": 1333,
+      "height": 2000
+    },
+    {
+      "id": "consular-2024-380b2bfd9ed1",
+      "src": "/assets/consular-ball/2024/380b2bfd9ed1.webp",
+      "alt": "The 9th Consular Ball took place in Artscape, courtesy of Marlene le Roux, CEO of Artscape",
+      "caption": "The 9th Consular Ball took place in Artscape, courtesy of Marlene le Roux, CEO of Artscape",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(103).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-eb88b9bae5e2",
+      "src": "/assets/consular-ball/2024/eb88b9bae5e2.webp",
+      "alt": "The 2024 Consular Ball — photo CB(106)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(106).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-049091a8b62a",
+      "src": "/assets/consular-ball/2024/049091a8b62a.webp",
+      "alt": "The 2024 Consular Ball — photo CB(108)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(108).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-8843b724eb86",
+      "src": "/assets/consular-ball/2024/8843b724eb86.webp",
+      "alt": "Greek dansers from the Hellenic Dancing Academy entertained guests in the foyer",
+      "caption": "Greek dansers from the Hellenic Dancing Academy entertained guests in the foyer",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(131).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-cd332604bc89",
+      "src": "/assets/consular-ball/2024/cd332604bc89.webp",
+      "alt": "The 2024 Consular Ball — photo CB(133)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(133).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-cabe47282e69",
+      "src": "/assets/consular-ball/2024/cabe47282e69.webp",
+      "alt": "The 2024 Consular Ball — photo CB(151)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(151).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-8968d767982a",
+      "src": "/assets/consular-ball/2024/8968d767982a.webp",
+      "alt": "The 2024 Consular Ball — photo CB(181)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(181).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-d02f89dca720",
+      "src": "/assets/consular-ball/2024/d02f89dca720.webp",
+      "alt": "The 2024 Consular Ball — photo CB(203)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(203).jpg",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "id": "consular-2024-57d028e8282c",
+      "src": "/assets/consular-ball/2024/57d028e8282c.webp",
+      "alt": "The 2024 Consular Ball — photo CB(208)",
+      "caption": "",
+      "position": "center",
+      "source": "Consular Ball/2024/CB(208).jpg",
+      "width": 2000,
+      "height": 1333
+    },
     {
       "id": "home-child-portrait",
       "src": "/assets/images/home-child.png",
@@ -8490,5 +10123,6 @@
     },
     "successMessage": "Thank you. Your message has been sent.",
     "errorMessage": "Your message could not be sent. Please try again later."
-  }
+  },
+  "consularMediaRevision": 1
 }

@@ -1,4 +1,5 @@
 import importedContent from '../../../data/content.json';
+import { upgradeConsularMedia } from './consular-media';
 
 export interface ImageItem { id: string; src: string; alt: string; caption: string; position: string; zoom?: number; source?: string; width?: number; height?: number }
 export interface ContentLink { label: string; href: string }
@@ -13,6 +14,7 @@ export interface ContentPage {
 }
 export interface SiteContent {
 	contentVersion: number;
+	consularMediaRevision?: number;
 	site: { name: string; description: string; location: string; footerTagline: string; navigation: { label: string; href: string }[] };
 	media: { wordmark: string; mark: string; homeQuote: string };
 	pages: ContentPage[]; mediaLibrary: ImageItem[];
@@ -23,7 +25,10 @@ export const defaultContent = importedContent as SiteContent;
 export function normaliseContent(value: unknown): SiteContent {
 	const saved = value as Partial<SiteContent> | null;
 	if (!saved || (saved.contentVersion ?? 0) < 3 || !Array.isArray(saved.pages)) return structuredClone(defaultContent);
-	return { ...structuredClone(defaultContent), ...saved } as SiteContent;
+	const content = { ...structuredClone(defaultContent), ...saved } as SiteContent;
+	// Read the saved marker before defaults are merged, so old published records migrate too.
+	content.consularMediaRevision = saved.consularMediaRevision ?? 0;
+	return upgradeConsularMedia(content, defaultContent);
 }
 export function newSection(): EditorialSection {
 	return { id: crypto.randomUUID(), heading: '', paragraphs: [], layout: 'text', tone: 'cream', images: [], videos: [], links: [], tileIds: [], stats: [] };
