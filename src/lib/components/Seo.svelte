@@ -11,7 +11,7 @@
 		image
 	}: { title?: string; description?: string; image?: string } = $props();
 
-	const pageTitle = $derived(title ? `${plainText(title)} — ${site.name}` : `${site.name} — Partnership in action`);
+	const pageTitle = $derived(`${site.name} | ${plainText(title || 'Home')}`);
 	const socialImage = $derived(image || media.homeQuote);
 </script>
 

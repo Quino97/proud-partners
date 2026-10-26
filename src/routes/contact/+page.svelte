@@ -22,7 +22,7 @@
 		} catch { error = copy.errorMessage; } finally { sending = false; }
 	}
 </script>
-<Seo title={page?.title || 'Contact Us'} description={page?.description || 'Contact Proud Partners.'} />
+<Seo title="Contact" description={page?.description || 'Contact Proud Partners.'} />
 <section class="contact-shell">
 	<EditorialBackdrop />
 	<div class="contact-page container">

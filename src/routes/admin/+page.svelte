@@ -14,6 +14,26 @@
 	function pageLabel(p:ContentPage){return rootLabels[p.id]||p.card.title||p.title;}
 	const orderedPages=$derived.by(()=>{const result:ContentPage[]=[];const seen=new Set<string>();function visit(id:string){const p=draft.pages.find(p=>p.id===id);if(!p||seen.has(id))return;seen.add(id);result.push(p);const order=p.sections.flatMap(s=>s.tileIds);const children=draft.pages.filter(c=>c.parentId===id&&!rootLabels[c.id]).sort((a,b)=>(order.indexOf(a.id)<0?999:order.indexOf(a.id))-(order.indexOf(b.id)<0?999:order.indexOf(b.id)));children.forEach(c=>visit(c.id));}Object.keys(rootLabels).forEach(visit);draft.pages.forEach(p=>visit(p.id));return result;});
 	const filteredPages=$derived(orderedPages.filter(p=>(pageLabel(p)+' '+p.title).toLowerCase().includes(search.toLowerCase())));
+	type PageBranch = { page: ContentPage; children: PageBranch[] };
+	const pageBranches=$derived.by(()=>{
+		const seen=new Set<string>();
+		function branch(page:ContentPage):PageBranch{
+			seen.add(page.id);
+			const children:PageBranch[]=[];
+			for(const child of orderedPages){
+				if(child.parentId===page.id&&!rootLabels[child.id]&&!seen.has(child.id))children.push(branch(child));
+			}
+			return {page,children};
+		}
+		const roots:PageBranch[]=[];
+		for(const id of Object.keys(rootLabels)){
+			const page=orderedPages.find(p=>p.id===id);
+			if(page&&!seen.has(id))roots.push(branch(page));
+		}
+		for(const page of orderedPages)if(!seen.has(page.id))roots.push(branch(page));
+		return roots;
+	});
+	function branchIsActive(node:PageBranch):boolean{return node.page.id===activeId||node.children.some(branchIsActive);}
 	const library=$derived(draft.mediaLibrary.filter(i=>(i.source+' '+i.alt).toLowerCase().includes(mediaSearch.toLowerCase())));
 	onMount(async()=>{
 		localAvailable=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
@@ -39,14 +59,30 @@
 	function addLibraryImage(){if(!newMedia)return;draft.mediaLibrary.unshift({id:crypto.randomUUID(),src:newMedia,alt:'',caption:'',position:'center',source:'Uploaded image'});newMedia='';siteContent.update(content=>({...content,mediaLibrary:JSON.parse(JSON.stringify(draft.mediaLibrary))}));}
 </script>
 
-<svelte:head><title>Website editor — Proud Partners</title><meta name="robots" content="noindex,nofollow" /></svelte:head>
+<svelte:head><title>Proud Partners | Website Editor</title><meta name="robots" content="noindex,nofollow" /></svelte:head>
 <svelte:window onbeforeunload={(event)=>{if(dirty){event.preventDefault();event.returnValue='';}}} />
+{#snippet pageButton(item:ContentPage, overview=false)}
+	<button type="button" class:active={activeId===item.id} aria-current={activeId===item.id?'page':undefined} onclick={()=>activeId=item.id}><span>{overview?'Overview':pageLabel(item)}</span>{#if item.hidden}<small>Hidden</small>{/if}</button>
+{/snippet}
+{#snippet pageBranch(node:PageBranch)}
+	{#if node.children.length}
+		<details class="page-category" open={branchIsActive(node)}>
+			<summary class:contains-active={branchIsActive(node)}><span>{pageLabel(node.page)}</span><small>{node.children.length}</small></summary>
+			<div class="category-pages">
+				{@render pageButton(node.page,true)}
+				{#each node.children as child (child.page.id)}{@render pageBranch(child)}{/each}
+			</div>
+		</details>
+	{:else}
+		{@render pageButton(node.page)}
+	{/if}
+{/snippet}
 {#if loading}<div class="login"><p>Opening the editor…</p></div>
 {:else if !authenticated&&!localOnly}
 	<div class="login"><form onsubmit={signIn}><img src={draft.media.wordmark} alt="Proud Partners" /><h1>Website editor</h1><p>Sign in to edit pages, photos and project tiles.</p><label>Email<input type="email" bind:value={email} autocomplete="username" required /></label><label>Password<input type="password" bind:value={password} autocomplete="current-password" required /></label>{#if error}<p class="error" role="alert">{error}</p>{/if}<button class="primary" type="submit" disabled={saving||!supabase}>{saving?'Signing in…':'Sign in'}</button>{#if !supabase}<p>{supabaseConfigurationMessage}</p>{/if}{#if localAvailable}<button type="button" onclick={()=>{localOnly=true;status='Local editing mode. Preview and export work; shared publishing requires sign-in.';}}>Edit a local draft</button>{/if}<a href={sitePath('/')}>← View website</a></form></div>
 {:else}
 	<div class="editor">
-		<aside><img class="editor-logo" src={draft.media.wordmark} alt="Proud Partners" /><label class="search-label">Find a page<input type="search" bind:value={search} placeholder="Search pages…" /></label><nav aria-label="Pages to edit">{#each filteredPages as item}<button type="button" class:active={activeId===item.id} class:child={Boolean(item.parentId)&&!rootLabels[item.id]} onclick={()=>activeId=item.id}><span>{pageLabel(item)}</span>{#if item.hidden}<small>Hidden</small>{/if}</button>{/each}</nav><div class="sidebar-actions"><button type="button" onclick={()=>createPage()}>+ Project page</button><button type="button" onclick={()=>createPage(true)}>+ Ball year</button><button type="button" class:active={activeId==='settings'} onclick={()=>activeId='settings'}>Navigation & footer</button><button type="button" class:active={activeId==='library'} onclick={()=>activeId='library'}>Photo library</button><button type="button" onclick={signOut}>Sign out</button></div></aside>
+		<aside><img class="editor-logo" src={draft.media.wordmark} alt="Proud Partners" /><label class="search-label">Find a page<input type="search" bind:value={search} placeholder="Search pages…" /></label><nav aria-label="Pages to edit">{#if search.trim()}{#each filteredPages as item (item.id)}{@render pageButton(item)}{:else}<p class="empty-search">No pages found.</p>{/each}{:else}{#each pageBranches as node (node.page.id)}{@render pageBranch(node)}{/each}{/if}</nav><div class="sidebar-actions"><button type="button" onclick={()=>createPage()}>+ Project page</button><button type="button" onclick={()=>createPage(true)}>+ Ball year</button><button type="button" class:active={activeId==='settings'} onclick={()=>activeId='settings'}>Navigation & footer</button><button type="button" class:active={activeId==='library'} onclick={()=>activeId='library'}>Photo library</button><button type="button" onclick={signOut}>Sign out</button></div></aside>
 		<div class="workspace">
 			<header class="toolbar"><div><strong>{active?pageLabel(active):(activeId==='settings'?'Navigation & footer':'Photo library')}</strong><small>{dirty?'Unpublished changes':'No unpublished edits'}{savedAt?` · Draft saved ${savedAt}`:''}</small></div><div class="toolbar-actions"><button type="button" onclick={preview}>Preview</button><button type="button" onclick={backup}>Export backup</button><button class="primary" type="button" onclick={publish} disabled={saving}>{saving?'Publishing…':localOnly?'Save draft':'Publish changes'}</button></div></header>
 			<div class="editor-body">
@@ -89,7 +125,8 @@
 	h1 { margin:0 0 1rem; font-family:var(--font-rounded); font-size:1.8rem; line-height:1.3; } h2 { font-family:var(--font-rounded); font-size:1.15rem; margin:0 0 1.25rem; } h3 { margin:1.4rem 0 .8rem; font-size:.95rem; }
 	.login { min-height:100vh; display:grid; place-items:center; padding:2rem 1rem; } .login form { width:min(100%,26rem); display:grid; gap:1rem; } .login img { width:15rem; margin-bottom:1rem; } .login p,.login a { font-size:.9rem; margin:0; }
 	.editor { display:grid; grid-template-columns:16rem minmax(0,1fr); min-height:100vh; } aside { position:sticky; top:0; height:100svh; padding:1.5rem 1rem; overflow-y:auto; background:var(--cream-deep); border-right:1px solid var(--line); } .editor-logo { display:block; width:12rem; margin:0 0 2rem; }
-	.search-label { margin:0 0 1rem; } aside nav { display:grid; gap:.15rem; } aside nav button { text-align:left; display:flex; justify-content:space-between; gap:.5rem; padding:.65rem .75rem; border:0; background:transparent; line-height:1.45; font-size:.78rem; } aside nav button.child { padding-left:1.15rem; } aside button.active { background:var(--navy); color:var(--cream); } .sidebar-actions { display:grid; gap:.5rem; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--line); }
+	.search-label { margin:0 0 1rem; } aside nav { display:grid; gap:.15rem; } aside nav button { width:100%; text-align:left; display:flex; justify-content:space-between; gap:.5rem; padding:.65rem .75rem; border:0; background:transparent; line-height:1.45; font-size:.78rem; } aside button.active { background:var(--navy); color:var(--cream); } .sidebar-actions { display:grid; gap:.5rem; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--line); }
+	.page-category { min-width:0; border:0; } .page-category > summary { display:flex; align-items:center; gap:.5rem; padding:.65rem .75rem; border-radius:.55rem; font-size:.78rem; font-weight:600; list-style:none; } .page-category > summary::-webkit-details-marker { display:none; } .page-category > summary::before { content:'›'; font-size:1.1rem; line-height:1; transition:transform .15s; } .page-category[open] > summary::before { transform:rotate(90deg); } .page-category > summary span { flex:1; } .page-category > summary small { font-size:.68rem; font-weight:400; color:var(--ink-soft); } .page-category > summary:hover,.page-category > summary.contains-active { background:var(--blue-pale); } .category-pages { display:grid; gap:.15rem; margin:.15rem 0 .4rem .75rem; padding-left:.45rem; border-left:1px solid var(--line); } .empty-search { padding:.65rem .75rem; font-size:.78rem; color:var(--ink-soft); }
 	.workspace { min-width:0; } .toolbar { position:sticky; top:0; z-index:5; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding:1rem 2rem; background:var(--cream); border-bottom:1px solid var(--line); } .toolbar strong { font-size:.95rem; } .toolbar small { display:block; color:var(--ink-soft); font-size:.72rem; margin-top:.25rem; } .toolbar-actions { display:flex; gap:.5rem; }
 	.editor-body { max-width:65rem; margin:auto; padding:2rem; } .panel { padding:1.5rem; border:1px solid var(--line); border-radius:.85rem; background:color-mix(in srgb,var(--cream-deep) 35%,var(--cream)); margin-bottom:1.25rem; } .page-heading { display:flex; justify-content:space-between; gap:1rem; align-items:start; margin:1rem 0 2rem; } .page-heading a { font-size:.8rem; color:var(--blue); } .kicker { margin:0 0 .5rem; text-transform:uppercase; letter-spacing:.12em; font-size:.7rem; color:var(--blue); } .check { display:flex; align-items:center; gap:.5rem; flex-shrink:0; }
 	details { border:1px solid var(--line); border-radius:.6rem; } details.panel { padding:0; } summary { padding:1.15rem 1.3rem; cursor:pointer; font-size:.88rem; color:var(--navy); line-height:1.5; } .details-body { padding:1.2rem; border-top:1px solid var(--line); } .details-body details { margin-block:1rem; } .details-body > button { margin-bottom:.7rem; } .section-panel summary { display:flex; align-items:center; gap:.9rem; } .section-panel summary > span:nth-child(2) { flex:1; } .section-panel summary small { color:var(--ink-soft); font-weight:400; } .section-number { font-size:.75rem; color:var(--blue); }
@@ -97,5 +134,5 @@
 	.notice { padding:1rem 1.25rem; margin:0 0 1rem; border:1px solid var(--line); border-radius:.6rem; font-size:.85rem; background:var(--blue-pale); } .notice button { margin-left:.5rem; } .error { color:#943d3d; background:#f9ece4; }
 	.library-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:2rem; } .library-grid figure { margin:0; min-width:0; } .library-grid img { width:100%; height:10rem; object-fit:contain; background:var(--cream-deep); border-radius:.5rem; } .library-grid figcaption { overflow-wrap:anywhere; font-size:.7rem; color:var(--ink-soft); line-height:1.5; }
 	@media(max-width:900px){.editor{grid-template-columns:12rem minmax(0,1fr);}.editor-body{padding:1rem;}.toolbar{padding:1rem;}.toolbar-actions{flex-wrap:wrap;}.editor-logo{width:9rem;}.library-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
-	@media(max-width:620px){.editor{grid-template-columns:1fr;}aside{position:static;height:auto;max-height:20rem;}aside nav{grid-template-columns:repeat(2,minmax(0,1fr));}.editor-logo{margin-bottom:1rem;}.sidebar-actions{display:flex;flex-wrap:wrap;}.toolbar{position:sticky;}.panel{padding:1rem;}.page-heading{flex-direction:column;}.toolbar-actions button{font-size:.72rem;padding:.5rem .65rem;}.section-panel summary{padding:1rem;}.details-body{padding:.85rem;}.section-panel summary small{display:none;}.library-grid{grid-template-columns:1fr 1fr;}}
+	@media(max-width:620px){.editor{grid-template-columns:1fr;}aside{position:static;height:auto;max-height:20rem;}.editor-logo{margin-bottom:1rem;}.sidebar-actions{display:flex;flex-wrap:wrap;}.toolbar{position:sticky;}.panel{padding:1rem;}.page-heading{flex-direction:column;}.toolbar-actions button{font-size:.72rem;padding:.5rem .65rem;}.section-panel summary{padding:1rem;}.details-body{padding:.85rem;}.section-panel summary small{display:none;}.library-grid{grid-template-columns:1fr 1fr;}}
 </style>

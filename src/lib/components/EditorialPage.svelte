@@ -10,6 +10,8 @@
 	import ContentTiles from './ContentTiles.svelte';
 	import EditorialBackdrop from './EditorialBackdrop.svelte';
 	let { content }: { content: ContentPage } = $props();
+	const pageLabels: Record<string, string> = { home: 'Home', about: 'About', projects: 'Projects', 'consular-ball': 'Consular Ball', contact: 'Contact' };
+	const browserTitle = $derived(pageLabels[content.id] || (content.kind === 'year' ? `Consular Ball ${content.card.title || content.title}` : content.card.title || content.title));
 	const parent = $derived($siteContent.pages.find(p => p.id === content.parentId));
 	const opening = $derived(content.id === 'about' && content.sections[0]?.layout === 'split' && content.sections[0].images.length === 1 && !content.sections[0].heading && !content.sections[0].videos.length && !content.sections[0].links.length && !content.sections[0].tileIds.length && !content.sections[0].stats.length ? content.sections[0] : null);
 	const titlePhrases = $derived(content.title.split(/(?<=[.!?])\s+/));
@@ -20,7 +22,7 @@
 	}
 </script>
 {#snippet photos(section: EditorialSection)}<div class="section-photos"><PhotoGallery images={section.images} compact={section.images.length > 2} natural={content.kind === 'year'} /></div>{/snippet}
-<Seo title={content.id === 'home' ? undefined : content.card.title || content.title} description={content.description} image={content.heroImage?.src || content.card.image?.src} />
+<Seo title={browserTitle} description={content.description} image={content.heroImage?.src || content.card.image?.src} />
 <article class:ball={content.kind === 'ball'} class:home={content.kind === 'home'} class:about={content.id === 'about'} class:project-index={content.id === 'projects'}>
 	<EditorialBackdrop upper={content.id === 'about'} />
 	<header class="editorial-header container" class:with-portrait={content.kind === 'home' && content.heroImage} class:with-story={Boolean(opening)}>
