@@ -82,4 +82,6 @@ If delivery fails, check the function logs and Resend log:
 | 502 | Resend sender domain, API-key permission and provider log |
 | 503 | Required secrets and the SQL migration are installed |
 
+For a 502, the updated function logs `Contact mail delivery failed:` followed by Resend's status, error name and explanation. If the log shows only a number, redeploy the current `supabase/functions/contact/index.ts` through the Supabase function editor. Syncing to GitHub updates the website but does not deploy this Edge Function. Read the provider explanation before changing the sender or API key.
+
 The website remains static on GitHub Pages; Supabase runs the email function. The database keeps rate-limit counters, not form messages or raw IP addresses. Resend processes the email content as the delivery provider.

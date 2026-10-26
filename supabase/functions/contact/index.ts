@@ -33,7 +33,12 @@ Deno.serve(async (request: Request) => {
 			if(!(await response.json())) return respond(429,{message:'Please wait before sending another message.'});
 		}
 		const response=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${resendKey}`,'Content-Type':'application/json','Idempotency-Key':`contact-${requestId}`},body:JSON.stringify({from,to:[env('CONTACT_TO')||'amouton@plexus.co.za'],reply_to:email,subject:'Proud Partners website enquiry',text:`Name: ${name}\nEmail: ${email}\nPhone: ${phone||'Not supplied'}\n\n${message}`})});
-		if(!response.ok) { console.error('Contact mail delivery failed:',response.status); return respond(502,{message:'The message could not be delivered.'}); }
+		if(!response.ok) {
+			const failure=await response.json().catch(()=>null);
+			const safeDetail=(value:unknown)=>typeof value==='string'?value.replaceAll(resendKey,'[redacted]').slice(0,1000):undefined;
+			console.error('Contact mail delivery failed:',JSON.stringify({status:response.status,name:safeDetail(failure?.name),message:safeDetail(failure?.message)}));
+			return respond(502,{message:'The message could not be delivered.'});
+		}
 		return respond(200,{ok:true});
 	} catch { return respond(503,{message:'The contact service is temporarily unavailable.'}); }
 });
